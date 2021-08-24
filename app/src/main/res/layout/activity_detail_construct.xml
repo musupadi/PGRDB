@@ -33,30 +33,17 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/tvNamaDetail"
-            android:text="List Angel Flaming Vita"
+            android:text="Detail Construct"
             android:textColor="@color/colorWhite"
             android:fontFamily="@font/gotham"
             android:layout_weight="1"
             android:textSize="@dimen/text_xtra_large"/>
-        <RelativeLayout
-            android:layout_weight="3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <ImageView
-                android:gravity="center"
-                android:layout_margin="5dp"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_centerInParent="true"
-                android:id="@+id/ivFaction">
-
-            </ImageView>
-        </RelativeLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/background">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -70,7 +57,6 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/background"
                     android:orientation="horizontal">
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
@@ -100,7 +86,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Nama "
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -110,7 +96,7 @@
                                 android:layout_height="wrap_content"
                                 android:text=" : "
                                 android:gravity="center"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -118,9 +104,9 @@
                                 android:layout_weight="1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="-"
+                                android:text="Lucia"
                                 android:id="@+id/tvNama"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -134,8 +120,8 @@
                                 android:layout_weight="2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Nama Asli"
-                                android:textColor="@color/colorWhite"
+                                android:text="Model"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -145,7 +131,7 @@
                                 android:layout_height="wrap_content"
                                 android:text=" : "
                                 android:gravity="center"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -153,9 +139,9 @@
                                 android:layout_weight="1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="-"
+                                android:text="Lotus"
                                 android:id="@+id/tvModel"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -170,7 +156,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Profession"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -180,7 +166,7 @@
                                 android:layout_height="wrap_content"
                                 android:text=" : "
                                 android:gravity="center"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -188,8 +174,8 @@
                                 android:layout_weight="1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="-"
-                                android:textColor="@color/colorWhite"
+                                android:text="Assault"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:id="@+id/tvProfession"
@@ -205,7 +191,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="CV"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -215,7 +201,7 @@
                                 android:layout_height="wrap_content"
                                 android:text=" : "
                                 android:gravity="center"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -223,9 +209,9 @@
                                 android:layout_weight="1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="-"
+                                android:text="Yui Ishikawa"
                                 android:id="@+id/tvCV"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -240,7 +226,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Class"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -250,7 +236,7 @@
                                 android:layout_height="wrap_content"
                                 android:text=" : "
                                 android:gravity="center"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -258,9 +244,9 @@
                                 android:layout_weight="1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="-"
+                                android:text="B"
                                 android:id="@+id/tvClass"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
                                 android:textStyle="bold"
                                 android:textSize="@dimen/text_large"/>
@@ -270,7 +256,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <RelativeLayout
-                android:background="@drawable/background"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <ScrollView
@@ -287,6 +272,624 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical">
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Build Memory"
+                                    android:textSize="25sp"
+                                    android:textColor="@color/colorWhite"
+                                    android:fontFamily="@font/gotham"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="5dp"
+                                    android:background="@drawable/rounded"
+                                    android:layout_margin="5dp"/>
+                                <LinearLayout
+                                    android:id="@+id/linearWholeBuild1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        app:cardCornerRadius="10dp"
+                                        android:layout_margin="5dp"
+                                        app:cardElevation="10dp">
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal"
+                                                android:id="@+id/LinearBuild1">
+                                                <TextView
+                                                    android:layout_weight="1"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="End Game (Primary)"
+                                                    android:id="@+id/tvRole1"
+                                                    android:textSize="25sp"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"/>
+                                                <ImageView
+                                                    android:id="@+id/ivUpDownBuild1"
+                                                    android:layout_margin="10dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:src="@drawable/down_primary"
+                                                    android:layout_weight="5"/>
+                                            </LinearLayout>
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="vertical"
+                                                android:id="@+id/LinearBuild1Visible"
+                                                android:visibility="gone">
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:orientation="horizontal">
+                                                    <androidx.cardview.widget.CardView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:layout_margin="5dp"
+                                                        app:cardElevation="10dp"
+                                                        app:cardCornerRadius="10dp">
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            android:padding="5dp">
+                                                            <ImageView
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="120dp"
+                                                                android:id="@+id/ivB1Memory1"
+                                                                android:src="@drawable/red_lotus"/>
+                                                            <TextView
+                                                                android:layout_margin="5dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="Patton"
+                                                                android:textColor="@color/colorPrimary"
+                                                                android:fontFamily="@font/gotham"
+                                                                android:textStyle="bold"
+                                                                android:gravity="center"
+                                                                android:id="@+id/tvB1Memory1"/>
+                                                        </LinearLayout>
+                                                    </androidx.cardview.widget.CardView>
+                                                    <androidx.cardview.widget.CardView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:layout_margin="5dp"
+                                                        app:cardElevation="10dp"
+                                                        app:cardCornerRadius="10dp">
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            android:padding="5dp">
+                                                            <ImageView
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="120dp"
+                                                                android:id="@+id/ivB1Memory2"
+                                                                android:src="@drawable/red_lotus"/>
+                                                            <TextView
+                                                                android:layout_margin="5dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="Frederic"
+                                                                android:textColor="@color/colorPrimary"
+                                                                android:fontFamily="@font/gotham"
+                                                                android:textStyle="bold"
+                                                                android:gravity="center"
+                                                                android:id="@+id/tvB1Memory2"/>
+                                                        </LinearLayout>
+                                                    </androidx.cardview.widget.CardView>
+                                                </LinearLayout>
+                                                <TextView
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Remarks"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"
+                                                    android:textStyle="bold"
+                                                    android:gravity="center"
+                                                    android:textSize="22sp"/>
+                                                <TextView
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Remarks"
+                                                    android:id="@+id/tvRemarks"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"
+                                                    android:textStyle="bold"
+                                                    android:gravity="center"/>
+                                                <TextView
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Resonance"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"
+                                                    android:textStyle="bold"
+                                                    android:gravity="center"
+                                                    android:textSize="22sp"/>
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:orientation="horizontal">
+                                                    <androidx.cardview.widget.CardView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:layout_margin="5dp"
+                                                        app:cardElevation="10dp"
+                                                        app:cardCornerRadius="10dp">
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            android:padding="5dp">
+                                                            <TextView
+                                                                android:layout_margin="5dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="Resonance 1"
+                                                                android:textColor="@color/colorPrimary"
+                                                                android:fontFamily="@font/gotham"
+                                                                android:textStyle="bold"
+                                                                android:gravity="center"
+                                                                android:id="@+id/tvB1Resonance1"/>
+                                                        </LinearLayout>
+                                                    </androidx.cardview.widget.CardView>
+                                                    <androidx.cardview.widget.CardView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:layout_margin="5dp"
+                                                        app:cardElevation="10dp"
+                                                        app:cardCornerRadius="10dp">
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            android:padding="5dp">
+                                                            <TextView
+                                                                android:layout_margin="5dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="Resonance 2"
+                                                                android:textColor="@color/colorPrimary"
+                                                                android:fontFamily="@font/gotham"
+                                                                android:textStyle="bold"
+                                                                android:gravity="center"
+                                                                android:id="@+id/tvB1Resonance2"/>
+                                                        </LinearLayout>
+                                                    </androidx.cardview.widget.CardView>
+                                                </LinearLayout>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/linearWholeBuild2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        app:cardCornerRadius="10dp"
+                                        android:layout_margin="5dp"
+                                        app:cardElevation="10dp">
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal"
+                                                android:id="@+id/LinearBuild2">
+                                                <TextView
+                                                    android:layout_weight="1"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="End Game (Primary)"
+                                                    android:id="@+id/tvRole2"
+                                                    android:textSize="25sp"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"/>
+                                                <ImageView
+                                                    android:id="@+id/ivUpDownBuild2"
+                                                    android:layout_margin="10dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:src="@drawable/down_primary"
+                                                    android:layout_weight="5"/>
+                                            </LinearLayout>
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="vertical"
+                                                android:id="@+id/LinearBuild2Visible"
+                                                android:visibility="gone">
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:orientation="horizontal">
+                                                    <androidx.cardview.widget.CardView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:layout_margin="5dp"
+                                                        app:cardElevation="10dp"
+                                                        app:cardCornerRadius="10dp">
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            android:padding="5dp">
+                                                            <ImageView
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="120dp"
+                                                                android:id="@+id/ivB2Memory1"
+                                                                android:src="@drawable/red_lotus"/>
+                                                            <TextView
+                                                                android:layout_margin="5dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="Patton"
+                                                                android:textColor="@color/colorPrimary"
+                                                                android:fontFamily="@font/gotham"
+                                                                android:textStyle="bold"
+                                                                android:gravity="center"
+                                                                android:id="@+id/tvB2Memory1"/>
+                                                        </LinearLayout>
+                                                    </androidx.cardview.widget.CardView>
+                                                    <androidx.cardview.widget.CardView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:layout_margin="5dp"
+                                                        app:cardElevation="10dp"
+                                                        app:cardCornerRadius="10dp">
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            android:padding="5dp">
+                                                            <ImageView
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="120dp"
+                                                                android:id="@+id/ivB2Memory2"
+                                                                android:src="@drawable/red_lotus"/>
+                                                            <TextView
+                                                                android:layout_margin="5dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="Frederic"
+                                                                android:textColor="@color/colorPrimary"
+                                                                android:fontFamily="@font/gotham"
+                                                                android:textStyle="bold"
+                                                                android:gravity="center"
+                                                                android:id="@+id/tvB2Memory2"/>
+                                                        </LinearLayout>
+                                                    </androidx.cardview.widget.CardView>
+                                                </LinearLayout>
+                                                <TextView
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Remarks"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"
+                                                    android:textStyle="bold"
+                                                    android:gravity="center"
+                                                    android:textSize="22sp"/>
+                                                <TextView
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Remarks"
+                                                    android:id="@+id/tvRemarks2"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"
+                                                    android:textStyle="bold"
+                                                    android:gravity="center"/>
+                                                <TextView
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Resonance"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"
+                                                    android:textStyle="bold"
+                                                    android:gravity="center"
+                                                    android:textSize="22sp"/>
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:orientation="horizontal">
+                                                    <androidx.cardview.widget.CardView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:layout_margin="5dp"
+                                                        app:cardElevation="10dp"
+                                                        app:cardCornerRadius="10dp">
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            android:padding="5dp">
+                                                            <TextView
+                                                                android:layout_margin="5dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="Resonance 1"
+                                                                android:textColor="@color/colorPrimary"
+                                                                android:fontFamily="@font/gotham"
+                                                                android:textStyle="bold"
+                                                                android:gravity="center"
+                                                                android:id="@+id/tvB2Resonance1"/>
+                                                        </LinearLayout>
+                                                    </androidx.cardview.widget.CardView>
+                                                    <androidx.cardview.widget.CardView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:layout_margin="5dp"
+                                                        app:cardElevation="10dp"
+                                                        app:cardCornerRadius="10dp"
+                                                        android:id="@+id/cardB2Reso2">
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            android:padding="5dp">
+                                                            <TextView
+                                                                android:layout_margin="5dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="Resonance 2"
+                                                                android:textColor="@color/colorPrimary"
+                                                                android:fontFamily="@font/gotham"
+                                                                android:textStyle="bold"
+                                                                android:gravity="center"
+                                                                android:id="@+id/tvB2Resonance2"/>
+                                                        </LinearLayout>
+                                                    </androidx.cardview.widget.CardView>
+                                                </LinearLayout>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:id="@+id/linearWholeBuild3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        app:cardCornerRadius="10dp"
+                                        android:layout_margin="5dp"
+                                        app:cardElevation="10dp">
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal"
+                                                android:id="@+id/LinearBuild3">
+                                                <TextView
+                                                    android:layout_weight="1"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="End Game (Primary)"
+                                                    android:id="@+id/tvRole3"
+                                                    android:textSize="25sp"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"/>
+                                                <ImageView
+                                                    android:id="@+id/ivUpDownBuild3"
+                                                    android:layout_margin="10dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:src="@drawable/down_primary"
+                                                    android:layout_weight="5"/>
+                                            </LinearLayout>
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="vertical"
+                                                android:id="@+id/LinearBuild3Visible"
+                                                android:visibility="gone">
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:orientation="horizontal">
+                                                    <androidx.cardview.widget.CardView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:layout_margin="5dp"
+                                                        app:cardElevation="10dp"
+                                                        app:cardCornerRadius="10dp">
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            android:padding="5dp">
+                                                            <ImageView
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="120dp"
+                                                                android:id="@+id/ivB3Memory1"
+                                                                android:src="@drawable/red_lotus"/>
+                                                            <TextView
+                                                                android:layout_margin="5dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="Patton"
+                                                                android:textColor="@color/colorPrimary"
+                                                                android:fontFamily="@font/gotham"
+                                                                android:textStyle="bold"
+                                                                android:gravity="center"
+                                                                android:id="@+id/tvB3Memory1"/>
+                                                        </LinearLayout>
+                                                    </androidx.cardview.widget.CardView>
+                                                    <androidx.cardview.widget.CardView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:layout_margin="5dp"
+                                                        app:cardElevation="10dp"
+                                                        app:cardCornerRadius="10dp">
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            android:padding="5dp">
+                                                            <ImageView
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="120dp"
+                                                                android:id="@+id/ivB3Memory2"
+                                                                android:src="@drawable/red_lotus"/>
+                                                            <TextView
+                                                                android:layout_margin="5dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="Frederic"
+                                                                android:textColor="@color/colorPrimary"
+                                                                android:fontFamily="@font/gotham"
+                                                                android:textStyle="bold"
+                                                                android:gravity="center"
+                                                                android:id="@+id/tvB3Memory2"/>
+                                                        </LinearLayout>
+                                                    </androidx.cardview.widget.CardView>
+                                                </LinearLayout>
+                                                <TextView
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Remarks"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"
+                                                    android:textStyle="bold"
+                                                    android:gravity="center"
+                                                    android:textSize="22sp"/>
+                                                <TextView
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Remarks"
+                                                    android:id="@+id/tvRemarks3"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"
+                                                    android:textStyle="bold"
+                                                    android:gravity="center"/>
+                                                <TextView
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Resonance"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"
+                                                    android:textStyle="bold"
+                                                    android:gravity="center"
+                                                    android:textSize="22sp"/>
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:orientation="horizontal">
+                                                    <androidx.cardview.widget.CardView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:layout_margin="5dp"
+                                                        app:cardElevation="10dp"
+                                                        app:cardCornerRadius="10dp">
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            android:padding="5dp">
+                                                            <TextView
+                                                                android:layout_margin="5dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="Resonance 1"
+                                                                android:textColor="@color/colorPrimary"
+                                                                android:fontFamily="@font/gotham"
+                                                                android:textStyle="bold"
+                                                                android:gravity="center"
+                                                                android:id="@+id/tvB3Resonance1"/>
+                                                        </LinearLayout>
+                                                    </androidx.cardview.widget.CardView>
+                                                    <androidx.cardview.widget.CardView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:layout_margin="5dp"
+                                                        app:cardElevation="10dp"
+                                                        app:cardCornerRadius="10dp"
+                                                        android:id="@+id/cardB3Reso2">
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            android:padding="5dp">
+                                                            <TextView
+                                                                android:layout_margin="5dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="Resonance 2"
+                                                                android:textColor="@color/colorPrimary"
+                                                                android:fontFamily="@font/gotham"
+                                                                android:textStyle="bold"
+                                                                android:gravity="center"
+                                                                android:id="@+id/tvB3Resonance2"/>
+                                                        </LinearLayout>
+                                                    </androidx.cardview.widget.CardView>
+                                                </LinearLayout>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="5dp"
+                                    android:background="@drawable/rounded"
+                                    android:layout_margin="5dp"/>
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Skill"
+                                    android:textSize="25sp"
+                                    android:textColor="@color/colorWhite"
+                                    android:fontFamily="@font/gotham"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="5dp"
+                                    android:background="@drawable/rounded"
+                                    android:layout_margin="5dp"/>
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -320,7 +923,7 @@
                                                     android:layout_margin="10dp"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="match_parent"
-                                                    android:src="@drawable/down_white"
+                                                    android:src="@drawable/down_primary"
                                                     android:layout_weight="5"/>
                                             </LinearLayout>
                                             <LinearLayout
@@ -339,7 +942,7 @@
                                                     <LinearLayout
                                                         android:layout_width="match_parent"
                                                         android:layout_height="match_parent"
-                                                        android:background="@color/colorPrimaryDark">
+                                                        android:background="@drawable/background">
                                                         <ImageView
                                                             android:layout_width="match_parent"
                                                             android:layout_height="120dp"
@@ -395,7 +998,7 @@
                                                     android:layout_margin="10dp"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="match_parent"
-                                                    android:src="@drawable/down_white"
+                                                    android:src="@drawable/down_primary"
                                                     android:layout_weight="5"/>
                                             </LinearLayout>
                                             <LinearLayout
@@ -414,7 +1017,7 @@
                                                     <LinearLayout
                                                         android:layout_width="match_parent"
                                                         android:layout_height="match_parent"
-                                                        android:background="@color/colorPrimaryDark">
+                                                        android:background="@drawable/background">
                                                         <ImageView
                                                             android:layout_width="match_parent"
                                                             android:layout_height="120dp"
@@ -470,7 +1073,7 @@
                                                     android:layout_margin="10dp"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="match_parent"
-                                                    android:src="@drawable/down_white"
+                                                    android:src="@drawable/down_primary"
                                                     android:layout_weight="5"/>
                                             </LinearLayout>
                                             <LinearLayout
@@ -489,7 +1092,7 @@
                                                     <LinearLayout
                                                         android:layout_width="match_parent"
                                                         android:layout_height="match_parent"
-                                                        android:background="@color/colorPrimaryDark">
+                                                        android:background="@drawable/background">
                                                         <ImageView
                                                             android:layout_width="match_parent"
                                                             android:layout_height="120dp"
@@ -545,7 +1148,7 @@
                                                     android:layout_margin="10dp"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="match_parent"
-                                                    android:src="@drawable/down_white"
+                                                    android:src="@drawable/down_primary"
                                                     android:layout_weight="5"/>
                                             </LinearLayout>
                                             <LinearLayout
@@ -601,7 +1204,7 @@
                                                     android:layout_margin="10dp"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="match_parent"
-                                                    android:src="@drawable/down_white"
+                                                    android:src="@drawable/down_primary"
                                                     android:layout_weight="5"/>
                                             </LinearLayout>
                                             <LinearLayout
@@ -657,7 +1260,7 @@
                                                     android:layout_margin="10dp"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="match_parent"
-                                                    android:src="@drawable/down_white"
+                                                    android:src="@drawable/down_primary"
                                                     android:layout_weight="5"/>
                                             </LinearLayout>
                                             <LinearLayout
@@ -713,7 +1316,7 @@
                                                     android:layout_margin="10dp"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="match_parent"
-                                                    android:src="@drawable/down_white"
+                                                    android:src="@drawable/down_primary"
                                                     android:layout_weight="5"/>
                                             </LinearLayout>
                                             <LinearLayout
@@ -769,7 +1372,7 @@
                                                     android:layout_margin="10dp"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="match_parent"
-                                                    android:src="@drawable/down_white"
+                                                    android:src="@drawable/down_primary"
                                                     android:layout_weight="5"/>
                                             </LinearLayout>
                                             <LinearLayout
@@ -825,7 +1428,7 @@
                                                     android:layout_margin="10dp"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="match_parent"
-                                                    android:src="@drawable/down_white"
+                                                    android:src="@drawable/down_primary"
                                                     android:layout_weight="5"/>
                                             </LinearLayout>
                                             <LinearLayout
@@ -841,6 +1444,62 @@
                                                     android:layout_height="match_parent"
                                                     android:text="Enter burst state, utilizing dual blades as basic attacks when expending a Red orb within 4s after any 3-orb.Continuously attack the enemy for a total of 1080% Physical damage."
                                                     android:id="@+id/tvCore"
+                                                    android:textSize="@dimen/text_large"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"/>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        app:cardCornerRadius="10dp"
+                                        android:layout_margin="5dp"
+                                        app:cardElevation="10dp">
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal"
+                                                android:id="@+id/LinearUltimate">
+                                                <TextView
+                                                    android:layout_weight="1"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Ultimate"
+                                                    android:textSize="25sp"
+                                                    android:textColor="@color/colorPrimary"
+                                                    android:fontFamily="@font/gotham"/>
+                                                <ImageView
+                                                    android:id="@+id/ivUpDownUltimate"
+                                                    android:layout_margin="10dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:src="@drawable/down_primary"
+                                                    android:layout_weight="5"/>
+                                            </LinearLayout>
+                                            <LinearLayout
+                                                android:id="@+id/LinearUltimateVisible"
+                                                android:visibility="gone"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal">
+                                                <TextView
+                                                    android:layout_weight="1"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:text="Expend 100 energy to unleash a flurry of blades, dealing 140% Physical damage for every hit, and 1000% Physical damage on the final hit."
+                                                    android:id="@+id/tvUltimate"
                                                     android:textSize="@dimen/text_large"
                                                     android:textColor="@color/colorPrimary"
                                                     android:fontFamily="@font/gotham"/>

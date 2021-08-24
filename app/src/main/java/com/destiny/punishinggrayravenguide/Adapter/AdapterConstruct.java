@@ -103,19 +103,21 @@ public class AdapterConstruct extends RecyclerView.Adapter<AdapterConstruct.Card
                 i.putExtra("SSSPLUS", p.getSSPlus());
                 i.putExtra("HINT", p.getHint());
                 i.putExtra("IBUILD1MEMO1", p.getIBuild1Memo1());
-                i.putExtra("BUILD1MEMO1", p.getBuild1Memo2());
+                i.putExtra("BUILD1MEMO1", p.getBuild1Memo1());
                 i.putExtra("IBUILD1MEMO2", p.getIBuild1Memo2());
                 i.putExtra("BUILD1MEMO2", p.getBuild1Memo2());
                 i.putExtra("RESONANCE1_1", p.getResonance1_1());
                 i.putExtra("RESONANCE1_2", p.getResonance1_2());
                 i.putExtra("REMARKS1", p.getRemarks1());
+                i.putExtra("ROLE1", p.getRole1());
                 i.putExtra("IBUILD2MEMO1", p.getIBuild2Memo1());
                 i.putExtra("BUILD2MEMO1", p.getBuild2Memo1());
-                i.putExtra("IBUILD2MEMO2", p.getIBuild2Memo1());
+                i.putExtra("IBUILD2MEMO2", p.getIBuild2Memo2());
                 i.putExtra("BUILD2MEMO2", p.getBuild2Memo2());
                 i.putExtra("RESONANCE2_1", p.getResonance2_1());
                 i.putExtra("RESONANCE2_2", p.getResonance2_2());
                 i.putExtra("REMARKS2", p.getRemarks2());
+                i.putExtra("ROLE2", p.getRole2());
                 i.putExtra("IBUILD3MEMO1", p.getIBuild3Memo1());
                 i.putExtra("BUILD3MEMO1", p.getBuild3Memo1());
                 i.putExtra("IBUILD3MEMO2", p.getIBuild3Memo2());
@@ -123,6 +125,7 @@ public class AdapterConstruct extends RecyclerView.Adapter<AdapterConstruct.Card
                 i.putExtra("RESONANCE3_1", p.getResonance3_1());
                 i.putExtra("RESONANCE3_2", p.getResonance3_2());
                 i.putExtra("REMARKS3", p.getRemarks3());
+                i.putExtra("ROLE3", p.getRole3());
                 context.startActivity(i);
             }
         });

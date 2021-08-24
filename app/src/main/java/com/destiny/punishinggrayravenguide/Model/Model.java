@@ -10,12 +10,14 @@ public class Model {
     //Build 1
     String IBuild1Memo1,Build1Memo1,Remarks1,Resonance1_1;
     String IBuild1Memo2,Build1Memo2,Resonance1_2;
+
     //Build 2
     String IBuild2Memo1,Build2Memo1,Remarks2,Resonance2_1;
     String IBuild2Memo2,Build2Memo2,Resonance2_2;
     //Build 3
     String IBuild3Memo1,Build3Memo1,Remarks3,Resonance3_1;
     String IBuild3Memo2,Build3Memo2,Resonance3_2;
+    String Role1,Role2,Role3;
 
     String id,nama,gambar,deskripsi,tanggal;
     String faction,va,realname,weapon,rarity;
@@ -533,5 +535,29 @@ public class Model {
 
     public void setKelas(String kelas) {
         Kelas = kelas;
+    }
+
+    public String getRole1() {
+        return Role1;
+    }
+
+    public void setRole1(String role1) {
+        Role1 = role1;
+    }
+
+    public String getRole2() {
+        return Role2;
+    }
+
+    public void setRole2(String role2) {
+        Role2 = role2;
+    }
+
+    public String getRole3() {
+        return Role3;
+    }
+
+    public void setRole3(String role3) {
+        Role3 = role3;
     }
 }

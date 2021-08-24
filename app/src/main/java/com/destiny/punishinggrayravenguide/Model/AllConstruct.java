@@ -42,6 +42,7 @@ public class AllConstruct {
                             "dealing 100%/200%/300% Physical damage.\n" +
                             "Attacks gain additional 10%/15%/20%\n" +
                             "Fire damage for 4/4/6 seconds.",
+                    //Basic Attack
                     "Continuously attack, dealing 540% Physical damage.",
                     //QTE 16
                     "Enter the battlefield with dual blades, dealing 1110% Physical damage.",
@@ -75,6 +76,8 @@ public class AllConstruct {
                     "2 x Frederick",
                     "6 ATK+CRIT",
                     "6 CORE",
+                    "Awakening Set.\n" +
+                            "2 Frederick can also be substituted with 2 Darwin/Condelina.",
                     "Awakening Set",
                     //Build 2
                     "https://lh3.googleusercontent.com/VeofAiBRtnWyZjUVmGMDIgd3j2OiImfBeEtE6kmxI5SvnQHyaNUjz4XF69dqEOHXsCnf8YC9lMM3grl55zUd6hFkL0aoKxtOMj8wMQFylHnmALjPDoqcdFk_ZIsj4J-TfUE8wABWsQ=w128-h119",
@@ -84,6 +87,7 @@ public class AllConstruct {
                     "NIL",
                     "-",
                     "Pre-Wanshi Ice QTE support",
+                    "Ice Support",
                     //Build 3
                     "-",
                     "-",
@@ -115,40 +119,44 @@ public class AllConstruct {
             model.setYellowOrb(aData[13]);
             model.setIBlueOrb(aData[14]);
             model.setBlueOrb(aData[15]);
-            model.setQTE(aData[16]);
-            model.setProfession(aData[17]);
-            model.setAwakening(aData[18]);
-            model.setLeader(aData[19]);
-            model.setCore(aData[20]);
-            model.setUltimate(aData[21]);
-            model.setSS(aData[22]);
-            model.setSSS(aData[23]);
-            model.setSSPlus(aData[24]);
-            model.setHint(aData[25]);
+            model.setBasicAttack(aData[16]);
+            model.setQTE(aData[17]);
+            model.setProfession(aData[18]);
+            model.setAwakening(aData[19]);
+            model.setLeader(aData[20]);
+            model.setCore(aData[21]);
+            model.setUltimate(aData[22]);
+            model.setSS(aData[23]);
+            model.setSSS(aData[24]);
+            model.setSSPlus(aData[25]);
+            model.setHint(aData[26]);
             //Build 1
-            model.setIBuild1Memo1(aData[26]);
-            model.setBuild1Memo1(aData[27]);
-            model.setIBuild1Memo2(aData[28]);
-            model.setBuild1Memo2(aData[29]);
-            model.setResonance1_1(aData[30]);
-            model.setResonance1_2(aData[31]);
-            model.setRemarks1(aData[32]);
+            model.setIBuild1Memo1(aData[27]);
+            model.setBuild1Memo1(aData[28]);
+            model.setIBuild1Memo2(aData[29]);
+            model.setBuild1Memo2(aData[30]);
+            model.setResonance1_1(aData[31]);
+            model.setResonance1_2(aData[32]);
+            model.setRemarks1(aData[33]);
+            model.setRole1(aData[34]);
             //Build 2
-            model.setIBuild2Memo1(aData[33]);
-            model.setBuild2Memo1(aData[34]);
-            model.setIBuild2Memo2(aData[35]);
-            model.setBuild2Memo2(aData[36]);
-            model.setResonance2_1(aData[37]);
-            model.setResonance2_2(aData[38]);
-            model.setRemarks2(aData[39]);
+            model.setIBuild2Memo1(aData[35]);
+            model.setBuild2Memo1(aData[36]);
+            model.setIBuild2Memo2(aData[37]);
+            model.setBuild2Memo2(aData[38]);
+            model.setResonance2_1(aData[39]);
+            model.setResonance2_2(aData[40]);
+            model.setRemarks2(aData[41]);
+            model.setRole2(aData[42]);
             //Build 3
-            model.setIBuild3Memo1(aData[40]);
-            model.setBuild3Memo1(aData[41]);
-            model.setIBuild3Memo2(aData[42]);
-            model.setBuild3Memo2(aData[43]);
-            model.setResonance3_1(aData[44]);
-            model.setResonance3_2(aData[45]);
-            model.setRemarks3(aData[46]);
+            model.setIBuild3Memo1(aData[42]);
+            model.setBuild3Memo1(aData[43]);
+            model.setIBuild3Memo2(aData[44]);
+            model.setBuild3Memo2(aData[45]);
+            model.setResonance3_1(aData[46]);
+            model.setResonance3_2(aData[47]);
+            model.setRemarks3(aData[48]);
+            model.setRole3(aData[49]);
             list.add(model);
         }
 
