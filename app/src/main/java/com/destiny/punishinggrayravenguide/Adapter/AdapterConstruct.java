@@ -54,16 +54,18 @@ public class AdapterConstruct extends RecyclerView.Adapter<AdapterConstruct.Card
         holder.tvName.setText(p.getName()+" - "+p.getModel());
 
         holder.Elemental.setText(p.getElement());
-        holder.Class.setText(p.getProfessionClass());
-        if (p.getProfessionClass().equals("B")){
+        holder.Class.setText("Class");
+        holder.Classification.setText(p.getProfessionClass());
+        if (p.getKelas().equals("B")){
             holder.iClass.setImageResource(R.drawable.b_class);
-        }else if (p.getProfessionClass().equals("A")){
+        }else if (p.getKelas().equals("A")){
             holder.iClass.setImageResource(R.drawable.a_class);
         }else{
             holder.iClass.setImageResource(R.drawable.s_class);
         }
         //
-        holder.Classification.setText(p.getKelas()+" Class");
+
+
         if (p.getProfessionClass().equals("Assault")){
             holder.iClassification.setImageResource(R.drawable.attacker);
         }else if (p.getProfessionClass().equals("Support")){
@@ -92,6 +94,7 @@ public class AdapterConstruct extends RecyclerView.Adapter<AdapterConstruct.Card
                 i.putExtra("YELLOWORB", p.getYellowOrb());
                 i.putExtra("IBLUEORB", p.getIBlueOrb());
                 i.putExtra("BLUEORB", p.getBlueOrb());
+                i.putExtra("BASIC_ATTACK", p.getBasicAttack());
                 i.putExtra("QTE", p.getQTE());
                 i.putExtra("PROFESSION", p.getProfession());
                 i.putExtra("AWAKENING", p.getAwakening());
@@ -102,30 +105,53 @@ public class AdapterConstruct extends RecyclerView.Adapter<AdapterConstruct.Card
                 i.putExtra("SSS", p.getSSS());
                 i.putExtra("SSSPLUS", p.getSSPlus());
                 i.putExtra("HINT", p.getHint());
+                //Build 1
                 i.putExtra("IBUILD1MEMO1", p.getIBuild1Memo1());
                 i.putExtra("BUILD1MEMO1", p.getBuild1Memo1());
                 i.putExtra("IBUILD1MEMO2", p.getIBuild1Memo2());
                 i.putExtra("BUILD1MEMO2", p.getBuild1Memo2());
+                i.putExtra("IBUILD1MEMO3", p.getIBuild1Memo3());
+                i.putExtra("BUILD1MEMO3", p.getBuild1Memo3());
                 i.putExtra("RESONANCE1_1", p.getResonance1_1());
                 i.putExtra("RESONANCE1_2", p.getResonance1_2());
                 i.putExtra("REMARKS1", p.getRemarks1());
                 i.putExtra("ROLE1", p.getRole1());
+                //Build 2
                 i.putExtra("IBUILD2MEMO1", p.getIBuild2Memo1());
                 i.putExtra("BUILD2MEMO1", p.getBuild2Memo1());
                 i.putExtra("IBUILD2MEMO2", p.getIBuild2Memo2());
                 i.putExtra("BUILD2MEMO2", p.getBuild2Memo2());
+                i.putExtra("IBUILD2MEMO3", p.getIBuild2Memo3());
+                i.putExtra("BUILD2MEMO3", p.getBuild2Memo3());
                 i.putExtra("RESONANCE2_1", p.getResonance2_1());
                 i.putExtra("RESONANCE2_2", p.getResonance2_2());
                 i.putExtra("REMARKS2", p.getRemarks2());
                 i.putExtra("ROLE2", p.getRole2());
+                //Build 3
                 i.putExtra("IBUILD3MEMO1", p.getIBuild3Memo1());
                 i.putExtra("BUILD3MEMO1", p.getBuild3Memo1());
                 i.putExtra("IBUILD3MEMO2", p.getIBuild3Memo2());
                 i.putExtra("BUILD3MEMO2", p.getBuild3Memo2());
+                i.putExtra("IBUILD3MEMO3", p.getIBuild3Memo3());
+                i.putExtra("BUILD3MEMO3", p.getBuild3Memo3());
                 i.putExtra("RESONANCE3_1", p.getResonance3_1());
                 i.putExtra("RESONANCE3_2", p.getResonance3_2());
                 i.putExtra("REMARKS3", p.getRemarks3());
                 i.putExtra("ROLE3", p.getRole3());
+                //Build 4
+                i.putExtra("IBUILD4MEMO1", p.getIBuild4Memo1());
+                i.putExtra("BUILD4MEMO1", p.getBuild4Memo1());
+                i.putExtra("IBUILD4MEMO2", p.getIBuild4Memo2());
+                i.putExtra("BUILD4MEMO2", p.getBuild4Memo2());
+                i.putExtra("IBUILD4MEMO3", p.getIBuild4Memo3());
+                i.putExtra("BUILD4MEMO3", p.getBuild4Memo3());
+                i.putExtra("RESONANCE4_1", p.getResonance4_1());
+                i.putExtra("RESONANCE4_2", p.getResonance4_2());
+                i.putExtra("REMARKS4", p.getRemarks4());
+                i.putExtra("ROLE4", p.getRole4());
+                i.putExtra("WEAPON_NAME", p.getNameWeapon());
+                i.putExtra("WEAPON_IMAGE", p.getImageWeapon());
+                i.putExtra("WEAPON_ABILITY", p.getAbilityWeapon());
                 context.startActivity(i);
             }
         });

@@ -15,7 +15,9 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.destiny.punishinggrayravenguide.Adapter.AdapterConstruct;
 import com.destiny.punishinggrayravenguide.Method.Destiny;
+import com.destiny.punishinggrayravenguide.Model.AClassConstruct;
 import com.destiny.punishinggrayravenguide.Model.AllConstruct;
+import com.destiny.punishinggrayravenguide.Model.BClassConstruct;
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 
@@ -45,14 +47,16 @@ public class ListConstructActivity extends AppCompatActivity {
     private void GetData(){
         Intent intent = getIntent();
         CLASS = intent.getExtras().getString("CLASS");
-        tvNamaList.setText("Class Construct "+CLASS);
+        tvNamaList.setText("Class Construct : "+CLASS);
         Destiny destiny = new Destiny();
         Back = findViewById(R.id.relativeBack);
 
         if (CLASS.equals("All")){
             pList.addAll(AllConstruct.getListData());
-        }else{
-//            pList.addAll(AngelDataTipsArgentWing.getListData());
+        }else if (CLASS.equals("B")){
+            pList.addAll(BClassConstruct.getListData());
+        }else if (CLASS.equals("A")){
+            pList.addAll(AClassConstruct.getListData());
         }
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         AdapterConstruct adapterConstruct = new AdapterConstruct(this);

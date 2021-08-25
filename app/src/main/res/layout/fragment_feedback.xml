@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Feedback.FeedbackFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kontak Disini untuk Saran dan Komentar"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/gotham"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_green"
+            android:text="Whatsapp"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/gotham"
+            android:layout_margin="10dp"
+            android:id="@+id/btnWhatsapp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_blue"
+            android:text="Facebook"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/gotham"
+            android:layout_margin="10dp"
+            android:id="@+id/btnFacebook"/>
+    </LinearLayout>
 
-</FrameLayout>
+</RelativeLayout>

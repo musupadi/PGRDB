@@ -7,17 +7,28 @@ public class Model {
     String Name,Model,ProfessionClass,Element,CV,Serial,Affilation,Kelas;
     String IRedOrb,RedOrb,IYellowOrb,YellowOrb,IBlueOrb,BlueOrb;
     String BasicAttack,QTE,Profession,Awakening,Leader,Core,Ultimate,SS,SSS,SSPlus,Hint;
+    String ImageWeapon,NameWeapon,MaxLevelWeapon,AttackMinWeapon,AttackMaxWeapon,CritMinWeapon,CritMaxWeapon,AbilityWeapon,Star;
     //Build 1
     String IBuild1Memo1,Build1Memo1,Remarks1,Resonance1_1;
     String IBuild1Memo2,Build1Memo2,Resonance1_2;
+    String IBuild1Memo3,Build1Memo3;
 
     //Build 2
     String IBuild2Memo1,Build2Memo1,Remarks2,Resonance2_1;
     String IBuild2Memo2,Build2Memo2,Resonance2_2;
+    String IBuild2Memo3,Build2Memo3;
     //Build 3
     String IBuild3Memo1,Build3Memo1,Remarks3,Resonance3_1;
     String IBuild3Memo2,Build3Memo2,Resonance3_2;
-    String Role1,Role2,Role3;
+    String IBuild3Memo3,Build3Memo3;
+    //Build 4
+    String IBuild4Memo1,Build4Memo1,Remarks4,Resonance4_1;
+    String IBuild4Memo2,Build4Memo2,Resonance4_2;
+    String IBuild4Memo3,Build4Memo3;
+
+
+    String Role1,Role2,Role3,Role4;
+
 
     String id,nama,gambar,deskripsi,tanggal;
     String faction,va,realname,weapon,rarity;
@@ -559,5 +570,205 @@ public class Model {
 
     public void setRole3(String role3) {
         Role3 = role3;
+    }
+
+    public String getIBuild1Memo3() {
+        return IBuild1Memo3;
+    }
+
+    public void setIBuild1Memo3(String IBuild1Memo3) {
+        this.IBuild1Memo3 = IBuild1Memo3;
+    }
+
+    public String getBuild1Memo3() {
+        return Build1Memo3;
+    }
+
+    public void setBuild1Memo3(String build1Memo3) {
+        Build1Memo3 = build1Memo3;
+    }
+
+    public String getIBuild2Memo3() {
+        return IBuild2Memo3;
+    }
+
+    public void setIBuild2Memo3(String IBuild2Memo3) {
+        this.IBuild2Memo3 = IBuild2Memo3;
+    }
+
+    public String getBuild2Memo3() {
+        return Build2Memo3;
+    }
+
+    public void setBuild2Memo3(String build2Memo3) {
+        Build2Memo3 = build2Memo3;
+    }
+
+    public String getIBuild3Memo3() {
+        return IBuild3Memo3;
+    }
+
+    public void setIBuild3Memo3(String IBuild3Memo3) {
+        this.IBuild3Memo3 = IBuild3Memo3;
+    }
+
+    public String getBuild3Memo3() {
+        return Build3Memo3;
+    }
+
+    public void setBuild3Memo3(String build3Memo3) {
+        Build3Memo3 = build3Memo3;
+    }
+
+    public String getIBuild4Memo1() {
+        return IBuild4Memo1;
+    }
+
+    public void setIBuild4Memo1(String IBuild4Memo1) {
+        this.IBuild4Memo1 = IBuild4Memo1;
+    }
+
+    public String getBuild4Memo1() {
+        return Build4Memo1;
+    }
+
+    public void setBuild4Memo1(String build4Memo1) {
+        Build4Memo1 = build4Memo1;
+    }
+
+    public String getRemarks4() {
+        return Remarks4;
+    }
+
+    public void setRemarks4(String remarks4) {
+        Remarks4 = remarks4;
+    }
+
+    public String getResonance4_1() {
+        return Resonance4_1;
+    }
+
+    public void setResonance4_1(String resonance4_1) {
+        Resonance4_1 = resonance4_1;
+    }
+
+    public String getIBuild4Memo2() {
+        return IBuild4Memo2;
+    }
+
+    public void setIBuild4Memo2(String IBuild4Memo2) {
+        this.IBuild4Memo2 = IBuild4Memo2;
+    }
+
+    public String getBuild4Memo2() {
+        return Build4Memo2;
+    }
+
+    public void setBuild4Memo2(String build4Memo2) {
+        Build4Memo2 = build4Memo2;
+    }
+
+    public String getResonance4_2() {
+        return Resonance4_2;
+    }
+
+    public void setResonance4_2(String resonance4_2) {
+        Resonance4_2 = resonance4_2;
+    }
+
+    public String getIBuild4Memo3() {
+        return IBuild4Memo3;
+    }
+
+    public void setIBuild4Memo3(String IBuild4Memo3) {
+        this.IBuild4Memo3 = IBuild4Memo3;
+    }
+
+    public String getBuild4Memo3() {
+        return Build4Memo3;
+    }
+
+    public void setBuild4Memo3(String build4Memo3) {
+        Build4Memo3 = build4Memo3;
+    }
+
+    public String getRole4() {
+        return Role4;
+    }
+
+    public void setRole4(String role4) {
+        Role4 = role4;
+    }
+
+    public String getImageWeapon() {
+        return ImageWeapon;
+    }
+
+    public void setImageWeapon(String imageWeapon) {
+        ImageWeapon = imageWeapon;
+    }
+
+    public String getNameWeapon() {
+        return NameWeapon;
+    }
+
+    public void setNameWeapon(String nameWeapon) {
+        NameWeapon = nameWeapon;
+    }
+
+    public String getMaxLevelWeapon() {
+        return MaxLevelWeapon;
+    }
+
+    public void setMaxLevelWeapon(String maxLevelWeapon) {
+        MaxLevelWeapon = maxLevelWeapon;
+    }
+
+    public String getAttackMinWeapon() {
+        return AttackMinWeapon;
+    }
+
+    public void setAttackMinWeapon(String attackMinWeapon) {
+        AttackMinWeapon = attackMinWeapon;
+    }
+
+    public String getAttackMaxWeapon() {
+        return AttackMaxWeapon;
+    }
+
+    public void setAttackMaxWeapon(String attackMaxWeapon) {
+        AttackMaxWeapon = attackMaxWeapon;
+    }
+
+    public String getCritMinWeapon() {
+        return CritMinWeapon;
+    }
+
+    public void setCritMinWeapon(String critMinWeapon) {
+        CritMinWeapon = critMinWeapon;
+    }
+
+    public String getCritMaxWeapon() {
+        return CritMaxWeapon;
+    }
+
+    public void setCritMaxWeapon(String critMaxWeapon) {
+        CritMaxWeapon = critMaxWeapon;
+    }
+
+    public String getAbilityWeapon() {
+        return AbilityWeapon;
+    }
+
+    public void setAbilityWeapon(String abilityWeapon) {
+        AbilityWeapon = abilityWeapon;
+    }
+
+    public String getStar() {
+        return Star;
+    }
+
+    public void setStar(String star) {
+        Star = star;
     }
 }
