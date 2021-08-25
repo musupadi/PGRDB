@@ -49,6 +49,14 @@ public class ClassConstructActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        S.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ClassConstructActivity.this, ListConstructActivity.class);
+                i.putExtra("CLASS", "S");
+                startActivity(i);
+            }
+        });
         Back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

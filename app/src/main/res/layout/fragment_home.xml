@@ -47,6 +47,7 @@
                         android:layout_weight="1"
                         android:padding="5dp">
                         <LinearLayout
+                            android:id="@+id/linearStory"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -90,6 +91,7 @@
                                 android:textSize="@dimen/text_xtra_large"/>
                         </LinearLayout>
                         <LinearLayout
+                            android:id="@+id/linearWeapon"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -110,6 +112,7 @@
                                 android:textSize="@dimen/text_xtra_large"/>
                         </LinearLayout>
                         <LinearLayout
+                            android:id="@+id/linearMemory"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -138,6 +141,7 @@
                         android:layout_weight="1"
                         android:padding="5dp">
                         <LinearLayout
+                            android:id="@+id/linearFutureContent"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -159,6 +163,7 @@
                                 android:textSize="@dimen/text_xtra_large"/>
                         </LinearLayout>
                         <LinearLayout
+                            android:id="@+id/linearUnlockRoadmap"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -180,6 +185,7 @@
                                 android:textSize="@dimen/text_xtra_large"/>
                         </LinearLayout>
                         <LinearLayout
+                            android:id="@+id/linearArtwork"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -201,6 +207,7 @@
                                 android:textSize="@dimen/text_xtra_large"/>
                         </LinearLayout>
                         <LinearLayout
+                            android:id="@+id/linearMeme"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"

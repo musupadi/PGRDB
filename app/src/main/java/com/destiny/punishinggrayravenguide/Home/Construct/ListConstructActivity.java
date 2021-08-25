@@ -19,6 +19,7 @@ import com.destiny.punishinggrayravenguide.Model.AClassConstruct;
 import com.destiny.punishinggrayravenguide.Model.AllConstruct;
 import com.destiny.punishinggrayravenguide.Model.BClassConstruct;
 import com.destiny.punishinggrayravenguide.Model.Model;
+import com.destiny.punishinggrayravenguide.Model.SClassConstruct;
 import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
@@ -57,6 +58,8 @@ public class ListConstructActivity extends AppCompatActivity {
             pList.addAll(BClassConstruct.getListData());
         }else if (CLASS.equals("A")){
             pList.addAll(AClassConstruct.getListData());
+        }else if (CLASS.equals("S")){
+            pList.addAll(SClassConstruct.getListData());
         }
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         AdapterConstruct adapterConstruct = new AdapterConstruct(this);

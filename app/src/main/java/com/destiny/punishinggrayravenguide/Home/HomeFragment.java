@@ -13,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.destiny.punishinggrayravenguide.Adapter.AdapterBerita;
 import com.destiny.punishinggrayravenguide.Home.Construct.ClassConstructActivity;
@@ -27,7 +28,7 @@ public class HomeFragment extends Fragment {
 
     RecyclerView recyclerView;
     private ArrayList<Model> pList = new ArrayList<>();
-    LinearLayout Construct;
+    LinearLayout Story,Construct,Weapon,Memory,FutureContent,UnlockRoadmap,Artwork,Meme;
     public HomeFragment() {
         // Required empty public constructor
     }
@@ -49,16 +50,65 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         recyclerView = view.findViewById(R.id.recyclerBerita);
+        Story = view.findViewById(R.id.linearStory);
         Construct = view.findViewById(R.id.linearConstruct);
+        Weapon = view.findViewById(R.id.linearWeapon);
+        Memory = view.findViewById(R.id.linearMemory);
+        FutureContent = view.findViewById(R.id.linearFutureContent);
+        UnlockRoadmap = view.findViewById(R.id.linearUnlockRoadmap);
+        Artwork = view.findViewById(R.id.linearArtwork);
+        Meme = view.findViewById(R.id.linearMeme);
         GetData();
         OnClick();
     }
     private void OnClick(){
+        Story.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "Sorry Story Feature under Construction", Toast.LENGTH_SHORT).show();
+            }
+        });
         Construct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), ClassConstructActivity.class);
                 startActivity(intent);
+            }
+        });
+        Weapon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "Sorry Weapon Feature under Construction", Toast.LENGTH_SHORT).show();
+            }
+        });
+        Memory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "Sorry Memory Feature under Construction", Toast.LENGTH_SHORT).show();
+            }
+        });
+        FutureContent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "Sorry Future Content Feature under Construction", Toast.LENGTH_SHORT).show();
+            }
+        });
+        UnlockRoadmap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "Sorry Unlock Roadmap Feature under Construction", Toast.LENGTH_SHORT).show();
+            }
+        });
+        Artwork.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "Sorry Artwork Feature under Construction", Toast.LENGTH_SHORT).show();
+            }
+        });
+        Meme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "Sorry Meme Feature under Construction", Toast.LENGTH_SHORT).show();
             }
         });
     }
