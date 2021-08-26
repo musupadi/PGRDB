@@ -1013,6 +1013,288 @@ public class AClassConstruct {
                     "Physical damage +15%.\n" +
                             "After a successful block, damage +30% for the next skill used."
             },
+            {"8",
+                    //Gambar 1
+                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/3/32/Watanabe_-_Astral.png/revision/latest/scale-to-width-down/350?cb=20200728114714",
+                    //Name 2
+                    "Watanabe",
+                    //Model 3
+                    "Astral",
+                    //Class Profession 4
+                    "Assault",
+                    //Element 5
+                    "50% Physical 50% Dark",
+                    //CV 6
+                    "Hosoya Yoshimasa",
+                    //Serial 7
+                    "BPO-29",
+                    //Affilation 8
+                    "Oblivion",
+                    //Class 9
+                    "A",
+                    //Red Orb 10
+                    String.valueOf(R.drawable.red_astral),
+                    //11
+                    "Shuffle back and throw darts in a fan forward,\n" +
+                            "dealing 200%/400%/600% Physical damage.\n" +
+                            "Damage is converted to Dark element when it is a 3-orb.",
+                    //Yellow Orb 12
+                    String.valueOf(R.drawable.yellow_astral),
+                    //13
+                    "Leap forward and perform a spinning attack,\n" +
+                            "dealing 40%/80%/120%\n" +
+                            "Physical damage to nearby targets.\n" +
+                            "Deal an additional 50%/100%/150% Physical damage\n" +
+                            "to nearby attacks upon landing.\n" +
+                            "Damage is converted to Dark element when it is a 3-orb.",
+                    //Blue Orb 14
+                    String.valueOf(R.drawable.blue_astral),
+                    //15
+                    "Instantly move behind the target and attack, dealing\n" +
+                            "150%/300%/450% Physical damage.\n" +
+                            "Damage is converted to Dark element when it is a 3-orb",
+                    //Basic Attack
+                    "Continuously assassinate the target, dealing a total of 600% Physical damage.\n" +
+                            "Basic attacks can trigger Follow-up after dodging or consuming Red orbs, dealing 200% Physical damage.",
+                    //QTE 16
+                    "Attack the target from the air upon entry to the battle, disperse into the shadow upon landing and\n" +
+                            "attack again, each hit dealing 300% Dark damage.",
+                    //PROFESSION 17
+                    "Damage +20%.",
+                    //Awakening 18
+                    "Gain 3 signal orbs at the start of battle.",
+                    //Leader 19
+                    "All team members' Dark damage +10%, Assault-type structures attack +5%.",
+                    //CORE 20
+                    "Consuming Red orbs after any 3-orb combo will disperse the character into the shadows and perform\n" +
+                            "a series of attacks, each hit dealing 60% Dark damage.\n" +
+                            "Enter Enhanced Shadow state for 5s when the attack ends, basic attacks gain extra 300% Dark damage,\n" +
+                            "Follow-up gains extra 100% Dark damage.",
+                    //ULTIMATE 21
+                    "Expend 100 energy. Disperse into the shadow and continuously assassinate the target,\n" +
+                            "each hit dealing 600% Dark damage.",
+                    //SS 22
+                    "Deal 10% more damage towards enemies affected by Blue orb skill for 4s.",
+                    //SSS 23
+                    "Deal 10% more damage towards enemies affected by Follow-up for 5s.",
+                    //SSS+ 24
+                    "Dark damage +20% during Enhanced Shadow state.",
+                    //Skill 25
+                    "Triple anything + Red or Swap-in attack + Red for Core",
+                    //Build 1
+                    //Memo 1
+                    String.valueOf(R.drawable.baron),
+                    "4 x Baron",
+                    //Memo 2
+                    String.valueOf(R.drawable.darwin),
+                    "2 x Darwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CORE",
+                    //Remarks
+                    "Awakening Set",
+                    //Role
+                    "DPS",
+                    //Build 2
+                    //Memo 1
+                    String.valueOf(R.drawable.baron),
+                    "4 x Baron",
+                    //Memo 2
+                    String.valueOf(R.drawable.adolphe),
+                    "2 x Adolphe/Cottie",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CORE",
+                    //Remarks
+                    "Awakening Set",
+                    //Role
+                    "DPS",
+                    //Build 3
+                    //Memo 1
+                    String.valueOf(R.drawable.da_vinci),
+                    "4x Da Vinci",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2x Catherine",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 QTE",
+                    //Remarks
+                    "QTE Support",
+                    //Role
+                    "QTE Support",
+                    //Build 4
+                    //Memo 1
+                    String.valueOf(R.drawable.memory_aife),
+                    "4 x Aife",
+                    //Memo 2
+                    String.valueOf(R.drawable.memory_erwin),
+                    "2 x Erwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "Anything",
+                    "-",
+                    //Remarks
+                    "5 Star Memory",
+                    //Role
+                    "5 Star Memory",
+                    String.valueOf(R.drawable.requiescat),
+                    "Requiescat",
+                    "Damage +10%.\n" +
+                            "Dark damage +10% during core passive."
+            },
+            {"9",
+                    //Gambar 1
+                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/e/ee/Ayla_-_Brilliance.png/revision/latest/scale-to-width-down/350?cb=20200728113936",
+                    //Name 2
+                    "Ayla",
+                    //Model 3
+                    "Briliance",
+                    //Class Profession 4
+                    "Armored",
+                    //Element 5
+                    "100% Physical",
+                    //CV 6
+                    "Itou Shizuka",
+                    //Serial 7
+                    "BPF-22",
+                    //Affilation 8
+                    "Arts Association",
+                    //Class 9
+                    "A",
+                    //Red Orb 10
+                    String.valueOf(R.drawable.red_briliance),
+                    //11
+                    "Swing the scythe in place and attack the target,\n" +
+                            "dealing 150%/300%/900% Physical damage.",
+                    //Yellow Orb 12
+                    String.valueOf(R.drawable.yellow_briliance),
+                    //13
+                    "Charge towards the target, dealing 90%/180%/270%\n" +
+                            "Physical damage and follow-up with the scythe,\n" +
+                            "dealing 120%/240%/360% Physical damage.",
+                    //Blue Orb 14
+                    String.valueOf(R.drawable.blue_briliance),
+                    //15
+                    "Toss the scythe and pull it back,\n" +
+                            "dealing 20%/40%/60% Physical damage each time\n" +
+                            "to enemies along the way.",
+                    //Basic Attack
+                    "Continuously attack the target with the scythe, dealing 610% Physical damage.",
+                    //QTE 16
+                    "Continuously attack the target upon entering the field, dealing 500% Physical damage and reducing\n" +
+                            "target's defense by 10% for 6s. The final hit launches the target.",
+                    //PROFESSION 17
+                    "Targets hit take 20% more damage for 5s.",
+                    //Awakening 18
+                    "Gain 3 signal orbs at the start of battle.",
+                    //Leader 19
+                    "All team members' Defense +10%, Attack +5% when there are 3 different professions.",
+                    //CORE 20
+                    "Consuming a Blue orb after any 3-orb combo will draw in nearby enemies.\n" +
+                            "Gain 8% HP worth of shield for 7s and deal 700% Physical damage.\n" +
+                            "Damage taken during the move is reduced by 70%.",
+                    //ULTIMATE 21
+                    "Expend 80 energy. Swing the scythe while moving, attacking targets in the area.\n" +
+                            "Each strike dealing 120% Physical damage with the final attack dealing 600% Physical damage.\n" +
+                            "Direction of the attack can be navigated with the directional stick.",
+                    //SS 22
+                    "Gain Defense and Physical damage +10% for 5s when a Yellow signal orb hits a target.",
+                    //SSS 23
+                    "Targets struck by core passive have 15% reduced Defense for 5s.",
+                    //SSS+ 24
+                    "Damage +20% for 10s after triggering ultimate.",
+                    //Skill 25
+                    "Triple anything + Blue or Swap-in attack + Blue for core\n" +
+                            "Ultimate direction can be manuevered",
+                    //Build 1
+                    //Memo 1
+                    String.valueOf(R.drawable.patton),
+                    "4 x Baron",
+                    //Memo 2
+                    String.valueOf(R.drawable.catherine),
+                    "2 x Catherine",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK+CRIT",
+                    "6 CLASS",
+                    //Remarks
+                    "Awakening Set",
+                    //Role
+                    "DPS",
+                    //Build 2
+                    //Memo 1
+                    String.valueOf(R.drawable.patton),
+                    "4 x Baron",
+                    //Memo 2
+                    String.valueOf(R.drawable.adolphe),
+                    "2 x Cottie",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK+CRIT",
+                    "6 CLASS",
+                    //Remarks
+                    "Substituted Awakening Set",
+                    //Role
+                    "DPS",
+                    //Build 3
+                    //Memo 1
+                    String.valueOf(R.drawable.da_vinci),
+                    "4x Da Vinci",
+                    //Memo 2
+                    String.valueOf(R.drawable.catherine),
+                    "2x Catherine",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CLASS",
+                    //Remarks
+                    "QTE Support",
+                    //Role
+                    "QTE Support",
+                    //Build 4
+                    //Memo 1
+                    String.valueOf(R.drawable.memory_aife),
+                    "4 x Aife",
+                    //Memo 2
+                    String.valueOf(R.drawable.memory_erwin),
+                    "2 x Erwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "Anything",
+                    "-",
+                    //Remarks
+                    "5 Star Memory",
+                    //Role
+                    "5 Star Memory",
+                    String.valueOf(R.drawable.lilac),
+                    "Lilac",
+                    "Damage +2% for 5s towards enemies with Super Armor, up to 3 stacks.\n" +
+                            "Triggering the effect again refreshes the duration.\n" +
+                            "Stun for 2s when Super Armor is broken,\n" +
+                            "10s cooldown to the same target.\n" +
+                            "Physical damage +15% for 7s after triggering core passive.\n" +
+                            "Triggering the effect again refreshes the duration."
+            },
     };
     public static ArrayList<Model> getListData(){
         Model model = null;

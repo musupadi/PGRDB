@@ -17,6 +17,8 @@ import android.widget.Toast;
 
 import com.destiny.punishinggrayravenguide.Adapter.AdapterBerita;
 import com.destiny.punishinggrayravenguide.Home.Construct.ClassConstructActivity;
+import com.destiny.punishinggrayravenguide.Home.FutureContent.ListFutureContentActivity;
+import com.destiny.punishinggrayravenguide.Home.Roadmap.CharacterRoadmapActivity;
 import com.destiny.punishinggrayravenguide.Model.BeritaData;
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
@@ -90,13 +92,15 @@ public class HomeFragment extends Fragment {
         FutureContent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "Sorry Future Content Feature under Construction", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getActivity(), ListFutureContentActivity.class);
+                startActivity(intent);
             }
         });
         UnlockRoadmap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "Sorry Unlock Roadmap Feature under Construction", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getActivity(), CharacterRoadmapActivity.class);
+                startActivity(intent);
             }
         });
         Artwork.setOnClickListener(new View.OnClickListener() {

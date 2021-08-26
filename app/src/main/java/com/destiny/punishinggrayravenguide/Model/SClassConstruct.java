@@ -903,6 +903,164 @@ public class SClassConstruct {
                             "Gain 1 additional Sword Wave orb when entering Sword Wave mode,\n" +
                             "10s cooldown."
             },
+            {"7",
+                    //Gambar 1
+                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/0/0b/Bianca_-_Veritas.png/revision/latest/scale-to-width-down/350?cb=20200728114616",
+                    //Name 2
+                    "Bianca",
+                    //Model 3
+                    "Veritas",
+                    //Class Profession 4
+                    "Assault",
+                    //Element 5
+                    "20% Physical 80% Lightning",
+                    //CV 6
+                    "Kawasumi Ayako",
+                    //Serial 7
+                    "BPO-87",
+                    //Affilation 8
+                    "Purification Force",
+                    //Class 9
+                    "S",
+                    //Red Orb 10
+                    String.valueOf(R.drawable.red_veritas),
+                    //11
+                    "Draw the bowstring, accumulating power and then\n" +
+                            "firing a long-range energy arrow ahead,\n" +
+                            "dealing 240%/480%/720% Physical damage.\n" +
+                            "\n" +
+                            "Damage is converted to Lightning element\n" +
+                            "when it is a 3-orb.",
+                    //Yellow Orb 12
+                    String.valueOf(R.drawable.yellow_veritas),
+                    //13
+                    "Flash into the air and fire an energy arrow\n" +
+                            "at target's location.\n" +
+                            "The energy arrow explodes for 100%/200%/300%\n" +
+                            "Physical damage and leaves behind an electric field,\n" +
+                            "reducing 20%/35%/50% movement speed\n" +
+                            "of targets within the area and dealing 40%/60%/80%\n" +
+                            "Lightning damage every second for 3/5/7s.",
+                    //Blue Orb 14
+                    String.valueOf(R.drawable.blue_veritas),
+                    //15
+                    "Detonate an energy arrow, knocking back\n" +
+                            "nearby targets, dealing 40%/80%/120% Physical\n" +
+                            "damage and gain lightning-charged state for 8s.\n" +
+                            "Basic attacks will generate 1 additional lightning arrow,\n" +
+                            "dealing 16%/32%/48% Lightning damage.\n" +
+                            "Red orbs and core passive attacks will generate 2\n" +
+                            "additional lightning arrows, dealing 24%/48%/72%\n" +
+                            "Lightning damage.",
+                    //Basic Attack
+                    "Continuously attack the target by swiftly firing 7 arrows, dealing a total of 560% Physical damage.\n" +
+                            "The final arrow is long-ranged and pierces targets.",
+                    //QTE 16
+                    "Appear in the air and fire 4 arrows at the target's location, each dealing 160% Lightning damage.",
+                    //PROFESSION 17
+                    "Damage +20%.",
+                    //Awakening 18
+                    "Gain 3 signal orbs at the start of battle.",
+                    //Leader 19
+                    "All team members' Lightning damage +10%. Assault structures' Attack +5%.",
+                    //CORE 20
+                    "Enter Sniper Mode after a Red 3-orb followed by a Blue orb.\n" +
+                            "Basic attacks will fire a long-range lightning arrow for, dealing 500% Lightning damage.\n" +
+                            "Exit the mode after 6s or when 6 arrows have been shot.\n" +
+                            "The charge time of the next arrow is reduced when dodging during Sniper Mode.\n" +
+                            "Signal orbs will not be generated during this state.",
+                    //ULTIMATE 21
+                    "Expend 100 energy. Fire an arrow into the sky, triggering continuous lightning strikes,\n" +
+                            "each dealing 160% Lightning damage to enemies within range.\n" +
+                            "After a short delay, an explosion triggers, dealing 180% Lightning damage for each explosion",
+                    //SS 22
+                    "Targets struck by Red orb take 10% more damage for 8s.",
+                    //SSS 23
+                    "Targets within Yellow orb field take 15% more damage.",
+                    //SSS+ 24
+                    "Damage +20% for 10s after triggering ultimate.",
+                    //Skill 25
+                    "Self Lightning damage +20% during core passive mode.",
+                    //Build 1
+                    //Memo 1
+                    String.valueOf(R.drawable.heisen),
+                    "4 x Heisen",
+                    //Memo 2
+                    String.valueOf(R.drawable.frederick),
+                    "2 x Frederick",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CORE",
+                    //Remarks
+                    "Awakening set.\n" +
+                            "Just steal it from Dawn.\n" +
+                            "Dodge up to 3 times to have the most damage bonus\n" +
+                            "before Sniping.",
+                    //Role
+                    "DPS",
+                    //Build 2
+                    //Memo 1
+                    String.valueOf(R.drawable.heisen),
+                    "4 x Heisen",
+                    //Memo 2
+                    String.valueOf(R.drawable.condelina),
+                    "2 x Condelina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CORE",
+                    //Remarks
+                    "Alternative if you don't own Freds.\n" +
+                            "Downside is that Condelina only boosts Normal Attack and not\n" +
+                            "everything else.",
+                    //Role
+                    "DPS",
+                    //Build 3
+                    //Memo 1
+                    String.valueOf(R.drawable.da_vinci),
+                    "4x Da Vinci",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2x Esinteina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 QTE",
+                    //Remarks
+                    "QTE Support",
+                    //Role
+                    "QTE Support",
+                    //Build 4
+                    //Memo 1
+                    String.valueOf(R.drawable.memory_aife),
+                    "4 x Aife",
+                    //Memo 2
+                    String.valueOf(R.drawable.memory_erwin),
+                    "2 x Erwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "Anything",
+                    "-",
+                    //Remarks
+                    "5 Star Memory",
+                    //Role
+                    "5 Star Memory",
+                    String.valueOf(R.drawable.lightning),
+                    "Lightning",
+                    "Lightning damage +15%.\n" +
+                            "Unleash a thunderbolt, dealing 150% Lightning damage when\n" +
+                            "the same target has been struck 5 times with Lightning elemental skills.\n" +
+                            "2s cooldown."
+            },
     };
     public static ArrayList<Model> getListData(){
         Model model = null;

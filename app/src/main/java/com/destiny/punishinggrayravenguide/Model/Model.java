@@ -36,6 +36,9 @@ public class Model {
 
     //TipsAndTrick
     String Kelebihan,Kekurangan,Introduksi,Tips,Counter,Author;
+
+    //Character Roadmap
+    String ICharacter1,Character1,ICharacter2,Character2,ICharacter3,Character3,CNServer,GlobalServer;
     public String getId() {
         return id;
     }
@@ -770,5 +773,69 @@ public class Model {
 
     public void setStar(String star) {
         Star = star;
+    }
+
+    public String getICharacter1() {
+        return ICharacter1;
+    }
+
+    public void setICharacter1(String ICharacter1) {
+        this.ICharacter1 = ICharacter1;
+    }
+
+    public String getCharacter1() {
+        return Character1;
+    }
+
+    public void setCharacter1(String character1) {
+        Character1 = character1;
+    }
+
+    public String getICharacter2() {
+        return ICharacter2;
+    }
+
+    public void setICharacter2(String ICharacter2) {
+        this.ICharacter2 = ICharacter2;
+    }
+
+    public String getCharacter2() {
+        return Character2;
+    }
+
+    public void setCharacter2(String character2) {
+        Character2 = character2;
+    }
+
+    public String getICharacter3() {
+        return ICharacter3;
+    }
+
+    public void setICharacter3(String ICharacter3) {
+        this.ICharacter3 = ICharacter3;
+    }
+
+    public String getCharacter3() {
+        return Character3;
+    }
+
+    public void setCharacter3(String character3) {
+        Character3 = character3;
+    }
+
+    public String getCNServer() {
+        return CNServer;
+    }
+
+    public void setCNServer(String CNServer) {
+        this.CNServer = CNServer;
+    }
+
+    public String getGlobalServer() {
+        return GlobalServer;
+    }
+
+    public void setGlobalServer(String globalServer) {
+        GlobalServer = globalServer;
     }
 }

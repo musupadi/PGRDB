@@ -178,7 +178,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:text="Unlock Roadmap"
+                                android:text="Character Roadmap"
                                 android:gravity="center"
                                 android:textColor="@color/colorPrimary"
                                 android:fontFamily="@font/gotham"
@@ -245,7 +245,7 @@
                     android:gravity="center|left"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="News"
+                    android:text="Update Log"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/colorWhite"
                     android:layout_weight="1"/>
