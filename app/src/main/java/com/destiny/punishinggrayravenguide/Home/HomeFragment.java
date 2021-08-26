@@ -1,6 +1,7 @@
 package com.destiny.punishinggrayravenguide.Home;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -22,6 +23,7 @@ import com.destiny.punishinggrayravenguide.Home.Roadmap.CharacterRoadmapActivity
 import com.destiny.punishinggrayravenguide.Model.BeritaData;
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
+import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
 
 import java.util.ArrayList;
 
@@ -31,6 +33,8 @@ public class HomeFragment extends Fragment {
     RecyclerView recyclerView;
     private ArrayList<Model> pList = new ArrayList<>();
     LinearLayout Story,Construct,Weapon,Memory,FutureContent,UnlockRoadmap,Artwork,Meme;
+    DB_Helper dbHelper;
+    String Count;
     public HomeFragment() {
         // Required empty public constructor
     }
@@ -60,6 +64,14 @@ public class HomeFragment extends Fragment {
         UnlockRoadmap = view.findViewById(R.id.linearUnlockRoadmap);
         Artwork = view.findViewById(R.id.linearArtwork);
         Meme = view.findViewById(R.id.linearMeme);
+        dbHelper = new DB_Helper(getActivity());
+        Cursor cursor = dbHelper.checkADS();
+        if (cursor.getCount()>0){
+            while (cursor.moveToNext()){
+                Count = cursor.getString(0);
+            }
+        }
+
         GetData();
         OnClick();
     }
@@ -73,6 +85,12 @@ public class HomeFragment extends Fragment {
         Construct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                try {
+                    int COUNT = Integer.parseInt(Count)+1;
+                    dbHelper.SaveCountADS(String.valueOf(COUNT));
+                }catch (Exception e){
+                    dbHelper.SaveCountADS(String.valueOf(1));
+                }
                 Intent intent = new Intent(getActivity(), ClassConstructActivity.class);
                 startActivity(intent);
             }
@@ -92,6 +110,12 @@ public class HomeFragment extends Fragment {
         FutureContent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                try {
+                    int COUNT = Integer.parseInt(Count)+1;
+                    dbHelper.SaveCountADS(String.valueOf(COUNT));
+                }catch (Exception e){
+                    dbHelper.SaveCountADS(String.valueOf(1));
+                }
                 Intent intent = new Intent(getActivity(), ListFutureContentActivity.class);
                 startActivity(intent);
             }
@@ -99,6 +123,12 @@ public class HomeFragment extends Fragment {
         UnlockRoadmap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                try {
+                    int COUNT = Integer.parseInt(Count)+1;
+                    dbHelper.SaveCountADS(String.valueOf(COUNT));
+                }catch (Exception e){
+                    dbHelper.SaveCountADS(String.valueOf(1));
+                }
                 Intent intent = new Intent(getActivity(), CharacterRoadmapActivity.class);
                 startActivity(intent);
             }

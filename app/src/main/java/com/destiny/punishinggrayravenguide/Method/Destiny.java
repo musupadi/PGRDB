@@ -30,6 +30,10 @@ import java.util.Date;
 import java.util.Locale;
 
 public class Destiny {
+    public Integer CountADS(){
+        int count = 3;
+        return  count;
+    }
     public String Checker(String faction){
         String Faction = "https://angelsquad.lytogame.com/karakter/assets/images/detail/saint/default-character.png";
         if (faction.equals("All")){
@@ -64,7 +68,7 @@ public class Destiny {
     }
 
     public String DestinyADIntersential(){
-        String AD = "ca-app-pub-1910572986729903/8952764621";
+        String AD = "ca-app-pub-1910572986729903/9570817506";
         return AD;
     }
 
