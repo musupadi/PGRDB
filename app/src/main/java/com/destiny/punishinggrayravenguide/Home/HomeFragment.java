@@ -26,6 +26,7 @@ import com.destiny.punishinggrayravenguide.Adapter.AdapterBerita;
 import com.destiny.punishinggrayravenguide.Home.Construct.ClassConstructActivity;
 import com.destiny.punishinggrayravenguide.Home.FutureContent.ListFutureContentActivity;
 import com.destiny.punishinggrayravenguide.Home.Roadmap.CharacterRoadmapActivity;
+import com.destiny.punishinggrayravenguide.Home.Weapon.ClassWeaponActivity;
 import com.destiny.punishinggrayravenguide.HomeActivity;
 import com.destiny.punishinggrayravenguide.Model.English.BeritaDataEN;
 import com.destiny.punishinggrayravenguide.Model.Indonesia.BeritaDataID;
@@ -180,7 +181,14 @@ public class HomeFragment extends Fragment {
         Weapon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "Sorry Weapon Feature under Construction", Toast.LENGTH_SHORT).show();
+                try {
+                    int COUNT = Integer.parseInt(Count)+1;
+                    dbHelper.SaveCountADS(String.valueOf(COUNT));
+                }catch (Exception e){
+                    dbHelper.SaveCountADS(String.valueOf(1));
+                }
+                Intent intent = new Intent(getActivity(), ClassWeaponActivity.class);
+                startActivity(intent);
             }
         });
         Memory.setOnClickListener(new View.OnClickListener() {

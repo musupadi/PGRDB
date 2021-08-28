@@ -80,15 +80,6 @@ public class ListConstructActivity extends AppCompatActivity {
             }
         });
     }
-    private void ADS(){
-        // Initialize the Mobile Ads SDK.
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-
-            }
-        });
-    }
     private void GetData(){
         Intent intent = getIntent();
         CLASS = intent.getExtras().getString("CLASS");

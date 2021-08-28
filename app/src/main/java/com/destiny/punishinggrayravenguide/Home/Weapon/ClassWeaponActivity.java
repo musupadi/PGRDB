@@ -1,28 +1,25 @@
-package com.destiny.punishinggrayravenguide.Home.FutureContent;
+package com.destiny.punishinggrayravenguide.Home.Weapon;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.destiny.punishinggrayravenguide.Adapter.AdapterFutureContent;
+import com.destiny.punishinggrayravenguide.Adapter.AdapterCategoryWeapon;
 import com.destiny.punishinggrayravenguide.Method.Destiny;
-import com.destiny.punishinggrayravenguide.Model.English.FutureContentDataEN;
-import com.destiny.punishinggrayravenguide.Model.English.SClassConstructEN;
-import com.destiny.punishinggrayravenguide.Model.Indonesia.FutureContentDataID;
+import com.destiny.punishinggrayravenguide.Model.Indonesia.WeaponCategoryDataID;
 import com.destiny.punishinggrayravenguide.Model.Model;
+import com.destiny.punishinggrayravenguide.Model.English.WeaponCategoryDataEN;
 import com.destiny.punishinggrayravenguide.R;
 import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
 import com.destiny.punishinggrayravenguide.SharedPreference.LocaleHelper;
@@ -40,50 +37,47 @@ import java.util.ArrayList;
 
 import io.paperdb.Paper;
 
-public class ListFutureContentActivity extends AppCompatActivity {
+public class ClassWeaponActivity extends AppCompatActivity {
     private InterstitialAd mInterstitialAd;
     DB_Helper dbHelper;
-    String Lang;
     String Count;
+    String Lang;
+
+
     LinearLayout Whole,Loading;
     Destiny destiny;
-
-
+    TextView tvNamaList;
     RecyclerView recyclerView;
     private ArrayList<Model> pList = new ArrayList<>();
-    ImageView Faction;
     RelativeLayout Back;
-    TextView tvNamaList;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_future_content);
+        setContentView(R.layout.activity_class_weapon);
         recyclerView = findViewById(R.id.recycler);
+        tvNamaList = findViewById(R.id.tvNamaList);
         Back = findViewById(R.id.relativeBack);
 
+        dbHelper = new DB_Helper(this);
+        Paper.init(this);
+
+
+        Cursor cursor2 = dbHelper.checkLANG();
+        if (cursor2.getCount()>0){
+            while (cursor2.moveToNext()){
+                Lang = cursor2.getString(0);
+            }
+        }
         destiny= new Destiny();
         Whole = findViewById(R.id.linearWhole);
         Loading = findViewById(R.id.linearLoading);
-        tvNamaList = findViewById(R.id.tvNamaList);
         Loading.setVisibility(View.GONE);
-
-        String language = Paper.book().read("language");
-        if(language == null)
-            Paper.book().write("language","en");
-        Context context = LocaleHelper.setLocale(this,language);
-        Resources resources = context.getResources();
-        tvNamaList.setText(resources.getString(R.string.future_content2));
         dbHelper = new DB_Helper(this);
         Cursor cursor = dbHelper.checkADS();
         if (cursor.getCount()>0){
             while (cursor.moveToNext()){
                 Count = cursor.getString(0);
-            }
-        }
-        Cursor cursor2 = dbHelper.checkLANG();
-        if (cursor2.getCount()>0){
-            while (cursor2.moveToNext()){
-                Lang = cursor2.getString(0);
             }
         }
         if (Integer.parseInt(Count)>=destiny.CountADS()){
@@ -96,6 +90,8 @@ public class ListFutureContentActivity extends AppCompatActivity {
                 }
             });
         }else{
+            Loading.setVisibility(View.GONE);
+            Whole.setAlpha(1.0f);
             GetData();
         }
         Back.setOnClickListener(new View.OnClickListener() {
@@ -118,11 +114,8 @@ public class ListFutureContentActivity extends AppCompatActivity {
                 Loading.setVisibility(View.GONE);
                 Whole.setAlpha(1.0f);
                 if (mInterstitialAd !=null){
-
-                    mInterstitialAd.show(ListFutureContentActivity.this);
+                    mInterstitialAd.show(ClassWeaponActivity.this);
                 }else{
-                    Loading.setVisibility(View.GONE);
-                    Whole.setAlpha(1.0f);
                     GetData();
                 }
                 mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback(){
@@ -171,15 +164,22 @@ public class ListFutureContentActivity extends AppCompatActivity {
 
     }
     private void GetData(){
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","en");
+        Context context = LocaleHelper.setLocale(this,language);
+        Resources resources = context.getResources();
+        Back = findViewById(R.id.relativeBack);
+        tvNamaList.setText(resources.getString(R.string.category_weapon));
         Back = findViewById(R.id.relativeBack);
         if (Lang.equals("English")){
-            pList.addAll(FutureContentDataEN.getListData());
+            pList.addAll(WeaponCategoryDataEN.getListData());
         }else{
-            pList.addAll(FutureContentDataID.getListData());
+            pList.addAll(WeaponCategoryDataID.getListData());
         }
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        AdapterFutureContent futureContent = new AdapterFutureContent(this);
-        futureContent.setList(pList);
-        recyclerView.setAdapter(futureContent);
+        recyclerView.setLayoutManager(new GridLayoutManager(this,2));
+        AdapterCategoryWeapon adapterConstruct = new AdapterCategoryWeapon(this);
+        adapterConstruct.setList(pList);
+        recyclerView.setAdapter(adapterConstruct);
     }
 }

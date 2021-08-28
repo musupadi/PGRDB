@@ -3,6 +3,8 @@ package com.destiny.punishinggrayravenguide.Model;
 import androidx.annotation.NonNull;
 
 public class Model {
+    //CategoryWeapon
+    String CategoryWeapon;
     //PGR
     String Name,Model,ProfessionClass,Element,CV,Serial,Affilation,Kelas;
     String IRedOrb,RedOrb,IYellowOrb,YellowOrb,IBlueOrb,BlueOrb;
@@ -837,5 +839,13 @@ public class Model {
 
     public void setGlobalServer(String globalServer) {
         GlobalServer = globalServer;
+    }
+
+    public String getCategoryWeapon() {
+        return CategoryWeapon;
+    }
+
+    public void setCategoryWeapon(String categoryWeapon) {
+        CategoryWeapon = categoryWeapon;
     }
 }

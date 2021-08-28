@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppThemeNoAction">
-        <activity android:name=".Home.Roadmap.CharacterRoadmapActivity"></activity>
+        <activity android:name=".Home.Weapon.ClassWeaponActivity"></activity>
+        <activity android:name=".Home.Roadmap.CharacterRoadmapActivity" />
         <activity android:name=".Home.FutureContent.ListFutureContentActivity" />
         <activity android:name=".Home.Construct.DetailConstructActivity" />
         <activity android:name=".Home.Construct.ListConstructActivity" />
         <activity android:name=".Home.Construct.ClassConstructActivity" />
-        <activity android:name=".HomeActivity"/>
+        <activity android:name=".HomeActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,15 +23,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".PushNotificationService" android:exported="false">
+
+        <service
+            android:name=".PushNotificationService"
+            android:exported="false">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"></action>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
-        </service>
-        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        </service> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-2614397125516666~8967649447"/>
+            android:value="ca-app-pub-2614397125516666~8967649447" />
     </application>
 
 </manifest>

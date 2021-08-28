@@ -22,6 +22,8 @@
     <string name="setting">Setelan Bahasa</string>
     <string name="meme">Meme</string>
     <string name="feedback_text">Kontak Disini untuk Saran dan Komentar</string>
+    <!-- Category Weapon   -->
+    <string name="category_weapon">Kategori Senjata</string>
     <!-- Story-->
 
     <!-- Construct   -->

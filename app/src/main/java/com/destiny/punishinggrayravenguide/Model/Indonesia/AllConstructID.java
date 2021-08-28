@@ -2777,6 +2777,161 @@ public class AllConstructID {
                             "target yang sama telah diserang 5 kali dengan keterampilan elemen Petir.\n" +
                             "2 detik pendinginan."
             },
+            {"18",
+                    //Gambar 1
+                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/1/14/Sofia_-_Silver_Fang.png/revision/latest/scale-to-width-down/350?cb=20200728114430",
+                    //Name 2
+                    "Sofia",
+                    //Model 3
+                    "Silverfang",
+                    //Class Profession 4
+                    "Support",
+                    //Element 5
+                    "Koshimizu Ami",
+                    //CV 6
+                    "Kawasumi Ayako",
+                    //Serial 7
+                    "ADL-22",
+                    //Affilation 8
+                    "Akdilek Commercial Alliance",
+                    //Class 9
+                    "A",
+                    //Red Orb 10
+                    String.valueOf(R.drawable.red_veritas),
+                    //11
+                    "Launch tracking rounds on the spot at targets,\n" +
+                            "dealing 240%/480%/720% Fire damage.\n" +
+                            "Drops 1 energy orb on hit for 3-orb combos.",
+                    //Yellow Orb 12
+                    String.valueOf(R.drawable.yellow_veritas),
+                    //13
+                    "Melayang ke udara dan menembakkan panah energi\n" +
+                            "di lokasi target.\n" +
+                            "Panah energi meledak untuk 100%/200%/300%\n" +
+                            "Kerusakan fisik dan meninggalkan medan listrik,\n" +
+                            "mengurangi 20%/35%/50% kecepatan gerakan\n" +
+                            "dari target dalam area dan menangani 40%/60%/80%\n" +
+                            "Kerusakan petir setiap detik selama 3/5/7 detik.",
+                    //Blue Orb 14
+                    String.valueOf(R.drawable.blue_veritas),
+                    //15
+                    "Ledakan panah energi, pukul mundur\n" +
+                            "target terdekat, menangani 40%/80%/120% Fisik\n" +
+                            "kerusakan dan dapatkan status bermuatan petir selama 8 detik.\n" +
+                            "Serangan dasar akan menghasilkan 1 panah petir tambahan,\n" +
+                            "menimbulkan 16%/32%/48% Kerusakan petir.\n" +
+                            "Orb merah dan serangan pasif inti akan menghasilkan 2\n" +
+                            "panah petir tambahan, menghasilkan 24%/48%/72%\n" +
+                            "Kerusakan petir.",
+                    //Basic Attack
+                    "Terus serang target dengan menembakkan 7 anak panah dengan cepat, menimbulkan total 560% Kerusakan fisik.\n" +
+                            "Panah terakhir adalah jarak jauh dan menembus target.",
+                    //QTE 16
+                    "Muncul di udara dan tembakkan 4 anak panah ke lokasi target, masing-masing memberikan 160% kerusakan Petir.",
+                    //PROFESSION 17
+                    "Kerusakan +20%.",
+                    //Awakening 18
+                    "Dapatkan 3 bola sinyal di awal pertempuran.",
+                    //Leader 19
+                    "Kerusakan petir semua anggota tim +10%. Serangan struktur serangan +5%.",
+                    //CORE 20
+                    "Masuk ke Mode Penembak Jitu setelah 3 bola Merah diikuti dengan bola Biru.\n" +
+                            "Serangan dasar akan menembakkan panah petir jarak jauh, menimbulkan 500% Kerusakan petir.\n" +
+                            "Keluar dari mode setelah 6 detik atau saat 6 panah telah ditembakkan.\n" +
+                            "Waktu pengisian panah berikutnya berkurang saat menghindar selama Mode Penembak Jitu.\n" +
+                            "Sinyal bola tidak akan dihasilkan selama keadaan ini.",
+                    //ULTIMATE 21
+                    "Menghabiskan 100 energi. Tembakkan panah ke langit, memicu sambaran petir terus menerus,\n" +
+                            "masing-masing memberikan 160% kerusakan Petir pada musuh dalam jangkauan.\n" +
+                            "Setelah penundaan singkat, ledakan dipicu, memberikan 180% kerusakan Petir untuk setiap ledakan",
+                    //SS 22
+                    "Target yang terkena bola Merah menerima 10% lebih banyak kerusakan selama 8 d.",
+                    //SSS 23
+                    "Target dalam bidang bola Kuning menerima 15% lebih banyak kerusakan.",
+                    //SSS+ 24
+                    "Damage +20% selama 10 detik setelah memicu ultimate.",
+                    //Skill 25
+                    "Self Lightning damage +20% during core passive mode.",
+                    //Build 1
+                    //Memo 1
+                    String.valueOf(R.drawable.heisen),
+                    "4 x Heisen",
+                    //Memo 2
+                    String.valueOf(R.drawable.frederick),
+                    "2 x Frederick",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CORE",
+                    //Remarks
+                    "Set kebangkitan.\n" +
+                            "Curi saja dari Dawn.\n" +
+                            "Menghindar hingga 3 kali untuk mendapatkan bonus kerusakan paling banyak\n" +
+                            "sebelum Menembak.",
+                    //Role
+                    "DPS",
+                    //Build 2
+                    //Memo 1
+                    String.valueOf(R.drawable.heisen),
+                    "4 x Heisen",
+                    //Memo 2
+                    String.valueOf(R.drawable.condelina),
+                    "2 x Condelina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CORE",
+                    //Remarks
+                    "Alternatif jika Anda tidak memiliki Freds.\n" +
+                            "Kelemahannya adalah Condelina hanya meningkatkan Serangan Normal dan bukan\n" +
+                            "yang lainnya.",
+                    //Role
+                    "DPS",
+                    //Build 3
+                    //Memo 1
+                    String.valueOf(R.drawable.da_vinci),
+                    "4x Da Vinci",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2x Esinteina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 QTE",
+                    //Remarks
+                    "QTE Support",
+                    //Role
+                    "QTE Support",
+                    //Build 4
+                    //Memo 1
+                    String.valueOf(R.drawable.memory_aife),
+                    "4 x Aife",
+                    //Memo 2
+                    String.valueOf(R.drawable.memory_erwin),
+                    "2 x Erwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "Anything",
+                    "-",
+                    //Remarks
+                    "5 Star Memory",
+                    //Role
+                    "5 Star Memory",
+                    String.valueOf(R.drawable.lightning),
+                    "Lightning",
+                    "Kerusakan petir +15%.\n" +
+                            "Lepaskan petir, menimbulkan 150% Kerusakan petir saat\n" +
+                            "target yang sama telah diserang 5 kali dengan keterampilan elemen Petir.\n" +
+                            "2 detik pendinginan."
+            },
     };
 
     public static ArrayList<Model> getListData(){

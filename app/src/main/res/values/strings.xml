@@ -21,6 +21,9 @@
     <string name="setting">Setting Language</string>
     <string name="meme">Meme</string>
     <string name="feedback_text">Contact Here for Suggestions and Comments</string>
+    <!-- Category Weapon   -->
+    <string name="category_weapon">Category Weapon</string>
+
     <!-- Story-->
 
     <!-- Construct   -->
