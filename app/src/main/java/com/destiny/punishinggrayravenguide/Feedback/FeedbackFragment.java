@@ -1,8 +1,10 @@
 package com.destiny.punishinggrayravenguide.Feedback;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -14,14 +16,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.destiny.punishinggrayravenguide.R;
+import com.destiny.punishinggrayravenguide.SharedPreference.LocaleHelper;
+
+import io.paperdb.Paper;
 
 public class FeedbackFragment extends Fragment {
 
 
     Button WA,Facebook;
+    TextView tvFeedback;
     public FeedbackFragment() {
         // Required empty public constructor
     }
@@ -42,8 +49,15 @@ public class FeedbackFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        tvFeedback=view.findViewById(R.id.tvFeedback);
         WA=view.findViewById(R.id.btnWhatsapp);
         Facebook=view.findViewById(R.id.btnFacebook);
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","en");
+        Context context = LocaleHelper.setLocale(getActivity(),language);
+        Resources resources = context.getResources();
+        tvFeedback.setText(resources.getString(R.string.feedback_text));
         WA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

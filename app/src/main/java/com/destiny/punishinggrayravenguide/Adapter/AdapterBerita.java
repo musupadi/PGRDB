@@ -1,6 +1,7 @@
 package com.destiny.punishinggrayravenguide.Adapter;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,8 +16,11 @@ import com.bumptech.glide.request.RequestOptions;
 import com.destiny.punishinggrayravenguide.Method.Destiny;
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
+import com.destiny.punishinggrayravenguide.SharedPreference.LocaleHelper;
 
 import java.util.ArrayList;
+
+import io.paperdb.Paper;
 
 public class AdapterBerita extends RecyclerView.Adapter<AdapterBerita.CardViewViewHolder> {
     private Context context;

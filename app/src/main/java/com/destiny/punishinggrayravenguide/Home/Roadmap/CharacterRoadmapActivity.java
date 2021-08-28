@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,17 +16,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.destiny.punishinggrayravenguide.Adapter.AdapterCharacterRoadmap;
-import com.destiny.punishinggrayravenguide.Adapter.AdapterFutureContent;
-import com.destiny.punishinggrayravenguide.Home.Construct.ClassConstructActivity;
 import com.destiny.punishinggrayravenguide.Method.Destiny;
-import com.destiny.punishinggrayravenguide.Model.FutureContentData;
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.Model.RoadmapData;
 import com.destiny.punishinggrayravenguide.R;
 import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
+import com.destiny.punishinggrayravenguide.SharedPreference.LocaleHelper;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;
@@ -36,6 +35,8 @@ import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 import java.util.ArrayList;
+
+import io.paperdb.Paper;
 
 public class CharacterRoadmapActivity extends AppCompatActivity {
     private InterstitialAd mInterstitialAd;
@@ -55,7 +56,13 @@ public class CharacterRoadmapActivity extends AppCompatActivity {
         setContentView(R.layout.activity_character_roadmap);
         recyclerView = findViewById(R.id.recycler);
         Back = findViewById(R.id.relativeBack);
-
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","en");
+        Context ctx = LocaleHelper.setLocale(this,language);
+        Resources resources = ctx.getResources();
+        tvNamaList = findViewById(R.id.tvNamaList);
+        tvNamaList.setText(resources.getString(R.string.unlock_roadmap2));
         destiny= new Destiny();
         Whole = findViewById(R.id.linearWhole);
         Loading = findViewById(R.id.linearLoading);
@@ -124,6 +131,7 @@ public class CharacterRoadmapActivity extends AppCompatActivity {
                         // Called when fullscreen content failed to show.
                         Log.d("AD Error : ", adError.toString());
                         GetData();
+                        dbHelper.ResetADS();
                     }
 
                     @Override
@@ -133,6 +141,7 @@ public class CharacterRoadmapActivity extends AppCompatActivity {
                         // show it a second time.
                         mInterstitialAd = null;
                         Log.d("TAG", "The ad was shown.");
+                        dbHelper.ResetADS();
                     }
                 });
             }

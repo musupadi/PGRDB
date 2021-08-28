@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Context;
+import android.content.res.Resources;
+import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -15,23 +18,52 @@ import android.widget.TextView;
 import com.destiny.punishinggrayravenguide.About.AboutFragment;
 import com.destiny.punishinggrayravenguide.Feedback.FeedbackFragment;
 import com.destiny.punishinggrayravenguide.Home.HomeFragment;
+import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
+import com.destiny.punishinggrayravenguide.SharedPreference.LocaleHelper;
+
+import io.paperdb.Paper;
 
 public class HomeActivity extends AppCompatActivity {
     ImageView imageHome,imageFeedback,imageAbout;
     TextView textHome,textFeedback,textAbout;
     LinearLayout linearHome,linearFeedback,linearAbout;
     Fragment fragment;
+    DB_Helper dbHelper;
+    String Count;
+    String Lang;
+    Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        dbHelper = new DB_Helper(this);
+
+        Paper.init(this);
+
+
+        try {
+            Cursor cursor = dbHelper.checkADS();
+            if (cursor.getCount()>0){
+                while (cursor.moveToNext()){
+                    Count = cursor.getString(0);
+                }
+            }
+            Cursor cursor2 = dbHelper.checkLANG();
+            if (cursor2.getCount()>0){
+                while (cursor2.moveToNext()){
+                    Lang = cursor2.getString(0);
+                }
+            }
+        }catch (Exception e){
+            dbHelper.SaveLang("English");
+        }
         Declaration();
         Home();
         OnCLick();
     }
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+
     }
 
     private void OnCLick(){
@@ -64,8 +96,28 @@ public class HomeActivity extends AppCompatActivity {
         linearHome = findViewById(R.id.linearHome);
         linearFeedback = findViewById(R.id.linearFeedback);
         linearAbout = findViewById(R.id.linearAbout);
-    }
 
+        Paper.init(this);
+        String language = Paper.book().read("language");
+        if(language == null){
+            Paper.book().write("language","en");
+        }
+        try {
+            context = LocaleHelper.setLocale(this,language);
+            Resources resources = context.getResources();
+            textHome.setText(resources.getString(R.string.home));
+            textFeedback.setText(resources.getString(R.string.feedback));
+            textAbout.setText(resources.getString(R.string.about_us));
+        }catch (Exception e){
+            Paper.book().write("language","en");
+            Context context = LocaleHelper.setLocale(this,(String)Paper.book().read("language"));
+            dbHelper.SaveLang("English");
+            Resources resources = context.getResources();
+            textHome.setText(resources.getString(R.string.home));
+            textFeedback.setText(resources.getString(R.string.feedback));
+            textAbout.setText(resources.getString(R.string.about_us));
+        }
+    }
     private void Default(){
         linearHome.setBackgroundResource(R.drawable.rounded);
         linearFeedback.setBackgroundResource(R.drawable.rounded);

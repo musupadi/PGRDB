@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "67786330377",
+    "project_id": "punishing-gray-raven-database",
+    "storage_bucket": "punishing-gray-raven-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67786330377:android:eb9d717656e86971ffc3d8",
+        "android_client_info": {
+          "package_name": "com.destiny.punishinggrayravenguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67786330377-8jte3kpijdsq70r7i7cfi6s3quknrdcu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.destiny.punishinggrayravenguide",
+            "certificate_hash": "40cb500c35b143ec63d275f275c4ddc0ae7f9784"
+          }
+        },
+        {
+          "client_id": "67786330377-gi1c4h3efvvdfc434tl4lvvm5ils7v6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZcABxkI10B0cDUlEQT0COJohGYCK_XHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67786330377-gi1c4h3efvvdfc434tl4lvvm5ils7v6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

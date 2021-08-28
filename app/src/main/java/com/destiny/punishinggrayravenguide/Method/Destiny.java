@@ -31,8 +31,12 @@ import java.util.Locale;
 
 public class Destiny {
     public Integer CountADS(){
-        int count = 3;
+        int count = 5;
         return  count;
+    }
+    public String EnterKiller(String string){
+        String replace = string.replace("\n","");
+        return replace;
     }
     public String Checker(String faction){
         String Faction = "https://angelsquad.lytogame.com/karakter/assets/images/detail/saint/default-character.png";
@@ -68,7 +72,7 @@ public class Destiny {
     }
 
     public String DestinyADIntersential(){
-        String AD = "ca-app-pub-1910572986729903/9570817506";
+        String AD = "ca-app-pub-2614397125516666/4341653504";
         return AD;
     }
 

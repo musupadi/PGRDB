@@ -7,10 +7,13 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 public class DB_Helper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "pgrdb.db";
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
     //ADS
     public static final String TABLE_NAME_ADS = "ads";
     public static final String COLUMN_COUNT = "count";
+    //Lang
+    public static final String TABLE_NAME_LANG = "language";
+    public static final String COLUMN_LANG = "lang";
     //Account
     public static final String TABLE_NAME_ACCOUNT = "account";
     public static final String COLUMN_USERNAME = "username";
@@ -35,11 +38,15 @@ public class DB_Helper extends SQLiteOpenHelper {
         db.execSQL("CREATE TABLE "+TABLE_NAME_ADS+" (" +
                 COLUMN_COUNT+" TEXT NOT NULL);"
         );
+        db.execSQL("CREATE TABLE "+TABLE_NAME_LANG+" (" +
+                COLUMN_LANG+" TEXT NOT NULL);"
+        );
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME_ADS);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME_LANG);
         this.onCreate(db);
     }
     //Save
@@ -50,6 +57,13 @@ public class DB_Helper extends SQLiteOpenHelper {
         db.insert(TABLE_NAME_ADS,null,values);
         db.close();
     }
+    public void SaveLang(String lang){
+        SQLiteDatabase db =this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_LANG, lang);
+        db.insert(TABLE_NAME_LANG,null,values);
+        db.close();
+    }
 
     //CHECKER
     public Cursor checkADS(){
@@ -58,9 +72,19 @@ public class DB_Helper extends SQLiteOpenHelper {
         Cursor cursor = db.rawQuery(query,null);
         return cursor;
     }
+    public Cursor checkLANG(){
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query ="SELECT * FROM "+TABLE_NAME_LANG;
+        Cursor cursor = db.rawQuery(query,null);
+        return cursor;
+    }
     //delete
     public void ResetADS(){
         SQLiteDatabase db = this.getWritableDatabase();
         db.execSQL("DELETE FROM "+TABLE_NAME_ADS+"");
+    }
+    public void ResetLang(){
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.execSQL("DELETE FROM "+TABLE_NAME_LANG+"");
     }
 }

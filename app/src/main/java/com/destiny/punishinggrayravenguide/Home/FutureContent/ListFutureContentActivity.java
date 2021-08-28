@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,12 +18,12 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.destiny.punishinggrayravenguide.Adapter.AdapterFutureContent;
-import com.destiny.punishinggrayravenguide.Home.Roadmap.CharacterRoadmapActivity;
 import com.destiny.punishinggrayravenguide.Method.Destiny;
-import com.destiny.punishinggrayravenguide.Model.FutureContentData;
+import com.destiny.punishinggrayravenguide.Model.English.FutureContentDataEN;
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
+import com.destiny.punishinggrayravenguide.SharedPreference.LocaleHelper;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;
@@ -33,6 +35,8 @@ import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 import java.util.ArrayList;
+
+import io.paperdb.Paper;
 
 public class ListFutureContentActivity extends AppCompatActivity {
     private InterstitialAd mInterstitialAd;
@@ -57,7 +61,15 @@ public class ListFutureContentActivity extends AppCompatActivity {
         destiny= new Destiny();
         Whole = findViewById(R.id.linearWhole);
         Loading = findViewById(R.id.linearLoading);
+        tvNamaList = findViewById(R.id.tvNamaList);
         Loading.setVisibility(View.GONE);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","en");
+        Context context = LocaleHelper.setLocale(this,language);
+        Resources resources = context.getResources();
+        tvNamaList.setText(resources.getString(R.string.future_content2));
         dbHelper = new DB_Helper(this);
         Cursor cursor = dbHelper.checkADS();
         if (cursor.getCount()>0){
@@ -120,6 +132,7 @@ public class ListFutureContentActivity extends AppCompatActivity {
                     public void onAdFailedToShowFullScreenContent(AdError adError) {
                         // Called when fullscreen content failed to show.
                         Log.d("AD Error : ", adError.toString());
+                        dbHelper.ResetADS();
                         GetData();
                     }
 
@@ -130,6 +143,7 @@ public class ListFutureContentActivity extends AppCompatActivity {
                         // show it a second time.
                         mInterstitialAd = null;
                         Log.d("TAG", "The ad was shown.");
+                        dbHelper.ResetADS();
                     }
                 });
             }
@@ -151,7 +165,7 @@ public class ListFutureContentActivity extends AppCompatActivity {
         Intent intent = getIntent();
         Destiny destiny = new Destiny();
         Back = findViewById(R.id.relativeBack);
-        pList.addAll(FutureContentData.getListData());
+        pList.addAll(FutureContentDataEN.getListData());
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         AdapterFutureContent futureContent = new AdapterFutureContent(this);
         futureContent.setList(pList);

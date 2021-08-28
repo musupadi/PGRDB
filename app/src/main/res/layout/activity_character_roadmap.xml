@@ -33,7 +33,7 @@
             android:id="@+id/tvNamaList"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="List Future Content"
+            android:text="Character Roadmap"
             android:textColor="@color/colorWhite"
             android:fontFamily="@font/gotham"
             android:layout_weight="1"

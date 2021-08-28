@@ -4,18 +4,22 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.destiny.punishinggrayravenguide.Method.Destiny;
 import com.destiny.punishinggrayravenguide.R;
 import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
+import com.destiny.punishinggrayravenguide.SharedPreference.LocaleHelper;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;
@@ -26,14 +30,18 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
+import io.paperdb.Paper;
+
 public class ClassConstructActivity extends AppCompatActivity {
     private InterstitialAd mInterstitialAd;
     DB_Helper dbHelper;
     String Count;
+
     LinearLayout Whole,Loading;
     Destiny destiny;
 
     CardView All,B,A,S;
+    TextView tvAll,tvB,tvA,tvS,tvName;
     RelativeLayout Back;
 
 
@@ -45,8 +53,23 @@ public class ClassConstructActivity extends AppCompatActivity {
         B = findViewById(R.id.cardB);
         A = findViewById(R.id.cardA);
         S = findViewById(R.id.cardS);
+        tvAll = findViewById(R.id.tvAllConstruct);
+        tvB = findViewById(R.id.tvBConstruct);
+        tvA = findViewById(R.id.tvAConstruct);
+        tvS = findViewById(R.id.tvSConstruct);
+        tvName = findViewById(R.id.tvNama);
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","en");
+        Context context = LocaleHelper.setLocale(this,language);
+        Resources resources = context.getResources();
         Back = findViewById(R.id.relativeBack);
 
+        tvAll.setText(resources.getString(R.string.all)+" "+resources.getString(R.string.construct));
+        tvB.setText("B "+resources.getString(R.string.construct));
+        tvA.setText("A "+resources.getString(R.string.construct));
+        tvS.setText("S "+resources.getString(R.string.construct));
+        tvName.setText(resources.getString(R.string.kelas)+" "+resources.getString(R.string.construct));
         destiny= new Destiny();
         Whole = findViewById(R.id.linearWhole);
         Loading = findViewById(R.id.linearLoading);
@@ -58,7 +81,6 @@ public class ClassConstructActivity extends AppCompatActivity {
                 Count = cursor.getString(0);
             }
         }
-        Toast.makeText(this, Count, Toast.LENGTH_SHORT).show();
         if (Integer.parseInt(Count)>=destiny.CountADS()){
             Whole.setAlpha(0.3f);
             Loading.setVisibility(View.VISIBLE);
@@ -107,6 +129,7 @@ public class ClassConstructActivity extends AppCompatActivity {
                     public void onAdFailedToShowFullScreenContent(AdError adError) {
                         // Called when fullscreen content failed to show.
                         Log.d("AD Error : ", adError.toString());
+                        dbHelper.ResetADS();
                         OnClick();
                     }
 
@@ -117,6 +140,7 @@ public class ClassConstructActivity extends AppCompatActivity {
                         // show it a second time.
                         mInterstitialAd = null;
                         Log.d("TAG", "The ad was shown.");
+                        dbHelper.ResetADS();
                     }
                 });
             }

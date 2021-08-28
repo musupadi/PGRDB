@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PGR DB</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Beranda</string>
+    <string name="feedback">Masukan</string>
+    <string name="about_us">Tentang Kami</string>
+    <string name="show_all">Lihat Semua</string>
+    <string name="update_log">Pembaruan Aplikasi</string>
+    <string name="language">Pilih Bahasa</string>
+    <string name="submit">Kirim</string>
+    <string name="close">Tutup</string>
+    <string name="story">Cerita</string>
+    <string name="construct">Karakter</string>
+    <string name="weapon">Senjata</string>
+    <string name="memory">Memori</string>
+    <string name="future_content">Konten\nKedepan</string>
+    <string name="future_content2">Konten kedepan</string>
+    <string name="unlock_roadmap">Keluaran\nKarakter</string>
+    <string name="unlock_roadmap2">Keluaran Karakter</string>
+    <string name="setting">Setelan Bahasa</string>
+    <string name="meme">Meme</string>
+    <string name="feedback_text">Kontak Disini untuk Saran dan Komentar</string>
+    <!-- Story-->
+
+    <!-- Construct   -->
+    <string name="kelas">Kelas</string>
+    <string name="kelas_construct">Construct Class</string>
+    <string name="all">Semua</string>
+
+    <!-- Character Roadmap   -->
+    <string name="relese">Relese</string>
+    <string name="character_relese">Character Relese</string>
+</resources>

@@ -14,7 +14,7 @@
         <activity android:name=".Home.Construct.DetailConstructActivity" />
         <activity android:name=".Home.Construct.ListConstructActivity" />
         <activity android:name=".Home.Construct.ClassConstructActivity" />
-        <activity android:name=".HomeActivity" />
+        <activity android:name=".HomeActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,10 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name=".PushNotificationService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"></action>
+            </intent-filter>
+        </service>
         <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-1910572986729903~3312530915"/>
+            android:value="ca-app-pub-2614397125516666~8967649447"/>
     </application>
 
 </manifest>

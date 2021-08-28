@@ -2,4 +2,33 @@
     <string name="app_name">PGR DB</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="feedback">Feedback</string>
+    <string name="about_us">About Us</string>
+    <string name="show_all">Show All</string>
+    <string name="update_log">Update Log</string>
+    <string name="language">Pick Language</string>
+    <string name="submit">Submit</string>
+    <string name="close">Close</string>
+    <string name="story">Story</string>
+    <string name="construct">Construct</string>
+    <string name="weapon">Weapon</string>
+    <string name="memory">Memory</string>
+    <string name="future_content">Future\nContent</string>
+    <string name="future_content2">Future Content</string>
+    <string name="unlock_roadmap">Character\nRoadmap</string>
+    <string name="unlock_roadmap2">Character Roadmap</string>
+    <string name="setting">Setting Language</string>
+    <string name="meme">Meme</string>
+    <string name="feedback_text">Contact Here for Suggestions and Comments</string>
+    <!-- Story-->
+
+    <!-- Construct   -->
+    <string name="kelas">Class</string>
+    <string name="kelas_construct">Construct Class</string>
+    <string name="all">Semua Karakter</string>
+
+    <!-- Character Roadmap   -->
+    <string name="relese">Relese</string>
+    <string name="character_relese">Character Relese</string>
 </resources>

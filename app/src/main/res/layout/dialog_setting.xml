@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp">
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvLang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilih Bahasa"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:fontFamily="@font/gotham"
+                android:layout_margin="10dp"
+                android:textSize="22sp"/>
+
+            <Spinner
+                android:id="@+id/spinnerLang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/language"
+                android:layout_margin="10dp">
+
+            </Spinner>
+
+
+            <Button
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/btnSubmit"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/gotham"/>
+            <Button
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Close"
+                android:id="@+id/btnClose"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/gotham"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
