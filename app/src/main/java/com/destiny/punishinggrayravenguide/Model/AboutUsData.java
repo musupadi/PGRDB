@@ -10,8 +10,14 @@ public class AboutUsData {
             {"1",
                     "Zyarga",
                     "17966801 - Asia",
-                    "Developing",
+                    "Main Developer",
                     String.valueOf(R.drawable.zyarga),
+            },
+            {"1",
+                    "Artaa",
+                    "15639121 - Asia",
+                    "Story Content Developer",
+                    String.valueOf(R.drawable.artaa),
             },
     };
     public static ArrayList<Model> getListData(){

@@ -71,11 +71,25 @@ public class Destiny {
         return AD;
     }
 
-    public String DestinyADIntersential(){
+    public String DestinyADIntersentialConstruct(){
         String AD = "ca-app-pub-2614397125516666/4341653504";
         return AD;
     }
 
+    public String DestinyADPlaning(){
+        String AD = "ca-app-pub-2614397125516666/1437547746";
+        return AD;
+    }
+
+    public String DestinyADIntersentialWeapon(){
+        String AD = "ca-app-pub-2614397125516666/7201828557";
+        return AD;
+    }
+
+    public String DestinyADIntersentialCharacterRoadmap(){
+        String AD = "ca-app-pub-2614397125516666/6379701478";
+        return AD;
+    }
 
     public void DownloadPDF(String url,String judul,Context ctx){
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));

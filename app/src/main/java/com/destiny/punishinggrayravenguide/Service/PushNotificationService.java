@@ -1,4 +1,4 @@
-package com.destiny.punishinggrayravenguide;
+package com.destiny.punishinggrayravenguide.Service;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationManagerCompat;
 
+import com.destiny.punishinggrayravenguide.R;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;

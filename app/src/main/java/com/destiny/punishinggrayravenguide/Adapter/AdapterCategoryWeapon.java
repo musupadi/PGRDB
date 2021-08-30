@@ -1,6 +1,7 @@
 package com.destiny.punishinggrayravenguide.Adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.destiny.punishinggrayravenguide.Home.Construct.ClassConstructActivity;
+import com.destiny.punishinggrayravenguide.Home.Construct.ListConstructActivity;
+import com.destiny.punishinggrayravenguide.Home.Weapon.WeaponActivity;
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 
@@ -42,9 +46,16 @@ public class AdapterCategoryWeapon extends RecyclerView.Adapter<AdapterCategoryW
     @Override
     public void onBindViewHolder(@NonNull CardViewViewHolder holder, int position) {
         final Model p = getList().get(position);
-        holder.tvName.setText(p.getNama());
         holder.imgPhoto.setImageResource(Integer.parseInt(p.getGambar()));
         holder.tvName.setText(p.getCategoryWeapon());
+        holder.card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(context, WeaponActivity.class);
+                i.putExtra("CLASS", p.getCategoryWeapon());
+                context.startActivity(i);
+            }
+        });
     }
 
 

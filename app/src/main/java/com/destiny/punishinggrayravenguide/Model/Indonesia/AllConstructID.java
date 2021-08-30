@@ -2787,9 +2787,9 @@ public class AllConstructID {
                     //Class Profession 4
                     "Support",
                     //Element 5
-                    "Koshimizu Ami",
+                    "20% Fisik 80% Api",
                     //CV 6
-                    "Kawasumi Ayako",
+                    "Koshimizu Ami",
                     //Serial 7
                     "ADL-22",
                     //Affilation 8
@@ -2797,88 +2797,78 @@ public class AllConstructID {
                     //Class 9
                     "A",
                     //Red Orb 10
-                    String.valueOf(R.drawable.red_veritas),
+                    String.valueOf(R.drawable.red_silverfang),
                     //11
-                    "Launch tracking rounds on the spot at targets,\n" +
-                            "dealing 240%/480%/720% Fire damage.\n" +
-                            "Drops 1 energy orb on hit for 3-orb combos.",
+                    "Luncurkan putaran pelacakan di tempat pada target,\n" +
+                            "menimbulkan 240%/480%/720% Kerusakan api.\n" +
+                            "Menjatuhkan 1 bola energi pada pukulan untuk kombo 3-orb.",
                     //Yellow Orb 12
-                    String.valueOf(R.drawable.yellow_veritas),
+                    String.valueOf(R.drawable.yellow_silverfang),
                     //13
-                    "Melayang ke udara dan menembakkan panah energi\n" +
-                            "di lokasi target.\n" +
-                            "Panah energi meledak untuk 100%/200%/300%\n" +
-                            "Kerusakan fisik dan meninggalkan medan listrik,\n" +
-                            "mengurangi 20%/35%/50% kecepatan gerakan\n" +
-                            "dari target dalam area dan menangani 40%/60%/80%\n" +
-                            "Kerusakan petir setiap detik selama 3/5/7 detik.",
+                    "Cepat bergerak menuju target, berurusan\n" +
+                            "40%/80%/120% Kerusakan fisik di sepanjang jalan.\n" +
+                            "Serangan diubah menjadi Kerusakan api untuk kombo 3 bola\n" +
+                            "dan menjatuhkan 1 bola energi.",
                     //Blue Orb 14
-                    String.valueOf(R.drawable.blue_veritas),
+                    String.valueOf(R.drawable.blue_silverfang),
                     //15
-                    "Ledakan panah energi, pukul mundur\n" +
-                            "target terdekat, menangani 40%/80%/120% Fisik\n" +
-                            "kerusakan dan dapatkan status bermuatan petir selama 8 detik.\n" +
-                            "Serangan dasar akan menghasilkan 1 panah petir tambahan,\n" +
-                            "menimbulkan 16%/32%/48% Kerusakan petir.\n" +
-                            "Orb merah dan serangan pasif inti akan menghasilkan 2\n" +
-                            "panah petir tambahan, menghasilkan 24%/48%/72%\n" +
-                            "Kerusakan petir.",
+                    "Tembakan tembakan ke depan di area kipas menghasilkan\n" +
+                            "200%/400%/600% Kerusakan akibat kebakaran\n" +
+                            "lalu kocok mundur.\n" +
+                            "Menjatuhkan 1 bola energi pada pukulan untuk kombo 3-orb.",
                     //Basic Attack
-                    "Terus serang target dengan menembakkan 7 anak panah dengan cepat, menimbulkan total 560% Kerusakan fisik.\n" +
-                            "Panah terakhir adalah jarak jauh dan menembus target.",
+                    "Terus menembak dengan pistol dan lengan mekanik,\n" +
+                            "Menangani total 850% Kebakaran dan Kerusakan Fisik.",
                     //QTE 16
-                    "Muncul di udara dan tembakkan 4 anak panah ke lokasi target, masing-masing memberikan 160% kerusakan Petir.",
+                    "Tembak target dari udara saat memasuki pertempuran, menimbulkan 400% Kerusakan Api dan menjatuhkan 1 bola energi.\n" +
+                            "Jatuhkan bola energi tambahan saat Skill Level mencapai 10.",
                     //PROFESSION 17
-                    "Kerusakan +20%.",
+                    "Penyembuhan +20%",
                     //Awakening 18
                     "Dapatkan 3 bola sinyal di awal pertempuran.",
                     //Leader 19
-                    "Kerusakan petir semua anggota tim +10%. Serangan struktur serangan +5%.",
+                    "HP+10% semua anggota tim, kecepatan gerakan +5% ketika ada 3 profesi berbeda.",
                     //CORE 20
-                    "Masuk ke Mode Penembak Jitu setelah 3 bola Merah diikuti dengan bola Biru.\n" +
-                            "Serangan dasar akan menembakkan panah petir jarak jauh, menimbulkan 500% Kerusakan petir.\n" +
-                            "Keluar dari mode setelah 6 detik atau saat 6 panah telah ditembakkan.\n" +
-                            "Waktu pengisian panah berikutnya berkurang saat menghindar selama Mode Penembak Jitu.\n" +
-                            "Sinyal bola tidak akan dihasilkan selama keadaan ini.",
+                    "Lepaskan 1 bola energi saat Sofia melakukan urutan terakhir serangan Dasar, kombo 3 bola, pamungkas, atau QTE.\n" +
+                            "Mengambil bola energi akan menyembuhkan sekitar anggota sebesar 20% dari Serangan Sofia dan kerusakan Api +10% selama 5 d.\n" +
+                            "Sofia memperoleh 4 energi dan 75 Panas setiap kali sebuah bola diambil.\n" +
+                            "Sofia mendapatkan 5%/10%/15% serangan tambahan ketika nilai Panas melampaui 0/100/200.",
                     //ULTIMATE 21
-                    "Menghabiskan 100 energi. Tembakkan panah ke langit, memicu sambaran petir terus menerus,\n" +
-                            "masing-masing memberikan 160% kerusakan Petir pada musuh dalam jangkauan.\n" +
-                            "Setelah penundaan singkat, ledakan dipicu, memberikan 180% kerusakan Petir untuk setiap ledakan",
+                    "Habiskan 100 energi. Kumpulkan energi dan tembak ke depan untuk 200% Kerusakan api,\n" +
+                            "terus menarik musuh di sekitar dan menimbulkan 20% kerusakan Api setiap kali.\n" +
+                            "Ledakan untuk 600% kerusakan Api di akhir dan jatuhkan 2 bola energi.",
                     //SS 22
-                    "Target yang terkena bola Merah menerima 10% lebih banyak kerusakan selama 8 d.",
+                    "Ultimate dan QTE menjatuhkan bola energi tambahan",
                     //SSS 23
-                    "Target dalam bidang bola Kuning menerima 15% lebih banyak kerusakan.",
+                    "Kerusakan api meningkat 10% selama 5 d ketika karakter mengambil bola energi.",
                     //SSS+ 24
-                    "Damage +20% selama 10 detik setelah memicu ultimate.",
+                    "Musuh yang terkena ultimate memiliki 15% pengurangan Fire resistance selama 5 d.",
                     //Skill 25
-                    "Self Lightning damage +20% during core passive mode.",
+                    "Tiga kali lipat apa pun/QTE/Basic attack/ultimate semua drop healing orb. Ambil untuk menyembuhkan dan buff.",
                     //Build 1
                     //Memo 1
-                    String.valueOf(R.drawable.heisen),
+                    String.valueOf(R.drawable.shakespeaere),
                     "4 x Heisen",
                     //Memo 2
-                    String.valueOf(R.drawable.frederick),
-                    "2 x Frederick",
+                    String.valueOf(R.drawable.einsteina),
+                    "2 x Einsteina",
                     //Memo 3,
                     "-",
                     "-",
                     //Resonance
                     "6 ATK",
-                    "6 CORE",
+                    "6 CLASS",
                     //Remarks
-                    "Set kebangkitan.\n" +
-                            "Curi saja dari Dawn.\n" +
-                            "Menghindar hingga 3 kali untuk mendapatkan bonus kerusakan paling banyak\n" +
-                            "sebelum Menembak.",
+                    "Set untuk Meme.",
                     //Role
                     "DPS",
                     //Build 2
                     //Memo 1
-                    String.valueOf(R.drawable.heisen),
-                    "4 x Heisen",
+                    String.valueOf(R.drawable.guineavere),
+                    "4 x Guineavere",
                     //Memo 2
-                    String.valueOf(R.drawable.condelina),
-                    "2 x Condelina",
+                    String.valueOf(R.drawable.adolphe),
+                    "2 x Adolphe/Cottie",
                     //Memo 3,
                     "-",
                     "-",
@@ -2886,18 +2876,16 @@ public class AllConstructID {
                     "6 ATK",
                     "6 CORE",
                     //Remarks
-                    "Alternatif jika Anda tidak memiliki Freds.\n" +
-                            "Kelemahannya adalah Condelina hanya meningkatkan Serangan Normal dan bukan\n" +
-                            "yang lainnya.",
+                    "Can substitute 2 Adolphe/Cottie with 2 Gloria.",
                     //Role
-                    "DPS",
+                    "Support",
                     //Build 3
                     //Memo 1
                     String.valueOf(R.drawable.da_vinci),
                     "4x Da Vinci",
                     //Memo 2
-                    String.valueOf(R.drawable.einsteina),
-                    "2x Esinteina",
+                    String.valueOf(R.drawable.guineavere),
+                    "2x Guineavere",
                     //Memo 3,
                     "-",
                     "-",
@@ -2905,32 +2893,31 @@ public class AllConstructID {
                     "6 ATK",
                     "6 QTE",
                     //Remarks
-                    "QTE Support",
+                    "Kebangkitan Set Dukungan QTE",
                     //Role
                     "QTE Support",
                     //Build 4
                     //Memo 1
-                    String.valueOf(R.drawable.memory_aife),
+                    String.valueOf(R.drawable.memory_samantha),
                     "4 x Aife",
                     //Memo 2
-                    String.valueOf(R.drawable.memory_erwin),
-                    "2 x Erwin",
+                    String.valueOf(R.drawable.memory_richelieu),
+                    "2 x Richelieu",
                     //Memo 3,
                     "-",
                     "-",
                     //Resonance
-                    "Anything",
+                    "Apa pun",
                     "-",
                     //Remarks
                     "5 Star Memory",
                     //Role
                     "5 Star Memory",
-                    String.valueOf(R.drawable.lightning),
-                    "Lightning",
-                    "Kerusakan petir +15%.\n" +
-                            "Lepaskan petir, menimbulkan 150% Kerusakan petir saat\n" +
-                            "target yang sama telah diserang 5 kali dengan keterampilan elemen Petir.\n" +
-                            "2 detik pendinginan."
+                    String.valueOf(R.drawable.sin),
+                    "Sin",
+                    "Kerusakan +3% selama 5 d saat mengambil bola energi, hingga 5 tumpukan.\n" +
+                            "Dapatkan 1 bola sinyal acak dan 10 energi saat 5 bola energi\n" +
+                            "telah dikumpulkan, cooldown 10 detik."
             },
     };
 

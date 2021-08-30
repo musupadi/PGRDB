@@ -99,7 +99,7 @@ public class ClassConstructActivity extends AppCompatActivity {
     private void AD(){
         AdRequest adRequest = new AdRequest.Builder().build();
 
-        InterstitialAd.load(this,destiny.DestinyADIntersential(), adRequest, new InterstitialAdLoadCallback() {
+        InterstitialAd.load(this,destiny.DestinyADIntersentialConstruct(), adRequest, new InterstitialAdLoadCallback() {
             @Override
             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
                 // The mInterstitialAd reference will be null until

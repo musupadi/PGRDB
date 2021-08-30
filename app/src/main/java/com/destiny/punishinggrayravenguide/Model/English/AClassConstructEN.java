@@ -1296,6 +1296,148 @@ public class AClassConstructEN {
                             "Physical damage +15% for 7s after triggering core passive.\n" +
                             "Triggering the effect again refreshes the duration."
             },
+            {"10",
+                    //Gambar 1
+                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/1/14/Sofia_-_Silver_Fang.png/revision/latest/scale-to-width-down/350?cb=20200728114430",
+                    //Name 2
+                    "Sofia",
+                    //Model 3
+                    "Silverfang",
+                    //Class Profession 4
+                    "Support",
+                    //Element 5
+                    "20% Physical 80% Fire",
+                    //CV 6
+                    "Koshimizu Ami",
+                    //Serial 7
+                    "ADL-22",
+                    //Affilation 8
+                    "Akdilek Commercial Alliance",
+                    //Class 9
+                    "A",
+                    //Red Orb 10
+                    String.valueOf(R.drawable.red_silverfang),
+                    //11
+                    "Launch tracking rounds on the spot at targets,\n" +
+                            "dealing 240%/480%/720% Fire damage.\n" +
+                            "Drops 1 energy orb on hit for 3-orb combos.",
+                    //Yellow Orb 12
+                    String.valueOf(R.drawable.yellow_silverfang),
+                    //13
+                    "Swiftly move towards the target, dealing\n" +
+                            "40%/80%/120% Physical damage along the way.\n" +
+                            "Attack is converted to Fire damage for 3-orb combos\n" +
+                            "and drops 1 energy orb.",
+                    //Blue Orb 14
+                    String.valueOf(R.drawable.blue_silverfang),
+                    //15
+                    "Fire rounds ahead in a fan area dealing\n" +
+                            "200%/400%/600% Fire damage\n" +
+                            "and then shuffle backwards.\n" +
+                            "Drops 1 energy orb on hit for 3-orb combos.",
+                    //Basic Attack
+                    "Continuously fire with the handgun and mechanical arms,\n" +
+                            "dealing a total of 850% Fire and Physical damage.",
+                    //QTE 16
+                    "Shoot the target from the air upon entry to battle, dealing 400% Fire damage and drops 1 energy orb.\n" +
+                            "Drop an additional energy orb when Skill Level reaches 10.",
+                    //PROFESSION 17
+                    "Healing +20%",
+                    //Awakening 18
+                    "Gain 3 signal orbs at the start of battle.",
+                    //Leader 19
+                    "All team members' HP+10%, movement speed +5% when there are 3 different professions.",
+                    //CORE 20
+                    "Drop 1 energy orb when Sofia performs the last sequence of the Basic attack, 3-orb combos, ultimate or QTE.\n" +
+                            "Picking up energy orbs will heal around the member for 20% of Sofia's Attack and Fire damage +10% for 5s.\n" +
+                            "Sofia gains 4 energy and 75 Heat whenever an orb is retrieved.\n" +
+                            "Sofia gains 5%/10%/15% additional attack when Heat value surpasses 0/100/200.",
+                    //ULTIMATE 21
+                    "Expend 100 energy. Gather energy and fire ahead for 200% Fire damage,\n" +
+                            "continually drawing nearby enemies in and dealing 20% Fire damage each time.\n" +
+                            "Explode for 600% Fire damage at the end and drop 2 energy orbs.",
+                    //SS 22
+                    "Ultimate and QTE drop an additional energy orb",
+                    //SSS 23
+                    "Fire damage increased by 10% for 5s when a character picks up an energy orb.",
+                    //SSS+ 24
+                    "Enemies struck by ultimate have 15% reduced Fire resistance for 5s.",
+                    //Skill 25
+                    "Triple anything/QTE/Basic attack/ultimate all drop healing orbs. Pick them up for heals and buff.",
+                    //Build 1
+                    //Memo 1
+                    String.valueOf(R.drawable.shakespeaere),
+                    "4 x Heisen",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2 x Einsteina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CLASS",
+                    //Remarks
+                    "Set for Meme.",
+                    //Role
+                    "DPS",
+                    //Build 2
+                    //Memo 1
+                    String.valueOf(R.drawable.guineavere),
+                    "4 x Guineavere",
+                    //Memo 2
+                    String.valueOf(R.drawable.adolphe),
+                    "2 x Adolphe/Cottie",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CORE",
+                    //Remarks
+                    "Can substitute 2 Adolphe/Cottie with 2 Gloria.",
+                    //Role
+                    "Support",
+                    //Build 3
+                    //Memo 1
+                    String.valueOf(R.drawable.da_vinci),
+                    "4x Da Vinci",
+                    //Memo 2
+                    String.valueOf(R.drawable.guineavere),
+                    "2x Guineavere",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 QTE",
+                    //Remarks
+                    "Awakening Set QTE Support",
+                    //Role
+                    "QTE Support",
+                    //Build 4
+                    //Memo 1
+                    String.valueOf(R.drawable.memory_samantha),
+                    "4 x Aife",
+                    //Memo 2
+                    String.valueOf(R.drawable.memory_richelieu),
+                    "2 x Richelieu",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "Anything",
+                    "-",
+                    //Remarks
+                    "5 Star Memory",
+                    //Role
+                    "5 Star Memory",
+                    String.valueOf(R.drawable.sin),
+                    "Sin",
+                    "Damage +3% for 5s when picking up energy orbs, up to 5 stacks.\n" +
+                            "Gain 1 random signal orb and 10 energy when 5 energy orbs\n" +
+                            "have been collected, 10s cooldown."
+            },
     };
     public static ArrayList<Model> getListData(){
         Model model = null;

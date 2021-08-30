@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -16,6 +17,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.destiny.punishinggrayravenguide.Adapter.AdapterCategoryWeapon;
+import com.destiny.punishinggrayravenguide.HomeActivity;
 import com.destiny.punishinggrayravenguide.Method.Destiny;
 import com.destiny.punishinggrayravenguide.Model.Indonesia.WeaponCategoryDataID;
 import com.destiny.punishinggrayravenguide.Model.Model;
@@ -104,7 +106,7 @@ public class ClassWeaponActivity extends AppCompatActivity {
     private void AD(){
         AdRequest adRequest = new AdRequest.Builder().build();
 
-        InterstitialAd.load(this,destiny.DestinyADIntersential(), adRequest, new InterstitialAdLoadCallback() {
+        InterstitialAd.load(this,destiny.DestinyADIntersentialWeapon(), adRequest, new InterstitialAdLoadCallback() {
             @Override
             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
                 // The mInterstitialAd reference will be null until
@@ -123,8 +125,8 @@ public class ClassWeaponActivity extends AppCompatActivity {
                     public void onAdDismissedFullScreenContent() {
                         // Called when fullscreen content is dismissed.
                         Log.d("TAG", "The ad was dismissed.");
-                        GetData();
                         dbHelper.ResetADS();
+                        Refresh();
 //                        Intent intent = new Intent(MainActivity.this,HomeActivity.class);
 //                        startActivity(intent);
 //                        finishAffinity();
@@ -135,7 +137,6 @@ public class ClassWeaponActivity extends AppCompatActivity {
                         // Called when fullscreen content failed to show.
                         Log.d("AD Error : ", adError.toString());
                         dbHelper.ResetADS();
-                        GetData();
                     }
 
                     @Override
@@ -181,5 +182,16 @@ public class ClassWeaponActivity extends AppCompatActivity {
         AdapterCategoryWeapon adapterConstruct = new AdapterCategoryWeapon(this);
         adapterConstruct.setList(pList);
         recyclerView.setAdapter(adapterConstruct);
+    }
+
+    private void Refresh(){
+        dbHelper.SaveCountADS("0");
+        Intent intent = new Intent(ClassWeaponActivity.this,ClassWeaponActivity.class);
+        startActivity(intent);
+    }
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(ClassWeaponActivity.this,HomeActivity.class);
+        startActivity(intent);
     }
 }

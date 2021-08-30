@@ -18,6 +18,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.destiny.punishinggrayravenguide.Adapter.AdapterFutureContent;
+import com.destiny.punishinggrayravenguide.Home.Weapon.ClassWeaponActivity;
+import com.destiny.punishinggrayravenguide.HomeActivity;
 import com.destiny.punishinggrayravenguide.Method.Destiny;
 import com.destiny.punishinggrayravenguide.Model.English.FutureContentDataEN;
 import com.destiny.punishinggrayravenguide.Model.English.SClassConstructEN;
@@ -108,7 +110,7 @@ public class ListFutureContentActivity extends AppCompatActivity {
     private void AD(){
         AdRequest adRequest = new AdRequest.Builder().build();
 
-        InterstitialAd.load(this,destiny.DestinyADIntersential(), adRequest, new InterstitialAdLoadCallback() {
+        InterstitialAd.load(this,destiny.DestinyADPlaning(), adRequest, new InterstitialAdLoadCallback() {
             @Override
             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
                 // The mInterstitialAd reference will be null until
@@ -181,5 +183,12 @@ public class ListFutureContentActivity extends AppCompatActivity {
         AdapterFutureContent futureContent = new AdapterFutureContent(this);
         futureContent.setList(pList);
         recyclerView.setAdapter(futureContent);
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(ListFutureContentActivity.this, HomeActivity.class);
+        startActivity(intent);
     }
 }

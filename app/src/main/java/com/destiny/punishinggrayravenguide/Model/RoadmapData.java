@@ -44,7 +44,7 @@ public class RoadmapData {
                     "Nona Oroborous",
                     "https://i.ytimg.com/vi/8ryNFZcqo2s/maxresdefault.jpg",
                     "https://static.wikia.nocookie.net/punishing-gray-raven/images/7/71/Chrome_-_Arclight.png/revision/latest/scale-to-width-down/350?cb=20200728114133",
-                    "Chrome Arclight (S)",
+                    "Chrome Arclight (A)",
                     "-",
                     "-",
                     "-",

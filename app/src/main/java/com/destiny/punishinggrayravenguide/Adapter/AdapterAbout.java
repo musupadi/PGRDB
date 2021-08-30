@@ -42,14 +42,7 @@ public class AdapterAbout extends RecyclerView.Adapter<AdapterAbout.CardViewView
     @Override
     public void onBindViewHolder(@NonNull CardViewViewHolder holder, int position) {
         final Model p = getList().get(position);
-        if (p.getRole().equals("Developing")){
-            holder.imgPhoto.setImageResource(Integer.parseInt(p.getGambar()));
-        }else{
-            Glide.with(context)
-                    .load(p.getGambar())
-                    .apply(new RequestOptions().override(200, 200))
-                    .into(holder.imgPhoto);
-        }
+        holder.imgPhoto.setImageResource(Integer.parseInt(p.getGambar()));
         holder.tvName.setText(p.getNama());
         holder.tvDeskripsi.setText(p.getUserid());
         holder.tvRole.setText(p.getRole());

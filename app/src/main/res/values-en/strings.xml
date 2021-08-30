@@ -23,7 +23,12 @@
     <string name="feedback_text">Contact Here for Suggestions and Comments</string>
     <!-- Category Weapon   -->
     <string name="category_weapon">Category Weapon</string>
-
+    <string name="attack">Attack</string>
+    <string name="crit">Critical</string>
+    <string name="max">Max : </string>
+    <string name="min">Min : </string>
+    <string name="ability">Ability</string>
+    <string name="signature_construct">Signature Construct</string>
     <!-- Story-->
 
     <!-- Construct   -->

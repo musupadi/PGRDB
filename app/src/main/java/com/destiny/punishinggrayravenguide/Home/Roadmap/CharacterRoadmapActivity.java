@@ -18,6 +18,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.destiny.punishinggrayravenguide.Adapter.AdapterCharacterRoadmap;
+import com.destiny.punishinggrayravenguide.Home.Weapon.ClassWeaponActivity;
+import com.destiny.punishinggrayravenguide.HomeActivity;
 import com.destiny.punishinggrayravenguide.Method.Destiny;
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.Model.RoadmapData;
@@ -99,7 +101,7 @@ public class CharacterRoadmapActivity extends AppCompatActivity {
     private void AD(){
         AdRequest adRequest = new AdRequest.Builder().build();
 
-        InterstitialAd.load(this,destiny.DestinyADIntersential(), adRequest, new InterstitialAdLoadCallback() {
+        InterstitialAd.load(this,destiny.DestinyADIntersentialCharacterRoadmap(), adRequest, new InterstitialAdLoadCallback() {
             @Override
             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
                 // The mInterstitialAd reference will be null until
@@ -168,5 +170,10 @@ public class CharacterRoadmapActivity extends AppCompatActivity {
         AdapterCharacterRoadmap roadmap = new AdapterCharacterRoadmap(this);
         roadmap.setList(pList);
         recyclerView.setAdapter(roadmap);
+    }
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(CharacterRoadmapActivity.this, HomeActivity.class);
+        startActivity(intent);
     }
 }

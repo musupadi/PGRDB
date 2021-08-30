@@ -24,6 +24,12 @@
     <string name="feedback_text">Kontak Disini untuk Saran dan Komentar</string>
     <!-- Category Weapon   -->
     <string name="category_weapon">Kategori Senjata</string>
+    <string name="attack">Serangan</string>
+    <string name="crit">Kritikal</string>
+    <string name="max">Max : </string>
+    <string name="min">Min : </string>
+    <string name="ability">Kemampuan</string>
+    <string name="signature_construct">Senjata Asli Character</string>
     <!-- Story-->
 
     <!-- Construct   -->

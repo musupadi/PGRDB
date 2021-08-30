@@ -3,13 +3,14 @@ package com.destiny.punishinggrayravenguide.Model;
 import androidx.annotation.NonNull;
 
 public class Model {
-    //CategoryWeapon
+    //Weapon
     String CategoryWeapon;
+    String Ability,MaxLevel,MinAtk,MaxAtk,MinCrit,MaxCrit,Star,ConstructImage,ConstructName;
     //PGR
     String Name,Model,ProfessionClass,Element,CV,Serial,Affilation,Kelas;
     String IRedOrb,RedOrb,IYellowOrb,YellowOrb,IBlueOrb,BlueOrb;
     String BasicAttack,QTE,Profession,Awakening,Leader,Core,Ultimate,SS,SSS,SSPlus,Hint;
-    String ImageWeapon,NameWeapon,MaxLevelWeapon,AttackMinWeapon,AttackMaxWeapon,CritMinWeapon,CritMaxWeapon,AbilityWeapon,Star;
+    String ImageWeapon,NameWeapon,MaxLevelWeapon,AttackMinWeapon,AttackMaxWeapon,CritMinWeapon,CritMaxWeapon,AbilityWeapon;
     //Build 1
     String IBuild1Memo1,Build1Memo1,Remarks1,Resonance1_1;
     String IBuild1Memo2,Build1Memo2,Resonance1_2;
@@ -847,5 +848,69 @@ public class Model {
 
     public void setCategoryWeapon(String categoryWeapon) {
         CategoryWeapon = categoryWeapon;
+    }
+
+    public String getAbility() {
+        return Ability;
+    }
+
+    public void setAbility(String ability) {
+        Ability = ability;
+    }
+
+    public String getMaxLevel() {
+        return MaxLevel;
+    }
+
+    public void setMaxLevel(String maxLevel) {
+        MaxLevel = maxLevel;
+    }
+
+    public String getMinAtk() {
+        return MinAtk;
+    }
+
+    public void setMinAtk(String minAtk) {
+        MinAtk = minAtk;
+    }
+
+    public String getMaxAtk() {
+        return MaxAtk;
+    }
+
+    public void setMaxAtk(String maxAtk) {
+        MaxAtk = maxAtk;
+    }
+
+    public String getMinCrit() {
+        return MinCrit;
+    }
+
+    public void setMinCrit(String minCrit) {
+        MinCrit = minCrit;
+    }
+
+    public String getMaxCrit() {
+        return MaxCrit;
+    }
+
+    public void setMaxCrit(String maxCrit) {
+        MaxCrit = maxCrit;
+    }
+
+    public String getConstructImage() {
+        return ConstructImage;
+    }
+
+    public void setConstructImage(String constructImage) {
+        ConstructImage = constructImage;
+    }
+
+    public String getConstructName() {
+        return ConstructName;
+    }
+
+    public void setConstructName(String constructName) {
+        ConstructName = constructName;
     }
 }

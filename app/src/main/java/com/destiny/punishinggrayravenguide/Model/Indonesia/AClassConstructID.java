@@ -1298,6 +1298,148 @@ public class AClassConstructID {
                             "Kerusakan fisik +15% selama 7 d setelah memicu pasif inti.\n" +
                             "Memicu efek lagi menyegarkan durasi."
             },
+            {"10",
+                    //Gambar 1
+                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/1/14/Sofia_-_Silver_Fang.png/revision/latest/scale-to-width-down/350?cb=20200728114430",
+                    //Name 2
+                    "Sofia",
+                    //Model 3
+                    "Silverfang",
+                    //Class Profession 4
+                    "Support",
+                    //Element 5
+                    "20% Fisik 80% Api",
+                    //CV 6
+                    "Koshimizu Ami",
+                    //Serial 7
+                    "ADL-22",
+                    //Affilation 8
+                    "Akdilek Commercial Alliance",
+                    //Class 9
+                    "A",
+                    //Red Orb 10
+                    String.valueOf(R.drawable.red_silverfang),
+                    //11
+                    "Luncurkan putaran pelacakan di tempat pada target,\n" +
+                            "menimbulkan 240%/480%/720% Kerusakan api.\n" +
+                            "Menjatuhkan 1 bola energi pada pukulan untuk kombo 3-orb.",
+                    //Yellow Orb 12
+                    String.valueOf(R.drawable.yellow_silverfang),
+                    //13
+                    "Cepat bergerak menuju target, berurusan\n" +
+                            "40%/80%/120% Kerusakan fisik di sepanjang jalan.\n" +
+                            "Serangan diubah menjadi Kerusakan api untuk kombo 3 bola\n" +
+                            "dan menjatuhkan 1 bola energi.",
+                    //Blue Orb 14
+                    String.valueOf(R.drawable.blue_silverfang),
+                    //15
+                    "Tembakan tembakan ke depan di area kipas menghasilkan\n" +
+                            "200%/400%/600% Kerusakan akibat kebakaran\n" +
+                            "lalu kocok mundur.\n" +
+                            "Menjatuhkan 1 bola energi pada pukulan untuk kombo 3-orb.",
+                    //Basic Attack
+                    "Terus menembak dengan pistol dan lengan mekanik,\n" +
+                            "Menangani total 850% Kebakaran dan Kerusakan Fisik.",
+                    //QTE 16
+                    "Tembak target dari udara saat memasuki pertempuran, menimbulkan 400% Kerusakan Api dan menjatuhkan 1 bola energi.\n" +
+                            "Jatuhkan bola energi tambahan saat Skill Level mencapai 10.",
+                    //PROFESSION 17
+                    "Penyembuhan +20%",
+                    //Awakening 18
+                    "Dapatkan 3 bola sinyal di awal pertempuran.",
+                    //Leader 19
+                    "HP+10% semua anggota tim, kecepatan gerakan +5% ketika ada 3 profesi berbeda.",
+                    //CORE 20
+                    "Lepaskan 1 bola energi saat Sofia melakukan urutan terakhir serangan Dasar, kombo 3 bola, pamungkas, atau QTE.\n" +
+                            "Mengambil bola energi akan menyembuhkan sekitar anggota sebesar 20% dari Serangan Sofia dan kerusakan Api +10% selama 5 d.\n" +
+                            "Sofia memperoleh 4 energi dan 75 Panas setiap kali sebuah bola diambil.\n" +
+                            "Sofia mendapatkan 5%/10%/15% serangan tambahan ketika nilai Panas melampaui 0/100/200.",
+                    //ULTIMATE 21
+                    "Habiskan 100 energi. Kumpulkan energi dan tembak ke depan untuk 200% Kerusakan api,\n" +
+                            "terus menarik musuh di sekitar dan menimbulkan 20% kerusakan Api setiap kali.\n" +
+                            "Ledakan untuk 600% kerusakan Api di akhir dan jatuhkan 2 bola energi.",
+                    //SS 22
+                    "Ultimate dan QTE menjatuhkan bola energi tambahan",
+                    //SSS 23
+                    "Kerusakan api meningkat 10% selama 5 d ketika karakter mengambil bola energi.",
+                    //SSS+ 24
+                    "Musuh yang terkena ultimate memiliki 15% pengurangan Fire resistance selama 5 d.",
+                    //Skill 25
+                    "Tiga kali lipat apa pun/QTE/Basic attack/ultimate semua drop healing orb. Ambil untuk menyembuhkan dan buff.",
+                    //Build 1
+                    //Memo 1
+                    String.valueOf(R.drawable.shakespeaere),
+                    "4 x Heisen",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2 x Einsteina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CLASS",
+                    //Remarks
+                    "Set untuk Meme.",
+                    //Role
+                    "DPS",
+                    //Build 2
+                    //Memo 1
+                    String.valueOf(R.drawable.guineavere),
+                    "4 x Guineavere",
+                    //Memo 2
+                    String.valueOf(R.drawable.adolphe),
+                    "2 x Adolphe/Cottie",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CORE",
+                    //Remarks
+                    "Can substitute 2 Adolphe/Cottie with 2 Gloria.",
+                    //Role
+                    "Support",
+                    //Build 3
+                    //Memo 1
+                    String.valueOf(R.drawable.da_vinci),
+                    "4x Da Vinci",
+                    //Memo 2
+                    String.valueOf(R.drawable.guineavere),
+                    "2x Guineavere",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 QTE",
+                    //Remarks
+                    "Kebangkitan Set Dukungan QTE",
+                    //Role
+                    "QTE Support",
+                    //Build 4
+                    //Memo 1
+                    String.valueOf(R.drawable.memory_samantha),
+                    "4 x Aife",
+                    //Memo 2
+                    String.valueOf(R.drawable.memory_richelieu),
+                    "2 x Richelieu",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "Apa pun",
+                    "-",
+                    //Remarks
+                    "5 Star Memory",
+                    //Role
+                    "5 Star Memory",
+                    String.valueOf(R.drawable.sin),
+                    "Sin",
+                    "Kerusakan +3% selama 5 d saat mengambil bola energi, hingga 5 tumpukan.\n" +
+                            "Dapatkan 1 bola sinyal acak dan 10 energi saat 5 bola energi\n" +
+                            "telah dikumpulkan, cooldown 10 detik."
+            },
     };
     public static ArrayList<Model> getListData(){
         Model model = null;

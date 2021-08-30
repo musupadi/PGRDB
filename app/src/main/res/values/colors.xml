@@ -24,4 +24,11 @@
     <color name="colorGreen">#49C200</color>
     <color name="colorOrange">#F05E23</color>
     <color name="colorYellow">#F0C423</color>
+
+    <!-- Rarity  #;  -->
+    <color name="color6Star">#ea4335</color>
+    <color name="color5Star">#fbbc04</color>
+    <color name="color4Star">#c27ba0</color>
+    <color name="color3Star">#6fa8dc</color>
+    <color name="color2Star">#34a853</color>
 </resources>
