@@ -84,8 +84,8 @@ public class WeaponCategoryDataID {
                     "Spanduk Tombak"
             },
             {"20",
-                    String.valueOf(R.drawable.phoenix),
-                    "Compositter - Pedang Rantai"
+                    String.valueOf(R.drawable.durandal),
+                    "Compositer - Pedang Rantai"
             },
     };
     public static ArrayList<Model> getListData(){

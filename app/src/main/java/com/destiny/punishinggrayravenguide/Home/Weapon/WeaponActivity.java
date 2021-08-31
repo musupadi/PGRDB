@@ -14,23 +14,23 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.destiny.punishinggrayravenguide.Adapter.AdapterConstruct;
 import com.destiny.punishinggrayravenguide.Adapter.AdapterWeapon;
 import com.destiny.punishinggrayravenguide.Method.Destiny;
-import com.destiny.punishinggrayravenguide.Model.English.AClassConstructEN;
-import com.destiny.punishinggrayravenguide.Model.English.AllConstructEN;
-import com.destiny.punishinggrayravenguide.Model.English.BClassConstructEN;
-import com.destiny.punishinggrayravenguide.Model.English.SClassConstructEN;
+import com.destiny.punishinggrayravenguide.Model.English.Weapon.AmplifierEN;
 import com.destiny.punishinggrayravenguide.Model.English.Weapon.BowEN;
+import com.destiny.punishinggrayravenguide.Model.English.Weapon.CanonEN;
 import com.destiny.punishinggrayravenguide.Model.English.Weapon.ChainsawEN;
+import com.destiny.punishinggrayravenguide.Model.English.Weapon.CompositerCelloBlade;
+import com.destiny.punishinggrayravenguide.Model.English.Weapon.CompositerDragonSpear;
+import com.destiny.punishinggrayravenguide.Model.English.Weapon.DaggersEN;
+import com.destiny.punishinggrayravenguide.Model.English.Weapon.GauntletEN;
 import com.destiny.punishinggrayravenguide.Model.English.Weapon.GreatswordEN;
 import com.destiny.punishinggrayravenguide.Model.English.Weapon.HoveringCanonEN;
 import com.destiny.punishinggrayravenguide.Model.English.Weapon.LongswordEN;
 import com.destiny.punishinggrayravenguide.Model.English.Weapon.PistolEN;
-import com.destiny.punishinggrayravenguide.Model.Indonesia.AClassConstructID;
-import com.destiny.punishinggrayravenguide.Model.Indonesia.AllConstructID;
-import com.destiny.punishinggrayravenguide.Model.Indonesia.BClassConstructID;
-import com.destiny.punishinggrayravenguide.Model.Indonesia.SClassConstructID;
+import com.destiny.punishinggrayravenguide.Model.English.Weapon.RifleSetEN;
+import com.destiny.punishinggrayravenguide.Model.English.Weapon.ScytheEN;
+import com.destiny.punishinggrayravenguide.Model.English.Weapon.SpearAndShieldEN;
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
@@ -109,6 +109,34 @@ public class WeaponActivity extends AppCompatActivity {
                 }else if (CLASS.equals("Greatsword")){
                     pList.addAll(GreatswordEN.getListData());
                 }else if (CLASS.equals("Cannon")){
+                    pList.addAll(CanonEN.getListData());
+                }else if (CLASS.equals("Daggers")){
+                    pList.addAll(DaggersEN.getListData());
+                }else if (CLASS.equals("Scythe")){
+                    pList.addAll(ScytheEN.getListData());
+                }else if (CLASS.equals("Spear & Shield")){
+                    pList.addAll(SpearAndShieldEN.getListData());
+                }else if (CLASS.equals("Gauntlet")){
+                    pList.addAll(GauntletEN.getListData());
+                }else if (CLASS.equals("Amplifier")){
+                    pList.addAll(AmplifierEN.getListData());
+                }else if (CLASS.equals("Rifle Set")){
+                    pList.addAll(RifleSetEN.getListData());
+                }else if (CLASS.equals("Gunblade")){
+
+                }else if (CLASS.equals("Compositer - Greatsword")){
+                    pList.addAll(GreatswordEN.getListData());
+                }else if (CLASS.equals("Compositer - Dragon Spear")){
+                    pList.addAll(CompositerDragonSpear.getListData());
+                }else if(CLASS.equals("Compositer - Cello Blade")){
+                    pList.addAll(CompositerCelloBlade.getListData());
+                }else if (CLASS.equals("Nier:Automata Weapon")){
+
+                }else if (CLASS.equals("Colaborative Bot")){
+
+                }else if (CLASS.equals("Banner Spear")){
+
+                }else if (CLASS.equals("Compositer - Chainsword")){
 
                 }
             }else{

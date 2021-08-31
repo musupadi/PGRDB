@@ -41,7 +41,7 @@ public class WeaponCategoryDataEN {
             },
             {"9",
                     String.valueOf(R.drawable.saint_elmo),
-                    "Schyte"
+                    "Scythe"
             },
             {"10",
                     String.valueOf(R.drawable.gungir),
@@ -84,8 +84,8 @@ public class WeaponCategoryDataEN {
                     "Banner Spear"
             },
             {"20",
-                    String.valueOf(R.drawable.phoenix),
-                    "Compositter - Chain Sword"
+                    String.valueOf(R.drawable.durandal),
+                    "Compositer - Chain Sword"
             },
     };
     public static ArrayList<Model> getListData(){
