@@ -5,29 +5,29 @@ import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
 
-public class AmplifierEN {
+public class CompositerDragonSpearEN {
     public static String[][] data = new String[][]{
             {"1",
-                    "Genesis",
-                    String.valueOf(R.drawable.genesis),
-                    "Yellow orb damage +10%.",
+                    "Cold Black-iron Star Type Land",
+                    String.valueOf(R.drawable.cold_black_iron_star),
+                    "Physical damage +10% for 5s when entering Matrix.",
                     "35",
-                    "44",
-                    "247",
+                    "46",
+                    "260",
                     "21",
-                    "135",
+                    "137",
                     "4",
                     "-",
                     "-",
             },
             {"2",
-                    "Crown Lure",
-                    String.valueOf(R.drawable.crown_lure),
-                    "All damage +15% for 8s after expending all 3 different\n" +
-                            "colors of orbs within 6s.",
+                    "Guiyun",
+                    String.valueOf(R.drawable.guiyun),
+                    "Physical damage +10% for 5s after expending blue orbs.\n" +
+                            "Triggering the effect again refreshes the duration.",
                     "45",
-                    "49",
-                    "390",
+                    "52",
+                    "411",
                     "23",
                     "211",
                     "5",
@@ -35,18 +35,21 @@ public class AmplifierEN {
                     "-",
             },
             {"3",
-                    "Ozma",
-                    String.valueOf(R.drawable.ozma),
-                    "Dark damage +15%.\n" +
-                            "The 4th spike from Annihilation Orb creates a 100% Dark damage AOE",
+                    "Qinghe",
+                    String.valueOf(R.drawable.qinghe),
+                    "Physical damage +20%.\n" +
+                            "Huiyu's attack frequency +50% and gains a new skill: Curse.\n" +
+                            "Huiyu transforms into an amulet and attaches itself to the target,\n" +
+                            "dealing up to 210% Physical damage. After a short delay, deal\n" +
+                            "240% Physical damage again. Damage scales with Qu's ultimate level.",
                     "45",
-                    "55",
-                    "480",
+                    "58",
+                    "506",
                     "26",
                     "261",
                     "6",
-                    String.valueOf(R.drawable.luna_laurel),
-                    "Luna Laurel",
+                    "-",
+                    "-",
             },
     };
     public static ArrayList<Model> getListData(){

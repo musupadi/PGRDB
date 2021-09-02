@@ -1,20 +1,19 @@
-package com.destiny.punishinggrayravenguide.Model.English.Weapon;
+package com.destiny.punishinggrayravenguide.Model.Indonesia.Weapon;
 
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
 
-public class CompositerCelloBlade {
+public class CompositerDragonSpearID {
     public static String[][] data = new String[][]{
             {"1",
-                    "Overture",
-                    String.valueOf(R.drawable.overture),
-                    "Attack +8.\n" +
-                            "Movement speed +8% for 4s after dodging.",
+                    "Cold Black-iron Star Type Land",
+                    String.valueOf(R.drawable.cold_black_iron_star),
+                    "Kerusakan fisik +10% selama 5 d saat memasuki Matrix.",
                     "35",
-                    "43",
-                    "242",
+                    "46",
+                    "260",
                     "21",
                     "137",
                     "4",
@@ -22,10 +21,10 @@ public class CompositerCelloBlade {
                     "-",
             },
             {"2",
-                    "Odette",
-                    String.valueOf(R.drawable.odette),
-                    "Attack +3% for 5s, up to 5 stacks during 3-orbs.\n" +
-                            "Triggering the effect again refreshes the duration.",
+                    "Guiyun",
+                    String.valueOf(R.drawable.guiyun),
+                    "Kerusakan fisik +10% selama 5 d setelah mengeluarkan bola biru.\n" +
+                            "Memicu efek lagi menyegarkan durasi.",
                     "45",
                     "52",
                     "411",
@@ -36,22 +35,21 @@ public class CompositerCelloBlade {
                     "-",
             },
             {"3",
-                    "Mistress of\n" +
-                            "the Woods",
-                    String.valueOf(R.drawable.mistress_of_the_woods),
-                    "Lightning damage +20%.\n" +
-                            "Red and Blue orbs can be weaved into other skills but can not\n" +
-                            "be cast in succession.\n" +
-                            "When exiting ultimate, orbs are refunded based on the number of\n" +
-                            "orbs in possession before entering ultimate; triple orbs are prioritized.",
+                    "Qinghe",
+                    String.valueOf(R.drawable.qinghe),
+                    "Kerusakan fisik +20%.\n" +
+                            "Frekuensi serangan Huiyu +50% dan mendapatkan keterampilan baru: Kutukan.\n" +
+                            "Huiyu berubah menjadi jimat dan menempel pada target,\n" +
+                            "menimbulkan kerusakan fisik hingga 210%. Setelah penundaan singkat, berikan\n" +
+                            "240% Kerusakan fisik lagi. Kerusakan meningkat dengan level tertinggi Qu.",
                     "45",
-                    "54",
-                    "471",
+                    "58",
+                    "506",
                     "26",
                     "261",
                     "6",
-                    String.valueOf(R.drawable.selena_tempest),
-                    "Selena Tempest",
+                    "-",
+                    "-",
             },
     };
     public static ArrayList<Model> getListData(){

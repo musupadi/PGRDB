@@ -1,33 +1,34 @@
-package com.destiny.punishinggrayravenguide.Model.English.Weapon;
+package com.destiny.punishinggrayravenguide.Model.Indonesia.Weapon;
 
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
 
-public class AmplifierEN {
+public class CompositerCelloBladeID {
     public static String[][] data = new String[][]{
             {"1",
-                    "Genesis",
-                    String.valueOf(R.drawable.genesis),
-                    "Yellow orb damage +10%.",
+                    "Overture",
+                    String.valueOf(R.drawable.overture),
+                    "Serang +8.\n" +
+                            "Kecepatan gerakan +8% selama 4 detik setelah menghindar.",
                     "35",
-                    "44",
-                    "247",
+                    "43",
+                    "242",
                     "21",
-                    "135",
+                    "137",
                     "4",
                     "-",
                     "-",
             },
             {"2",
-                    "Crown Lure",
-                    String.valueOf(R.drawable.crown_lure),
-                    "All damage +15% for 8s after expending all 3 different\n" +
-                            "colors of orbs within 6s.",
+                    "Odette",
+                    String.valueOf(R.drawable.odette),
+                    "Serang +3% selama 5 d, hingga 5 tumpukan selama 3 bola.\n" +
+                            "Memicu efek lagi menyegarkan durasi.",
                     "45",
-                    "49",
-                    "390",
+                    "52",
+                    "411",
                     "23",
                     "211",
                     "5",
@@ -35,18 +36,22 @@ public class AmplifierEN {
                     "-",
             },
             {"3",
-                    "Ozma",
-                    String.valueOf(R.drawable.ozma),
-                    "Dark damage +15%.\n" +
-                            "The 4th spike from Annihilation Orb creates a 100% Dark damage AOE",
+                    "Mistress of\n" +
+                            "the Woods",
+                    String.valueOf(R.drawable.mistress_of_the_woods),
+                    "Kerusakan petir +20%.\n" +
+                            "Orb Merah dan Biru dapat digabungkan ke dalam keterampilan lain tetapi tidak dapat\n" +
+                            "dilemparkan secara berurutan.\n" +
+                            "Saat keluar dari ultimate, orb dikembalikan berdasarkan jumlah\n" +
+                            "orb yang dimiliki sebelum memasuki ultimate; orb rangkap tiga diprioritaskan.",
                     "45",
-                    "55",
-                    "480",
+                    "54",
+                    "471",
                     "26",
                     "261",
                     "6",
-                    String.valueOf(R.drawable.luna_laurel),
-                    "Luna Laurel",
+                    String.valueOf(R.drawable.selena_tempest),
+                    "Selena Tempest",
             },
     };
     public static ArrayList<Model> getListData(){

@@ -1,51 +1,51 @@
-package com.destiny.punishinggrayravenguide.Model.English.Weapon;
+package com.destiny.punishinggrayravenguide.Model.Indonesia.Weapon;
 
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
 
-public class GauntletEN {
+public class CompositerGreatswordID {
     public static String[][] data = new String[][]{
             {"1",
-                    "Armor Break - Type 9",
-                    String.valueOf(R.drawable.amor_break___type_9),
-                    "Damage +5% for 8s when entering the field.",
+                    "Light Devour",
+                    String.valueOf(R.drawable.light_devour),
+                    "Kerusakan serangan dasar +10%.",
                     "35",
-                    "42",
-                    "240",
-                    "19",
-                    "124",
+                    "45",
+                    "253",
+                    "20",
+                    "131",
                     "4",
                     "-",
                     "-",
             },
             {"2",
-                    "Emerging Unicorn",
-                    String.valueOf(R.drawable.emerging_unicorn),
-                    "Damage +8% for 4s after dodging.",
+                    "Glimpse",
+                    String.valueOf(R.drawable.glimpse),
+                    "Damage +12% selama 4 detik setelah 3-orb.",
                     "45",
-                    "48",
-                    "379",
-                    "21",
-                    "191",
+                    "50",
+                    "400",
+                    "22",
+                    "201",
                     "5",
                     "-",
                     "-",
             },
             {"3",
-                    "Baji",
-                    String.valueOf(R.drawable.baji),
-                    "Ice damage +15%.\n" +
-                            "Triggering Circulating Tide or QTE will leave behind 8s of Ice Mirror.",
+                    "Thanatos",
+                    String.valueOf(R.drawable.thanatos),
+                    "Kerusakan +15%.\n" +
+                            "Dark damage +10% ke semua sekutu aktif selama Berserk Mode.",
                     "45",
-                    "53",
-                    "467",
-                    "23",
-                    "236",
+                    "56",
+                    "493",
+                    "25",
+                    "249",
                     "6",
-                    String.valueOf(R.drawable.changyu_kirin),
-                    "Changyu Kirin",
+                    "-",
+                    "-",
             },
     };
     public static ArrayList<Model> getListData(){

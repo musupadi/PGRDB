@@ -436,13 +436,12 @@
                     <TextView
                         android:id="@+id/Ability"
                         android:layout_margin="5dp"
-                        android:gravity="left"
+                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/ability"
                         android:textColor="@color/colorPrimary"
                         android:fontFamily="@font/gotham"
-                        android:textStyle="bold"
                         android:textSize="@dimen/text_large"/>
                 </LinearLayout>
             </LinearLayout>

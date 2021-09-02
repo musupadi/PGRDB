@@ -33,7 +33,7 @@ public class WeaponCategoryDataEN {
             },
             {"7",
                     String.valueOf(R.drawable.fusion_dragon),
-                    "Canon"
+                    "Cannon"
             },
             {"8",
                     String.valueOf(R.drawable.requiescat),
@@ -51,39 +51,43 @@ public class WeaponCategoryDataEN {
                     String.valueOf(R.drawable.baji),
                     "Gauntlet"
             },
-            {"12",
+            {"13",
+                    String.valueOf(R.drawable.ozma),
+                    "Amplifier"
+            },
+            {"14",
                     String.valueOf(R.drawable.auncel),
                     "Rifle Set"
             },
-            {"13",
+            {"15",
                     String.valueOf(R.drawable.apollo),
                     "Gunblade"
             },
-            {"14",
+            {"16",
                     String.valueOf(R.drawable.thanatos),
                     "Compositer - Greatsword"
             },
-            {"15",
+            {"17",
                     String.valueOf(R.drawable.qinghe),
                     "Compositer - Dragon Spear"
             },
-            {"16",
+            {"18",
                     String.valueOf(R.drawable.mistress_of_the_woods),
                     "Compositer - Cello Blade"
             },
-            {"17",
+            {"19",
                     String.valueOf(R.drawable.virtuous_contract_kai),
                     "Nier:Automata Weapon"
             },
-            {"18",
+            {"20",
                     String.valueOf(R.drawable.growl),
                     "Collaborative Bot"
             },
-            {"19",
+            {"21",
                     String.valueOf(R.drawable.phoenix),
                     "Banner Spear"
             },
-            {"20",
+            {"22",
                     String.valueOf(R.drawable.durandal),
                     "Compositer - Chain Sword"
             },

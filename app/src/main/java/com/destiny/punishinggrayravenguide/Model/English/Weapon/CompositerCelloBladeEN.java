@@ -5,29 +5,30 @@ import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
 
-public class AmplifierEN {
+public class CompositerCelloBladeEN {
     public static String[][] data = new String[][]{
             {"1",
-                    "Genesis",
-                    String.valueOf(R.drawable.genesis),
-                    "Yellow orb damage +10%.",
+                    "Overture",
+                    String.valueOf(R.drawable.overture),
+                    "Attack +8.\n" +
+                            "Movement speed +8% for 4s after dodging.",
                     "35",
-                    "44",
-                    "247",
+                    "43",
+                    "242",
                     "21",
-                    "135",
+                    "137",
                     "4",
                     "-",
                     "-",
             },
             {"2",
-                    "Crown Lure",
-                    String.valueOf(R.drawable.crown_lure),
-                    "All damage +15% for 8s after expending all 3 different\n" +
-                            "colors of orbs within 6s.",
+                    "Odette",
+                    String.valueOf(R.drawable.odette),
+                    "Attack +3% for 5s, up to 5 stacks during 3-orbs.\n" +
+                            "Triggering the effect again refreshes the duration.",
                     "45",
-                    "49",
-                    "390",
+                    "52",
+                    "411",
                     "23",
                     "211",
                     "5",
@@ -35,18 +36,22 @@ public class AmplifierEN {
                     "-",
             },
             {"3",
-                    "Ozma",
-                    String.valueOf(R.drawable.ozma),
-                    "Dark damage +15%.\n" +
-                            "The 4th spike from Annihilation Orb creates a 100% Dark damage AOE",
+                    "Mistress of\n" +
+                            "the Woods",
+                    String.valueOf(R.drawable.mistress_of_the_woods),
+                    "Lightning damage +20%.\n" +
+                            "Red and Blue orbs can be weaved into other skills but can not\n" +
+                            "be cast in succession.\n" +
+                            "When exiting ultimate, orbs are refunded based on the number of\n" +
+                            "orbs in possession before entering ultimate; triple orbs are prioritized.",
                     "45",
-                    "55",
-                    "480",
+                    "54",
+                    "471",
                     "26",
                     "261",
                     "6",
-                    String.valueOf(R.drawable.luna_laurel),
-                    "Luna Laurel",
+                    String.valueOf(R.drawable.selena_tempest),
+                    "Selena Tempest",
             },
     };
     public static ArrayList<Model> getListData(){

@@ -26,7 +26,7 @@ public class RoadmapData {
                     "-",
                     "-",
                     "06 - 02 - 2020",
-                    "-"
+                    "09 - 09 - 2021"
             },
             {"3",
                     "Eternal Engine",
@@ -38,7 +38,7 @@ public class RoadmapData {
                     "-",
                     "-",
                     "19 - 03 - 2020",
-                    "-"
+                    "14 - 10 - 2021"
             },
             {"4",
                     "Nona Oroborous",
@@ -50,7 +50,7 @@ public class RoadmapData {
                     "-",
                     "-",
                     "29 - 04 - 2020",
-                    "-"
+                    "18 - 11 - 2021"
             },
             {"5",
                     "Kowlong Metropolis",
@@ -62,7 +62,7 @@ public class RoadmapData {
                     "-",
                     "-",
                     "10 - 06 - 2020",
-                    "-"
+                    "23 - 12 - 2021"
             },
             {"5",
                     "Grand Blue",
@@ -74,7 +74,7 @@ public class RoadmapData {
                     "-",
                     "-",
                     "23 - 07 - 2020",
-                    "-"
+                    "27 = 01 - 2022"
             },
             {"6",
                     "Firn Night",

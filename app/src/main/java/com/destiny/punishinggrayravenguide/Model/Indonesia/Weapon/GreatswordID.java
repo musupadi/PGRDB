@@ -1,16 +1,16 @@
-package com.destiny.punishinggrayravenguide.Model.English.Weapon;
+package com.destiny.punishinggrayravenguide.Model.Indonesia.Weapon;
 
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
 
-public class GreatswordEN {
+public class GreatswordID {
     public static String[][] data = new String[][]{
             {"1",
                     "Greatsword",
                     String.valueOf(R.drawable.greatsword),
-                    "No Ability",
+                    "Tidak Ada Kemampuan",
                     "25",
                     "35",
                     "104",
@@ -23,8 +23,8 @@ public class GreatswordEN {
             {"2",
                     "Suppressor",
                     String.valueOf(R.drawable.suppressor),
-                    "The first strike of a Basic attack is a guaranteed Critical hit.\n" +
-                            "15s cooldown to the same target.",
+                    "Serangan pertama dari serangan Dasar adalah serangan Kritis yang dijamin.\n" +
+                            "Waktu cooldown 15 detik untuk target yang sama.",
                     "35",
                     "40",
                     "224",
@@ -37,9 +37,9 @@ public class GreatswordEN {
             {"3",
                     "Star of Bethlehem",
                     String.valueOf(R.drawable.star_of_bethlehem),
-                    "Create Christmas Lights during 3-orbs,\n" +
-                            "Attack and movement speed +8% for 15s within the area,\n" +
-                            "30s cooldown.",
+                    "Buat Lampu Natal selama 3-orb,\n" +
+                            "Serangan dan kecepatan gerakan +8% selama 15 detik di dalam area,\n" +
+                            "Waktu cooldown 30 detik.",
                     "45",
                     "43",
                     "363",
@@ -52,8 +52,8 @@ public class GreatswordEN {
             {"4",
                     "Dynamo Greatsword",
                     String.valueOf(R.drawable.dynamo_greatsword),
-                    "10% chance of unleashing a shockwave when attacking,\n" +
-                            "dealing 100% Physical damage to nearby enemies.",
+                    "10% kemungkinan melepaskan gelombang kejut saat menyerang,\n" +
+                            "Menimbulkan 100% kerusakan fisik pada musuh di sekitar.",
                     "45",
                     "45",
                     "354",
@@ -66,8 +66,8 @@ public class GreatswordEN {
             {"5",
                     "Big Kamui",
                     String.valueOf(R.drawable.big_kamui),
-                    "Physical damage +15%.\n" +
-                            "After a successful block, damage +30% for the next skill used.",
+                    "Kerusakan fisik +15%.\n" +
+                            "Setelah blok berhasil, kerusakan +30% untuk keterampilan berikutnya yang digunakan.",
                     "45",
                     "40",
                     "436",
@@ -80,8 +80,8 @@ public class GreatswordEN {
             {"6",
                     "Darkness",
                     String.valueOf(R.drawable.darkness),
-                    "Physical and Dark damage +20% for 5s after 3-orb.\n" +
-                            "Triggering the effect again refreshes the duration.",
+                    "Kerusakan Fisik dan Gelap +20% selama 5 hari setelah 3-orb.\n" +
+                            "Memicu efek menyegarkan durasi.",
                     "45",
                     "51",
                     "445",

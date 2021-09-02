@@ -1,51 +1,52 @@
-package com.destiny.punishinggrayravenguide.Model.English.Weapon;
+package com.destiny.punishinggrayravenguide.Model.Indonesia.Weapon;
 
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
 
-public class GauntletEN {
+public class AmplifierID {
     public static String[][] data = new String[][]{
             {"1",
-                    "Armor Break - Type 9",
-                    String.valueOf(R.drawable.amor_break___type_9),
-                    "Damage +5% for 8s when entering the field.",
+                    "Genesis",
+                    String.valueOf(R.drawable.genesis),
+                    "Kerusakan bola kuning +10%.",
                     "35",
-                    "42",
-                    "240",
-                    "19",
-                    "124",
+                    "44",
+                    "247",
+                    "21",
+                    "135",
                     "4",
                     "-",
                     "-",
             },
             {"2",
-                    "Emerging Unicorn",
-                    String.valueOf(R.drawable.emerging_unicorn),
-                    "Damage +8% for 4s after dodging.",
+                    "Crown Lure",
+                    String.valueOf(R.drawable.crown_lure),
+                    "Semua kerusakan +15% selama 8 d setelah mengeluarkan semua 3 yang berbeda\n" +
+                            "warna bola dalam waktu 6 detik.",
                     "45",
-                    "48",
-                    "379",
-                    "21",
-                    "191",
+                    "49",
+                    "390",
+                    "23",
+                    "211",
                     "5",
                     "-",
                     "-",
             },
             {"3",
-                    "Baji",
-                    String.valueOf(R.drawable.baji),
-                    "Ice damage +15%.\n" +
-                            "Triggering Circulating Tide or QTE will leave behind 8s of Ice Mirror.",
+                    "Ozma",
+                    String.valueOf(R.drawable.ozma),
+                    "Kerusakan gelap +15%.\n" +
+                            "Spike ke-4 dari Annihilation Orb menciptakan 100% Dark damage AOE",
                     "45",
-                    "53",
-                    "467",
-                    "23",
-                    "236",
+                    "55",
+                    "480",
+                    "26",
+                    "261",
                     "6",
-                    String.valueOf(R.drawable.changyu_kirin),
-                    "Changyu Kirin",
+                    String.valueOf(R.drawable.luna_laurel),
+                    "Luna Laurel",
             },
     };
     public static ArrayList<Model> getListData(){

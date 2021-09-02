@@ -1,51 +1,52 @@
-package com.destiny.punishinggrayravenguide.Model.English.Weapon;
+package com.destiny.punishinggrayravenguide.Model.Indonesia.Weapon;
 
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
 
-public class GauntletEN {
+public class RifleSetID {
     public static String[][] data = new String[][]{
             {"1",
-                    "Armor Break - Type 9",
-                    String.valueOf(R.drawable.amor_break___type_9),
-                    "Damage +5% for 8s when entering the field.",
+                    "Bullet Ant",
+                    String.valueOf(R.drawable.bullet_ant),
+                    "Kerusakan bola merah +10%.",
                     "35",
-                    "42",
-                    "240",
-                    "19",
-                    "124",
+                    "41",
+                    "233",
+                    "20",
+                    "131",
                     "4",
                     "-",
                     "-",
             },
             {"2",
-                    "Emerging Unicorn",
-                    String.valueOf(R.drawable.emerging_unicorn),
-                    "Damage +8% for 4s after dodging.",
+                    "FA2D-AP",
+                    String.valueOf(R.drawable.fa2d_ap),
+                    "Kerusakan es +10%.",
                     "45",
-                    "48",
-                    "379",
-                    "21",
-                    "191",
+                    "46",
+                    "368",
+                    "22",
+                    "201",
                     "5",
                     "-",
                     "-",
             },
             {"3",
-                    "Baji",
-                    String.valueOf(R.drawable.baji),
-                    "Ice damage +15%.\n" +
-                            "Triggering Circulating Tide or QTE will leave behind 8s of Ice Mirror.",
+                    "Auncel",
+                    String.valueOf(R.drawable.auncel),
+                    "Kerusakan es +15%.\n" +
+                            "Mendapatkan Embun Beku (Kerusakan es +10%) selama 8 d\n" +
+                            "setelah berhasil menghindar dengan Bloom Shot.",
                     "45",
-                    "53",
-                    "467",
-                    "23",
-                    "236",
+                    "52",
+                    "454",
+                    "25",
+                    "249",
                     "6",
-                    String.valueOf(R.drawable.changyu_kirin),
-                    "Changyu Kirin",
+                    String.valueOf(R.drawable.wanshi_fate),
+                    "Wanshi Fate",
             },
     };
     public static ArrayList<Model> getListData(){

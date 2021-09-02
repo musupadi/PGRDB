@@ -1,16 +1,16 @@
-package com.destiny.punishinggrayravenguide.Model.English.Weapon;
+package com.destiny.punishinggrayravenguide.Model.Indonesia.Weapon;
 
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
 
-public class SpearAndShieldEN {
+public class SpearAndShieldID {
     public static String[][] data = new String[][]{
             {"1",
                     "Heretical Pioneer",
                     String.valueOf(R.drawable.heretical_pioneer),
-                    "Basic attack damage +10%.",
+                    "Kerusakan serangan dasar +10%.",
                     "35",
                     "42",
                     "235",
@@ -23,9 +23,9 @@ public class SpearAndShieldEN {
             {"2",
                     "RL-03C Blackthorn",
                     String.valueOf(R.drawable.rl_03_blackthorn),
-                    "Damage +10% for 3s after performing\n" +
-                            "Small/Medium/Wide-ranged railgun attack.\n" +
-                            "Triggering the effect again refreshes the duration.",
+                    "Kerusakan +10% selama 3 detik setelah tampil\n" +
+                            "Serangan railgun jarak kecil/menengah/lebar.\n" +
+                            "Memicu efek lagi menyegarkan durasi.",
                     "45",
                     "47",
                     "372",
@@ -38,10 +38,10 @@ public class SpearAndShieldEN {
             {"3",
                     "Gungir",
                     String.valueOf(R.drawable.gungir),
-                    "Target's Defense -20% for 8s when dealing damage.\n" +
-                            "Triggering the effect again refreshes the duration.\n" +
-                            "Small/Medium/Wide-area railgun applies damage-over-time for 8s,\n" +
-                            "dealing 25%/50%/100% Physical damage every second.",
+                    "Pertahanan Target -20% selama 8 d saat menangani kerusakan.\n" +
+                            "Memicu efek lagi menyegarkan durasi.\n" +
+                            "Small/Medium/Wide-area railgun menerapkan damage dari waktu ke waktu selama 8 d,\n" +
+                            "Menangani 25%/50%/100% Kerusakan fisik setiap detik.",
                     "45",
                     "52",
                     "458",

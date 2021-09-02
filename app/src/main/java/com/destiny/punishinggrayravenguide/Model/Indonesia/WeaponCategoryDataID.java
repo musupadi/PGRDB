@@ -49,41 +49,45 @@ public class WeaponCategoryDataID {
             },
             {"11",
                     String.valueOf(R.drawable.baji),
-                    "Sarung tangan"
+                    "Sarung Tangan"
             },
-            {"12",
+            {"13",
+                    String.valueOf(R.drawable.ozma),
+                    "Penguat"
+            },
+            {"14",
                     String.valueOf(R.drawable.auncel),
                     "Set Senapan"
             },
-            {"13",
+            {"15",
                     String.valueOf(R.drawable.apollo),
                     "Gunblade"
             },
-            {"14",
+            {"16",
                     String.valueOf(R.drawable.thanatos),
                     "Compositer - Pedang Besar"
             },
-            {"15",
+            {"17",
                     String.valueOf(R.drawable.qinghe),
                     "Compositer - Tombak Naga"
             },
-            {"16",
+            {"18",
                     String.valueOf(R.drawable.mistress_of_the_woods),
                     "Compositer - Pedang Cello"
             },
-            {"17",
+            {"19",
                     String.valueOf(R.drawable.virtuous_contract_kai),
                     "Senjata Nier:Automata"
             },
-            {"18",
+            {"20",
                     String.valueOf(R.drawable.growl),
                     "Bot kolaboratif"
             },
-            {"19",
+            {"21",
                     String.valueOf(R.drawable.phoenix),
-                    "Spanduk Tombak"
+                    "Tombak Bendera"
             },
-            {"20",
+            {"22",
                     String.valueOf(R.drawable.durandal),
                     "Compositer - Pedang Rantai"
             },

@@ -200,14 +200,15 @@ public class HomeFragment extends Fragment {
         FutureContent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try {
-                    int COUNT = Integer.parseInt(Count)+1;
-                    dbHelper.SaveCountADS(String.valueOf(COUNT));
-                }catch (Exception e){
-                    dbHelper.SaveCountADS(String.valueOf(1));
-                }
-                Intent intent = new Intent(getActivity(), ListFutureContentActivity.class);
-                startActivity(intent);
+//                try {
+//                    int COUNT = Integer.parseInt(Count)+1;
+//                    dbHelper.SaveCountADS(String.valueOf(COUNT));
+//                }catch (Exception e){
+//                    dbHelper.SaveCountADS(String.valueOf(1));
+//                }
+//                Intent intent = new Intent(getActivity(), ListFutureContentActivity.class);
+//                startActivity(intent);
+                Toast.makeText(getActivity(), "Sorry Tips & Strick under Construction", Toast.LENGTH_SHORT).show();
             }
         });
         UnlockRoadmap.setOnClickListener(new View.OnClickListener() {

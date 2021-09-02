@@ -1,16 +1,17 @@
-package com.destiny.punishinggrayravenguide.Model.English.Weapon;
+package com.destiny.punishinggrayravenguide.Model.Indonesia.Weapon;
 
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
 
-public class GauntletEN {
+public class GauntletID {
     public static String[][] data = new String[][]{
             {"1",
                     "Armor Break - Type 9",
                     String.valueOf(R.drawable.amor_break___type_9),
-                    "Damage +5% for 8s when entering the field.",
+                    "Kerusakan +10%.\n" +
+                            "Dark damage +10% selama inti pasif.",
                     "35",
                     "42",
                     "240",
@@ -23,7 +24,7 @@ public class GauntletEN {
             {"2",
                     "Emerging Unicorn",
                     String.valueOf(R.drawable.emerging_unicorn),
-                    "Damage +8% for 4s after dodging.",
+                    "Damage +8% selama 4 detik setelah menghindar.",
                     "45",
                     "48",
                     "379",
@@ -36,8 +37,8 @@ public class GauntletEN {
             {"3",
                     "Baji",
                     String.valueOf(R.drawable.baji),
-                    "Ice damage +15%.\n" +
-                            "Triggering Circulating Tide or QTE will leave behind 8s of Ice Mirror.",
+                    "Kerusakan es +15%.\n" +
+                            "Memicu Circulating Tide atau QTE akan meninggalkan 8 detik Ice Mirror.",
                     "45",
                     "53",
                     "467",

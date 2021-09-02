@@ -5,47 +5,25 @@ import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
 
-public class CompositerGreatsword {
+public class CompositerChainswordEN {
     public static String[][] data = new String[][]{
             {"1",
-                    "Light Devour",
-                    String.valueOf(R.drawable.light_devour),
-                    "Basic attack damage +10%.",
-                    "35",
+                    "Durandal",
+                    String.valueOf(R.drawable.durandal),
+                    "Fire damage +10%.\n" +
+                            "Cooldown between dodges is removed.\n" +
+                            "Gain 1 Follow-Up 2-Dazzling Blade orb when successfully evading attacks.\n" +
+                            "Triggering it will immediately activate the attack in\n" +
+                            "the direction of the motion stick and also grants Dmg+10% for 8s.\n" +
+                            "During Trick Climax, the Bluff points generated is converted to 10 Trickery instead.",
                     "45",
-                    "253",
-                    "20",
-                    "131",
-                    "4",
-                    "-",
-                    "-",
-            },
-            {"2",
-                    "Glimpse",
-                    String.valueOf(R.drawable.glimpse),
-                    "Damage +12% for 4s after 3-orbs.",
-                    "45",
-                    "50",
-                    "400",
-                    "22",
-                    "201",
-                    "5",
-                    "-",
-                    "-",
-            },
-            {"3",
-                    "Thanatos",
-                    String.valueOf(R.drawable.thanatos),
-                    "Damage +15%.\n" +
-                            "Dark damage +10% to all active allies during Berserk Mode.",
-                    "45",
-                    "56",
-                    "493",
+                    "53",
+                    "467",
                     "25",
                     "249",
                     "6",
-                    "-",
-                    "-",
+                    String.valueOf(R.drawable.roland_fire),
+                    "Roland Theatrical Flame",
             },
     };
     public static ArrayList<Model> getListData(){
