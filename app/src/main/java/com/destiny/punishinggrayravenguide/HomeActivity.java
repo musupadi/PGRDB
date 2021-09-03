@@ -5,15 +5,21 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.destiny.punishinggrayravenguide.About.AboutFragment;
 import com.destiny.punishinggrayravenguide.Feedback.FeedbackFragment;
@@ -32,12 +38,22 @@ public class HomeActivity extends AppCompatActivity {
     String Count;
     String Lang;
     Context context;
+
+    Dialog dialog;
+    Button No,Yes;
+    boolean doubleBackToExitPressedOnce = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         dbHelper = new DB_Helper(this);
-
+        //Dialog
+        dialog = new Dialog(this);
+        dialog.setContentView(R.layout.dialog_exit);
+        No = dialog.findViewById(R.id.btnTidak);
+        Yes = dialog.findViewById(R.id.btnYa);
+        dialog.getWindow().setLayout(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        dialog.getWindow().setBackgroundDrawableResource(R.drawable.rounded_corner);
         Paper.init(this);
 
 
@@ -63,10 +79,40 @@ public class HomeActivity extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            dialog.show();
+            return;
+        }
 
+        this.doubleBackToExitPressedOnce = true;
+        if (Lang.equals("English")){
+            Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+        }else{
+            Toast.makeText(this, "Tekan Tombol Kembali lagi untuk keluar", Toast.LENGTH_SHORT).show();
+        }
+        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce=false;
+            }
+        }, 2000);
     }
 
     private void OnCLick(){
+        Yes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.hide();
+                finish();
+                System.exit(0);
+            }
+        });
+        No.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.hide();
+            }
+        });
         linearHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

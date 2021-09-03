@@ -24,8 +24,8 @@ import android.widget.Toast;
 
 import com.destiny.punishinggrayravenguide.Adapter.AdapterBerita;
 import com.destiny.punishinggrayravenguide.Home.Construct.ClassConstructActivity;
-import com.destiny.punishinggrayravenguide.Home.FutureContent.ListFutureContentActivity;
 import com.destiny.punishinggrayravenguide.Home.Roadmap.CharacterRoadmapActivity;
+import com.destiny.punishinggrayravenguide.Home.TipsAndTrick.TipsAndTrickActivity;
 import com.destiny.punishinggrayravenguide.Home.Weapon.ClassWeaponActivity;
 import com.destiny.punishinggrayravenguide.HomeActivity;
 import com.destiny.punishinggrayravenguide.Model.English.BeritaDataEN;
@@ -200,15 +200,14 @@ public class HomeFragment extends Fragment {
         FutureContent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                try {
-//                    int COUNT = Integer.parseInt(Count)+1;
-//                    dbHelper.SaveCountADS(String.valueOf(COUNT));
-//                }catch (Exception e){
-//                    dbHelper.SaveCountADS(String.valueOf(1));
-//                }
-//                Intent intent = new Intent(getActivity(), ListFutureContentActivity.class);
-//                startActivity(intent);
-                Toast.makeText(getActivity(), "Sorry Tips & Strick under Construction", Toast.LENGTH_SHORT).show();
+                try {
+                    int COUNT = Integer.parseInt(Count)+1;
+                    dbHelper.SaveCountADS(String.valueOf(COUNT));
+                }catch (Exception e){
+                    dbHelper.SaveCountADS(String.valueOf(1));
+                }
+                Intent intent = new Intent(getActivity(), TipsAndTrickActivity.class);
+                startActivity(intent);
             }
         });
         UnlockRoadmap.setOnClickListener(new View.OnClickListener() {

@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppThemeNoAction">
-        <activity android:name=".Home.Weapon.WeaponActivity"></activity>
+        <activity android:name=".Home.TipsAndTrick.TipsAndTrickActivity"></activity>
+        <activity android:name=".Home.Weapon.WeaponActivity" />
         <activity android:name=".Home.Weapon.ClassWeaponActivity" />
         <activity android:name=".Home.Roadmap.CharacterRoadmapActivity" />
-        <activity android:name=".Home.FutureContent.ListFutureContentActivity" />
+        <activity android:name=".Home.TipsAndTrick.ListFutureContentActivity" />
         <activity android:name=".Home.Construct.DetailConstructActivity" />
         <activity android:name=".Home.Construct.ListConstructActivity" />
         <activity android:name=".Home.Construct.ClassConstructActivity" />

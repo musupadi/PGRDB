@@ -2,6 +2,7 @@ package com.destiny.punishinggrayravenguide.Adapter;
 
 import android.content.Context;
 import android.content.res.Resources;
+import android.database.Cursor;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +18,7 @@ import com.bumptech.glide.request.RequestOptions;
 import com.destiny.punishinggrayravenguide.Method.Destiny;
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
+import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
 import com.destiny.punishinggrayravenguide.SharedPreference.LocaleHelper;
 
 import java.util.ArrayList;
@@ -32,6 +34,11 @@ public class AdapterCharacterRoadmap extends RecyclerView.Adapter<AdapterCharact
     public void setList(ArrayList<Model> list) {
         this.list = list;
     }
+
+    DB_Helper dbHelper;
+    String Count;
+    String Lang;
+    String Lang2="English";
     public AdapterCharacterRoadmap(Context context) {
         this.context = context;
     }
@@ -47,6 +54,19 @@ public class AdapterCharacterRoadmap extends RecyclerView.Adapter<AdapterCharact
     public void onBindViewHolder(@NonNull CardViewViewHolder holder, int position) {
         final Model p = getList().get(position);
         Destiny destiny = new Destiny();
+        dbHelper = new DB_Helper(context);
+        Cursor cursor = dbHelper.checkADS();
+        if (cursor.getCount()>0){
+            while (cursor.moveToNext()){
+                Count = cursor.getString(0);
+            }
+        }
+        Cursor cursor2 = dbHelper.checkLANG();
+        if (cursor2.getCount()>0){
+            while (cursor2.moveToNext()){
+                Lang = cursor2.getString(0);
+            }
+        }
         String language = Paper.book().read("language");
         if(language == null)
             Paper.book().write("language","en");
@@ -79,7 +99,15 @@ public class AdapterCharacterRoadmap extends RecyclerView.Adapter<AdapterCharact
         holder.Chara3.setText(p.getCharacter3());
 
         holder.CN.setText("CN "+resources.getString(R.string.relese)+" : "+p.getCNServer());
-        holder.Global.setText("Global "+resources.getString(R.string.relese)+" : "+p.getGlobalServer());
+        if (Integer.parseInt(p.getId()) < 3){
+            holder.Global.setText("Global "+resources.getString(R.string.relese)+" : "+p.getGlobalServer());
+        }else{
+            if (Lang.equals("English")){
+                holder.Global.setText("Global "+resources.getString(R.string.relese)+" : "+p.getGlobalServer()+" (Predict)");
+            }else{
+                holder.Global.setText("Global "+resources.getString(R.string.relese)+" : "+p.getGlobalServer()+" (Prediksi)");
+            }
+        }
         holder.CharacterRelese.setText(resources.getString(R.string.character_relese));
         holder.linearRoadmap.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -16,6 +16,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.destiny.punishinggrayravenguide.HomeActivity;
+import com.destiny.punishinggrayravenguide.MainActivity;
 import com.destiny.punishinggrayravenguide.Method.Destiny;
 import com.destiny.punishinggrayravenguide.R;
 import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
@@ -120,9 +122,9 @@ public class ClassConstructActivity extends AppCompatActivity {
                         Log.d("TAG", "The ad was dismissed.");
                         OnClick();
                         dbHelper.ResetADS();
-//                        Intent intent = new Intent(MainActivity.this,HomeActivity.class);
-//                        startActivity(intent);
-//                        finishAffinity();
+                        Intent intent = new Intent(ClassConstructActivity.this, HomeActivity.class);
+                        startActivity(intent);
+                        finishAffinity();
                     }
 
                     @Override
@@ -194,7 +196,9 @@ public class ClassConstructActivity extends AppCompatActivity {
         Back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onBackPressed();
+                Intent intent = new Intent(ClassConstructActivity.this, HomeActivity.class);
+                startActivity(intent);
+                finishAffinity();
             }
         });
     }
