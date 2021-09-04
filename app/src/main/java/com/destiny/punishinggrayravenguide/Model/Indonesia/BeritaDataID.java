@@ -12,7 +12,7 @@ public class BeritaDataID {
                     "Punishing Gray Raven Penambahan Senjata",
                     "https://lh4.googleusercontent.com/J43TLuc_IBpKviY88jgwaP8-bs5vSJs3c0soD-7_o3jcUoNP7i5Z-AsjkQI46kBhNQEZAAmMpaLlukFbYWV_WGo1BZ5iq77ebafMR6ICvh38uv0IJBq6yvKqVGr_laktWaa1hDkqcA=w206-h167",
                     "Perbaikan kesalahan ketik dan pengubahan Konten kedepan ke Tips & Trik dan membuka module Senjata untuk mengetahui Data-data Lengkap tentang Senjata",
-                    "28 - 8 - 2021"
+                    "03 - 9 - 2021"
             },
             {"2",
                     "Punishing Gray Raven Penambahan Bahasa Indonesia",

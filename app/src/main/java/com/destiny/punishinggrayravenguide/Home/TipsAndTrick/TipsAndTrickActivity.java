@@ -23,6 +23,7 @@ import com.destiny.punishinggrayravenguide.Adapter.AdapterFutureContent;
 import com.destiny.punishinggrayravenguide.HomeActivity;
 import com.destiny.punishinggrayravenguide.Method.Destiny;
 import com.destiny.punishinggrayravenguide.Model.English.FutureContentDataEN;
+import com.destiny.punishinggrayravenguide.Model.English.TipsAndTrickCategoryEN;
 import com.destiny.punishinggrayravenguide.Model.Indonesia.FutureContentDataID;
 import com.destiny.punishinggrayravenguide.Model.Indonesia.TipsAndTrickCategoryID;
 import com.destiny.punishinggrayravenguide.Model.Model;
@@ -175,7 +176,7 @@ public class TipsAndTrickActivity extends AppCompatActivity {
     private void GetData(){
         Back = findViewById(R.id.relativeBack);
         if (Lang.equals("English")){
-            pList.addAll(TipsAndTrickCategoryID.getListData());
+            pList.addAll(TipsAndTrickCategoryEN.getListData());
         }else{
             pList.addAll(TipsAndTrickCategoryID.getListData());
         }

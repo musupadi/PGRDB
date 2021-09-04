@@ -1,14 +1,9 @@
 package com.destiny.punishinggrayravenguide.Model.English;
 
-import android.content.Context;
-import android.content.res.Resources;
-
 import com.destiny.punishinggrayravenguide.Model.Model;
-import com.destiny.punishinggrayravenguide.SharedPreference.LocaleHelper;
 
 import java.util.ArrayList;
 
-import io.paperdb.Paper;
 
 public class BeritaDataEN {
     public static String[][] data = new String[][]{
@@ -16,7 +11,7 @@ public class BeritaDataEN {
                     "Punishing Gray Raven Penambahan Weaponm",
                     "https://lh4.googleusercontent.com/J43TLuc_IBpKviY88jgwaP8-bs5vSJs3c0soD-7_o3jcUoNP7i5Z-AsjkQI46kBhNQEZAAmMpaLlukFbYWV_WGo1BZ5iq77ebafMR6ICvh38uv0IJBq6yvKqVGr_laktWaa1hDkqcA=w206-h167",
                     "Fixed typos and changed future content to Tips & Tricks and opened the Weapons module to find out Complete Data about Weapons",
-                    "28 - 8 - 2021"
+                    "03 - 9 - 2021"
             },
             {"2",
                     "Punishing Gray Raven Indonesia Addition Language",

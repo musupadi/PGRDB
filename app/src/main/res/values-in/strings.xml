@@ -15,13 +15,16 @@
     <string name="construct">Karakter</string>
     <string name="weapon">Senjata</string>
     <string name="memory">Memori</string>
-    <string name="future_content">Tips &amp; Trik</string>
-    <string name="future_content2">Tips &amp; Trik</string>
     <string name="unlock_roadmap">Keluaran\nKarakter</string>
     <string name="unlock_roadmap2">Keluaran Karakter</string>
     <string name="setting">Setelan Bahasa</string>
     <string name="meme">Meme</string>
     <string name="feedback_text">Kontak Disini untuk Saran dan Komentar</string>
+    <!-- Tips & Trick   -->
+    <string name="future_content">Tips &amp; Trick</string>
+    <string name="future_content2">Tips &amp; Trick</string>
+    <string name="patern_boss">Gerakan Boss</string>
+
     <!-- Category Weapon   -->
     <string name="category_weapon">Kategori Senjata</string>
     <string name="attack">Serangan</string>
