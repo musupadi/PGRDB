@@ -14,6 +14,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.destiny.punishinggrayravenguide.Home.TipsAndTrick.Tips.BossPatern.BossPaternActivity;
+import com.destiny.punishinggrayravenguide.Home.TipsAndTrick.Tips.Warzone.WarzoneActivity;
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
@@ -62,10 +63,16 @@ public class AdapterCategoryTips extends RecyclerView.Adapter<AdapterCategoryTip
                     if (p.getCategoryWeapon().equals("Boss Patern")){
                         Intent intent = new Intent(context, BossPaternActivity.class);
                         context.startActivity(intent);
+                    }else if ((p.getCategoryWeapon().equals("Warzone Team"))){
+                        Intent intent = new Intent(context, WarzoneActivity.class);
+                        context.startActivity(intent);
                     }
                 }else{
                     if (p.getCategoryWeapon().equals("Gerakan Boss")){
                         Intent intent = new Intent(context, BossPaternActivity.class);
+                        context.startActivity(intent);
+                    }else if (p.getCategoryWeapon().equals("Tim Warzone")){
+                        Intent intent = new Intent(context, WarzoneActivity.class);
                         context.startActivity(intent);
                     }
                 }

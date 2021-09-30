@@ -1,41 +1,25 @@
 package com.destiny.punishinggrayravenguide.Home.TipsAndTrick.Tips.BossPatern;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.destiny.punishinggrayravenguide.Adapter.AdapterBossPatern;
-import com.destiny.punishinggrayravenguide.Adapter.AdapterCategoryTips;
-import com.destiny.punishinggrayravenguide.Home.TipsAndTrick.TipsAndTrickActivity;
-import com.destiny.punishinggrayravenguide.HomeActivity;
-import com.destiny.punishinggrayravenguide.Method.Destiny;
-import com.destiny.punishinggrayravenguide.Model.Indonesia.TipsAndTrick.BossPaternID;
-import com.destiny.punishinggrayravenguide.Model.Indonesia.TipsAndTrickCategoryID;
+import com.destiny.punishinggrayravenguide.Model.English.TipsAndTrick.BossPatern.BossPaternEN;
+import com.destiny.punishinggrayravenguide.Model.Indonesia.TipsAndTrick.BossPatern.BossPaternID;
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
 import com.destiny.punishinggrayravenguide.SharedPreference.LocaleHelper;
-import com.google.android.gms.ads.AdError;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.FullScreenContentCallback;
-import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 import java.util.ArrayList;
 
@@ -80,7 +64,7 @@ public class BossPaternActivity extends AppCompatActivity {
     private void GetData(){
         Back = findViewById(R.id.relativeBack);
         if (Lang.equals("English")){
-            pList.addAll(BossPaternID.getListData());
+            pList.addAll(BossPaternEN.getListData());
         }else{
             pList.addAll(BossPaternID.getListData());
         }

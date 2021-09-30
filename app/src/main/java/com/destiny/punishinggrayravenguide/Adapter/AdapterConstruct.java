@@ -47,10 +47,7 @@ public class AdapterConstruct extends RecyclerView.Adapter<AdapterConstruct.Card
     public void onBindViewHolder(@NonNull CardViewViewHolder holder, int position) {
         final Model p = getList().get(position);
         Destiny destiny = new Destiny();
-        Glide.with(context)
-                .load(p.getGambar())
-                .apply(new RequestOptions().override(200, 200))
-                .into(holder.imgPhoto);
+        holder.imgPhoto.setImageResource(Integer.parseInt(p.getGambar()));
         holder.tvName.setText(p.getName()+" - "+p.getModel());
 
         holder.Elemental.setText(p.getElement());

@@ -1,11 +1,11 @@
-package com.destiny.punishinggrayravenguide.Model.Indonesia.TipsAndTrick;
+package com.destiny.punishinggrayravenguide.Model.English.TipsAndTrick.BossPatern;
 
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
 
 import java.util.ArrayList;
 
-public class BossPaternID {
+public class BossPaternEN {
     public static String[][] data = new String[][]{
             {"1",
                     String.valueOf(R.drawable.nozle),

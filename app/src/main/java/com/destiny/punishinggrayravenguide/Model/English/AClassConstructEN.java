@@ -9,7 +9,7 @@ public class AClassConstructEN {
     public static String[][] data = new String[][]{
             {"1",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/a/aa/Lucia_-_Dawn.png/revision/latest/scale-to-width-down/350?cb=20210718130435",
+                    String.valueOf(R.drawable.lucia_dawn_real),
                     //Name 2
                     "Lucia",
                     //Model 3
@@ -160,7 +160,7 @@ public class AClassConstructEN {
             },
             {"2",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/f/f9/Lee_-_Palefire.png/revision/latest/scale-to-width-down/350?cb=20210718130831",
+                    String.valueOf(R.drawable.lee_palefire_real),
                     //Name 2
                     "Lee",
                     //Model 3
@@ -298,7 +298,7 @@ public class AClassConstructEN {
             },
             {"3",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/8/8d/Liv_-_Lux.png/revision/latest/scale-to-width-down/350?cb=20210718130650",
+                    String.valueOf(R.drawable.liv_lux_real),
                     //Name 2
                     "Liv",
                     //Model 3
@@ -446,7 +446,7 @@ public class AClassConstructEN {
             },
             {"4",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/8/80/Karenina_-_Blast.png/revision/latest/scale-to-width-down/350?cb=20210718133429",
+                    String.valueOf(R.drawable.karenina_blast_real),
                     //Name 2
                     "Karenina",
                     //Model 3
@@ -587,7 +587,7 @@ public class AClassConstructEN {
             },
             {"5",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/3/3c/Bianca_-_Zero.png/revision/latest/scale-to-width-down/350?cb=20210718133858",
+                    String.valueOf(R.drawable.bianca_zero_real),
                     //Name 2
                     "Bianca",
                     //Model 3
@@ -724,7 +724,7 @@ public class AClassConstructEN {
             },
             {"6",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/4/4f/Watanabe_-_Nightblade.png/revision/latest/scale-to-width-down/350?cb=20210718132928",
+                    String.valueOf(R.drawable.watanabe_nightblade_real),
                     //Name 2
                     "Watanabe",
                     //Model 3
@@ -866,7 +866,7 @@ public class AClassConstructEN {
             },
             {"7",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/b/b3/Kamui_-_Bastion.png/revision/latest?cb=20200728115341",
+                    String.valueOf(R.drawable.kamui_bastion_real),
                     //Name 2
                     "Kamui",
                     //Model 3
@@ -1016,7 +1016,7 @@ public class AClassConstructEN {
             },
             {"8",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/3/32/Watanabe_-_Astral.png/revision/latest/scale-to-width-down/350?cb=20200728114714",
+                    String.valueOf(R.drawable.watanabe_astral_real),
                     //Name 2
                     "Watanabe",
                     //Model 3
@@ -1157,7 +1157,7 @@ public class AClassConstructEN {
             },
             {"9",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/e/ee/Ayla_-_Brilliance.png/revision/latest/scale-to-width-down/350?cb=20200728113936",
+                    String.valueOf(R.drawable.ayla_briliance_real),
                     //Name 2
                     "Ayla",
                     //Model 3
@@ -1298,7 +1298,7 @@ public class AClassConstructEN {
             },
             {"10",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/1/14/Sofia_-_Silver_Fang.png/revision/latest/scale-to-width-down/350?cb=20200728114430",
+                    String.valueOf(R.drawable.sofia_silverfang_real),
                     //Name 2
                     "Sofia",
                     //Model 3

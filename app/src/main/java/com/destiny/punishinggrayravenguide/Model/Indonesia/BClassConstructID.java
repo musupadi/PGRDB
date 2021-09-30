@@ -9,7 +9,7 @@ public class BClassConstructID {
     public static String[][] data = new String[][]{
             {"1",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/f/fe/Lucia_-_Lotus.png/revision/latest/scale-to-width-down/350?cb=20210718131738",
+                    String.valueOf(R.drawable.lucia_lotus_real),
                     //Name 2
                     "Lucia",
                     //Model 3
@@ -146,7 +146,7 @@ public class BClassConstructID {
             },
             {"2",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/e/e9/Nanami_-_Storm.png/revision/latest?cb=20200728115423",
+                    String.valueOf(R.drawable.nanami_storm_real),
                     //Name 2
                     "Nanami",
                     //Model 3
@@ -288,7 +288,7 @@ public class BClassConstructID {
             },
             {"3",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/a/a6/Liv_-_Eclipse.png/revision/latest/scale-to-width-down/350?cb=20210718132142",
+                    String.valueOf(R.drawable.liv_eclipse_real),
                     //Name 2
                     "Liv",
                     //Model 3

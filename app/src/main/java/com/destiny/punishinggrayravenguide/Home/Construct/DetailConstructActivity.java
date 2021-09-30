@@ -250,10 +250,11 @@ public class DetailConstructActivity extends AppCompatActivity {
 
     }
     private void GetData(){
-        Glide.with(this)
-                .load(GAMBAR)
-                .apply(new RequestOptions().override(200, 200))
-                .into(Gambar);
+//        Glide.with(this)
+//                .load(GAMBAR)
+//                .apply(new RequestOptions().override(200, 200))
+//                .into(Gambar);
+        Gambar.setImageResource(Integer.parseInt(GAMBAR));
         tvDetailNama.setText(NAME+" "+MODEL);
         Name.setText(NAME);
         Model.setText(MODEL);

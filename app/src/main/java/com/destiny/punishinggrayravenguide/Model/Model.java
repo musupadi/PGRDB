@@ -40,6 +40,10 @@ public class Model {
     //TipsAndTrick
     String Kelebihan,Kekurangan,Introduksi,Tips,Counter,Author;
 
+    //Team
+    String GambarSupport,GambarAttacker,GambarTank;
+    String Support,Attacker,Tank,Tier,TierVisible;
+
     //Character Roadmap
     String ICharacter1,Character1,ICharacter2,Character2,ICharacter3,Character3,CNServer,GlobalServer;
     public String getId() {
@@ -912,5 +916,69 @@ public class Model {
 
     public void setConstructName(String constructName) {
         ConstructName = constructName;
+    }
+
+    public String getGambarSupport() {
+        return GambarSupport;
+    }
+
+    public void setGambarSupport(String gambarSupport) {
+        GambarSupport = gambarSupport;
+    }
+
+    public String getGambarAttacker() {
+        return GambarAttacker;
+    }
+
+    public void setGambarAttacker(String gambarAttacker) {
+        GambarAttacker = gambarAttacker;
+    }
+
+    public String getGambarTank() {
+        return GambarTank;
+    }
+
+    public void setGambarTank(String gambarTank) {
+        GambarTank = gambarTank;
+    }
+
+    public String getSupport() {
+        return Support;
+    }
+
+    public void setSupport(String support) {
+        Support = support;
+    }
+
+    public String getAttacker() {
+        return Attacker;
+    }
+
+    public void setAttacker(String attacker) {
+        Attacker = attacker;
+    }
+
+    public String getTank() {
+        return Tank;
+    }
+
+    public void setTank(String tank) {
+        Tank = tank;
+    }
+
+    public String getTier() {
+        return Tier;
+    }
+
+    public void setTier(String tier) {
+        Tier = tier;
+    }
+
+    public String getTierVisible() {
+        return TierVisible;
+    }
+
+    public void setTierVisible(String tierVisible) {
+        TierVisible = tierVisible;
     }
 }

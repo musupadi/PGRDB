@@ -23,7 +23,8 @@
     <string name="future_content">Tips &amp; Trick</string>
     <string name="future_content2">Tips &amp; Trick</string>
     <string name="patern_boss">Patern Boss</string>
-
+    <string name="warzone_team">Warzone Team</string>
+    <string name="pain_cage_team">Pain Cage Team</string>
     <!-- Category Weapon   -->
     <string name="category_weapon">Category Weapon</string>
     <string name="attack">Attack</string>

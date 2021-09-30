@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppThemeNoAction">
-        <activity android:name=".Home.TipsAndTrick.Tips.BossPatern.DetailBossPaternActivity"></activity>
+        <activity
+            android:name=".Home.TipsAndTrick.Tips.Warzone.DetailWarzoneActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Home.TipsAndTrick.Tips.Warzone.WarzoneActivity"
+            android:exported="true" />
+        <activity android:name=".Home.TipsAndTrick.Tips.BossPatern.DetailBossPaternActivity" />
         <activity android:name=".Home.TipsAndTrick.Tips.BossPatern.BossPaternActivity" />
         <activity android:name=".Home.TipsAndTrick.TipsAndTrickActivity" />
         <activity android:name=".Home.Weapon.WeaponActivity" />

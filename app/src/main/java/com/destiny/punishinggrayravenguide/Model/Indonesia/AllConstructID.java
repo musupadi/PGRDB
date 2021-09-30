@@ -2,6 +2,7 @@ package com.destiny.punishinggrayravenguide.Model.Indonesia;
 
 import com.destiny.punishinggrayravenguide.Model.Model;
 import com.destiny.punishinggrayravenguide.R;
+import com.google.gson.internal.bind.JsonTreeReader;
 
 import java.util.ArrayList;
 
@@ -9,7 +10,7 @@ public class AllConstructID {
     public static String[][] data = new String[][]{
             {"1",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/f/fe/Lucia_-_Lotus.png/revision/latest/scale-to-width-down/350?cb=20210718131738",
+                    String.valueOf(R.drawable.lucia_lotus_real),
                     //Name 2
                     "Lucia",
                     //Model 3
@@ -146,7 +147,7 @@ public class AllConstructID {
             },
             {"2",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/e/e9/Nanami_-_Storm.png/revision/latest?cb=20200728115423",
+                    String.valueOf(R.drawable.nanami_storm_real),
                     //Name 2
                     "Nanami",
                     //Model 3
@@ -288,7 +289,7 @@ public class AllConstructID {
             },
             {"3",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/a/a6/Liv_-_Eclipse.png/revision/latest/scale-to-width-down/350?cb=20210718132142",
+                    String.valueOf(R.drawable.liv_eclipse_real),
                     //Name 2
                     "Liv",
                     //Model 3
@@ -432,7 +433,7 @@ public class AllConstructID {
             },
             {"4",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/a/aa/Lucia_-_Dawn.png/revision/latest/scale-to-width-down/350?cb=20210718130435",
+                    String.valueOf(R.drawable.lucia_dawn_real),
                     //Name 2
                     "Lucia",
                     //Model 3
@@ -583,7 +584,7 @@ public class AllConstructID {
             },
             {"5",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/f/f9/Lee_-_Palefire.png/revision/latest/scale-to-width-down/350?cb=20210718130831",
+                    String.valueOf(R.drawable.lee_palefire_real),
                     //Name 2
                     "Lee",
                     //Model 3
@@ -721,7 +722,7 @@ public class AllConstructID {
             },
             {"6",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/8/8d/Liv_-_Lux.png/revision/latest/scale-to-width-down/350?cb=20210718130650",
+                    String.valueOf(R.drawable.liv_lux_real),
                     //Name 2
                     "Liv",
                     //Model 3
@@ -869,7 +870,7 @@ public class AllConstructID {
             },
             {"7",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/8/80/Karenina_-_Blast.png/revision/latest/scale-to-width-down/350?cb=20210718133429",
+                    String.valueOf(R.drawable.karenina_blast_real),
                     //Name 2
                     "Karenina",
                     //Model 3
@@ -1010,7 +1011,7 @@ public class AllConstructID {
             },
             {"8",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/3/3c/Bianca_-_Zero.png/revision/latest/scale-to-width-down/350?cb=20210718133858",
+                    String.valueOf(R.drawable.bianca_zero_real),
                     //Name 2
                     "Bianca",
                     //Model 3
@@ -1147,7 +1148,7 @@ public class AllConstructID {
             },
             {"9",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/4/4f/Watanabe_-_Nightblade.png/revision/latest/scale-to-width-down/350?cb=20210718132928",
+                    String.valueOf(R.drawable.watanabe_nightblade_real),
                     //Name 2
                     "Watanabe",
                     //Model 3
@@ -1289,7 +1290,7 @@ public class AllConstructID {
             },
             {"11",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/6/6f/Kamui_-_Tenebrion.png/revision/latest/scale-to-width-down/350?cb=20200728115108",
+                    String.valueOf(R.drawable.kamui_tenebrion_real),
                     //Name 2
                     "Kamui",
                     //Model 3
@@ -1445,7 +1446,7 @@ public class AllConstructID {
             },
             {"11",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/7/75/Liv_-_Luminance.png/revision/latest/scale-to-width-down/350?cb=20210718135929",
+                    String.valueOf(R.drawable.liv_luminance_real),
                     //Name 2
                     "Liv",
                     //Model 3
@@ -1588,7 +1589,7 @@ public class AllConstructID {
             },
             {"12",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/3/3d/Lee_-_Entropy.png/revision/latest/scale-to-width-down/350?cb=20210718135530",
+                    String.valueOf(R.drawable.lee_entrophy_real),
                     //Name 2
                     "Lee",
                     //Model 3
@@ -1731,7 +1732,7 @@ public class AllConstructID {
             },
             {"13",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/e/e8/Karenina_-_Ember.png/revision/latest/scale-to-width-down/350?cb=20210718140127",
+                    String.valueOf(R.drawable.karenina_ember_real),
                     //Name 2
                     "Karenina",
                     //Model 3
@@ -1880,7 +1881,7 @@ public class AllConstructID {
             },
             {"14",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/9/93/Nanami_-_Pulse.png/revision/latest/scale-to-width-down/350?cb=20210718140319",
+                    String.valueOf(R.drawable.nanami_pulse_real),
                     //Name 2
                     "Nanami",
                     //Model 3
@@ -2028,7 +2029,7 @@ public class AllConstructID {
             },
             {"10",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/b/b3/Kamui_-_Bastion.png/revision/latest?cb=20200728115341",
+                    String.valueOf(R.drawable.kamui_bastion_real),
                     //Name 2
                     "Kamui",
                     //Model 3
@@ -2180,7 +2181,7 @@ public class AllConstructID {
             },
             {"15",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/f/f9/Lucia_-_Crimson_Abyss.png/revision/latest/scale-to-width-down/350?cb=20200728115035",
+                    String.valueOf(R.drawable.lucia_crimson_abyss_real),
                     //Name 2
                     "Lucia",
                     //Model 3
@@ -2339,7 +2340,7 @@ public class AllConstructID {
             },
             {"16",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/3/32/Watanabe_-_Astral.png/revision/latest/scale-to-width-down/350?cb=20200728114714",
+                    String.valueOf(R.drawable.watanabe_astral_real),
                     //Name 2
                     "Watanabe",
                     //Model 3
@@ -2480,7 +2481,7 @@ public class AllConstructID {
             },
             {"17",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/e/ee/Ayla_-_Brilliance.png/revision/latest/scale-to-width-down/350?cb=20200728113936",
+                    String.valueOf(R.drawable.ayla_briliance_real),
                     //Name 2
                     "Ayla",
                     //Model 3
@@ -2621,7 +2622,7 @@ public class AllConstructID {
             },
             {"17",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/0/0b/Bianca_-_Veritas.png/revision/latest/scale-to-width-down/350?cb=20200728114616",
+                    String.valueOf(R.drawable.bianca_veritas_real),
                     //Name 2
                     "Bianca",
                     //Model 3
@@ -2779,7 +2780,7 @@ public class AllConstructID {
             },
             {"18",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/1/14/Sofia_-_Silver_Fang.png/revision/latest/scale-to-width-down/350?cb=20200728114430",
+                    String.valueOf(R.drawable.sofia_silverfang_real),
                     //Name 2
                     "Sofia",
                     //Model 3

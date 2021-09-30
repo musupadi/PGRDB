@@ -9,7 +9,7 @@ public class SClassConstructID {
     public static String[][] data = new String[][]{
             {"1",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/6/6f/Kamui_-_Tenebrion.png/revision/latest/scale-to-width-down/350?cb=20200728115108",
+                    String.valueOf(R.drawable.kamui_tenebrion_real),
                     //Name 2
                     "Kamui",
                     //Model 3
@@ -165,7 +165,7 @@ public class SClassConstructID {
             },
             {"2",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/7/75/Liv_-_Luminance.png/revision/latest/scale-to-width-down/350?cb=20210718135929",
+                    String.valueOf(R.drawable.liv_luminance_real),
                     //Name 2
                     "Liv",
                     //Model 3
@@ -307,7 +307,7 @@ public class SClassConstructID {
             },
             {"3",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/3/3d/Lee_-_Entropy.png/revision/latest/scale-to-width-down/350?cb=20210718135530",
+                    String.valueOf(R.drawable.lee_entrophy_real),
                     //Name 2
                     "Lee",
                     //Model 3
@@ -450,7 +450,7 @@ public class SClassConstructID {
             },
             {"4",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/e/e8/Karenina_-_Ember.png/revision/latest/scale-to-width-down/350?cb=20210718140127",
+                    String.valueOf(R.drawable.karenina_ember_real),
                     //Name 2
                     "Karenina",
                     //Model 3
@@ -599,7 +599,7 @@ public class SClassConstructID {
             },
             {"5",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/9/93/Nanami_-_Pulse.png/revision/latest/scale-to-width-down/350?cb=20210718140319",
+                    String.valueOf(R.drawable.nanami_pulse_real),
                     //Name 2
                     "Nanami",
                     //Model 3
@@ -747,7 +747,7 @@ public class SClassConstructID {
             },
             {"6",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/f/f9/Lucia_-_Crimson_Abyss.png/revision/latest/scale-to-width-down/350?cb=20200728115035",
+                    String.valueOf(R.drawable.lucia_crimson_abyss_real),
                     //Name 2
                     "Lucia",
                     //Model 3
@@ -906,7 +906,7 @@ public class SClassConstructID {
             },
             {"17",
                     //Gambar 1
-                    "https://static.wikia.nocookie.net/punishing-gray-raven/images/0/0b/Bianca_-_Veritas.png/revision/latest/scale-to-width-down/350?cb=20200728114616",
+                    String.valueOf(R.drawable.bianca_veritas_real),
                     //Name 2
                     "Bianca",
                     //Model 3

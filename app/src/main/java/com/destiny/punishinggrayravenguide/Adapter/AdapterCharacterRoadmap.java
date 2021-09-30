@@ -78,24 +78,29 @@ public class AdapterCharacterRoadmap extends RecyclerView.Adapter<AdapterCharact
                 .into(holder.imgPhoto);
         holder.tvName.setText(p.getNama());
         //Chara 1
-        Glide.with(context)
-                .load(p.getICharacter1())
-                .apply(new RequestOptions().override(350, 550))
-                .into(holder.iChara1);
+        if (!p.getICharacter1().equals("-")){
+            holder.iChara1.setImageResource(Integer.parseInt(p.getICharacter1()));
+        }
         holder.Chara1.setText(p.getCharacter1());
 
         //Chara 2
-        Glide.with(context)
-                .load(p.getICharacter2())
-                .apply(new RequestOptions().override(350, 550))
-                .into(holder.iChara2);
+//        Glide.with(context)
+//                .load(p.getICharacter2())
+//                .apply(new RequestOptions().override(350, 550))
+//                .into(holder.iChara2);
+        if (!p.getICharacter2().equals("-")){
+            holder.iChara2.setImageResource(Integer.parseInt(p.getICharacter2()));
+        }
         holder.Chara2.setText(p.getCharacter2());
 
         //Chara 3
-        Glide.with(context)
-                .load(p.getICharacter3())
-                .apply(new RequestOptions().override(350, 550))
-                .into(holder.iChara3);
+//        Glide.with(context)
+//                .load(p.getICharacter3())
+//                .apply(new RequestOptions().override(350, 550))
+//                .into(holder.iChara3);
+        if (!p.getICharacter3().equals("-")){
+            holder.iChara3.setImageResource(Integer.parseInt(p.getICharacter3()));
+        }
         holder.Chara3.setText(p.getCharacter3());
 
         holder.CN.setText("CN "+resources.getString(R.string.relese)+" : "+p.getCNServer());

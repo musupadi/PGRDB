@@ -24,7 +24,8 @@
     <string name="future_content">Tips &amp; Trick</string>
     <string name="future_content2">Tips &amp; Trick</string>
     <string name="patern_boss">Gerakan Boss</string>
-
+    <string name="warzone_team">Tim Warzone</string>
+    <string name="pain_cage_team">Tim Pain Cage</string>
     <!-- Category Weapon   -->
     <string name="category_weapon">Kategori Senjata</string>
     <string name="attack">Serangan</string>
