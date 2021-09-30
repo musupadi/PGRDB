@@ -28,7 +28,7 @@ public class WarzoneDark {
                     "Vera Rozen",
                     //Attacker
                     String.valueOf(R.drawable.watanabe_astral_real),
-                    "Luna Laurel",
+                    "Watanabe Astral",
                     //Tank
                     String.valueOf(R.drawable.kamui_tenebrion_real),
                     "Kamui Tenebrion"
@@ -44,7 +44,7 @@ public class WarzoneDark {
                     "Luna Laurel",
                     //Tank
                     String.valueOf(R.drawable.no_21_real),
-                    "Kamui Tenebrion"
+                    "No.21 XXI"
             },
             {"3",
                     "Tier 3",
@@ -54,10 +54,10 @@ public class WarzoneDark {
                     "Vera Rozen",
                     //Attacker
                     String.valueOf(R.drawable.watanabe_astral_real),
-                    "Luna Laurel",
+                    "Watanabe Astral",
                     //Tank
                     String.valueOf(R.drawable.no_21_real),
-                    "Kamui Tenebrion"
+                    "No.21 XXI"
             },
     };
     public static ArrayList<Model> getListData(){

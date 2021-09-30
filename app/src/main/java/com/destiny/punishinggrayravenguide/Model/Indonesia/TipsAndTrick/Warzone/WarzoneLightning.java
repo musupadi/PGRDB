@@ -57,7 +57,7 @@ public class WarzoneLightning {
                     "Lucia Dawn",
                     //Tank
                     String.valueOf(R.drawable.chrome_archlight_real),
-                    "Vera Flare"
+                    "Chrome Archlight"
             },
     };
     public static ArrayList<Model> getListData(){

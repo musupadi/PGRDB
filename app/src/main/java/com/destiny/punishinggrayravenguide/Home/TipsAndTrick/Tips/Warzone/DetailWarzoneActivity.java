@@ -80,7 +80,7 @@ public class DetailWarzoneActivity extends AppCompatActivity {
             pList.addAll(WarzoneLightning.getListData());
         }else if (ELEMENT.equals("Fire") || ELEMENT.equals("Api")){
             pList.addAll(WarzoneFire.getListData());
-        }if (ELEMENT.equals("Dark") || ELEMENT.equals("Kegelapan")){
+        }if (ELEMENT.equals("Dark") || ELEMENT.equals("Gelap")){
             pList.addAll(WarzoneDark.getListData());
         }
         recyclerView.setLayoutManager(new GridLayoutManager(this,1));
