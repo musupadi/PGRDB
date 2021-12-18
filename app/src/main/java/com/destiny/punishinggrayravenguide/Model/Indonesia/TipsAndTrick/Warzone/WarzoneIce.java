@@ -32,6 +32,19 @@ public class WarzoneIce {
                     //Tank
                     String.valueOf(R.drawable.chanyu_kirin_real),
                     "Changyu Kirin"
+            },
+            {"2",
+                    "Tier 3",
+                    "VISIBLE",
+                    //Support
+                    String.valueOf(R.drawable.karenina_blast_real),
+                    "Karenina Blast",
+                    //Attacker
+                    String.valueOf(R.drawable.lucia_plume_real),
+                    "Lucia Plume",
+                    //Tank
+                    String.valueOf(R.drawable.liv_lux_real),
+                    "Lix Lux"
             }
     };
     public static ArrayList<Model> getListData(){

@@ -1438,6 +1438,156 @@ public class AClassConstructEN {
                             "Gain 1 random signal orb and 10 energy when 5 energy orbs\n" +
                             "have been collected, 10s cooldown."
             },
+            {"11",
+                    //Gambar 1
+                    String.valueOf(R.drawable.chrome_archlight_real),
+                    //Name 2
+                    "Chrome",
+                    //Model 3
+                    "Archlight",
+                    //Class Profession 4
+                    "Armored",
+                    //Element 5
+                    "30% Physical 70% Lightning",
+                    //CV 6
+                    "Hirakawa Daisuke",
+                    //Serial 7
+                    "BPE-07",
+                    //Affilation 8
+                    "Strike Hawk",
+                    //Class 9
+                    "A",
+                    //Red Orb 10
+                    String.valueOf(R.drawable.red_archlight),
+                    //11
+                    "\"Attack on the spot with the scythe,\n" +
+                            "each hit dealing 18%/36%/54% Physical damage.\n" +
+                            "Damage is converted to Lightning element \n" +
+                            "when it is a 3-orb.",
+                    //Yellow Orb 12
+                    String.valueOf(R.drawable.yellow_archlight),
+                    //13
+                    "\"Continuously move and spin multiple times,\n" +
+                            "pulling in nearby targets and then perform\n" +
+                            "a downward strike, each hit dealing\n" +
+                            "20%/40%/60% Physical damage.\n" +
+                            "Deal 60%/120%/180% Lightning damage in an area\n" +
+                            "as the scythe strikes the ground.\n" +
+                            "Damage is converted to Lightning element \n" +
+                            "when it is a 3-orb.",
+                    //Blue Orb 14
+                    String.valueOf(R.drawable.blue_archlight),
+                    //15
+                    "\"Spin in an electric burst,\n" +
+                            "dealing 150%/300%/450% Lightning damage and\n" +
+                            "Marks the target for 6s.\n" +
+                            "Deal additional 6%/8%/10% damage \n" +
+                            "towards Marked targets.\n" +
+                            "Receive 10%/15%/20% reduced damage\n" +
+                            "from Marked targets' attacks.",
+                    //Basic Attack
+                    "Continuously attack with the scythe, dealing a total of 610% Physical damage.",
+                    //QTE 16
+                    "targets around the area upon entering the battle, dealing 250% Lightning damage and reducing\n" +
+                            "Lightning resistance by 10% for 6s. Strike the ground after, dealing 250% Lightning damage in the area.",
+                    //PROFESSION 17
+                    "Targets hit take 20% more damage for 5s",
+                    //Awakening 18
+                    "Gain 3 signal orbs at the start of battle.",
+                    //Leader 19
+                    "All team members' Defense +10%, HP +5% when there are 3 different professions",
+                    //CORE 20
+                    "Consuming Blue orbs after any 3-orb combo grants 10% HP worth of shield for 4s.\n" +
+                            "When the shield renews or expires, deal 200% Lightning damage around the character.",
+                    //ULTIMATE 21
+                    "Expend 100 energy. Charge self with lightning for 8s and pull nearby targets in.\n" +
+                            "Basic attack is converted to Lightning Strike.\n" +
+                            "Within the duration, core passive is triggered after every 5th Lightning Strike.\n" +
+                            "When triggering Lightning Strike, deal 35% Lightning damage during the sprint \n" +
+                            "and then slash for 120% Lightning damage.",
+                    //SS 22
+                    "Lightning damage +10% when Arc Shield is active.",
+                    //SSS 23
+                    "When Chrome is swapped into battle, gain ultimate state for 4s.",
+                    //SSS+ 24
+                    "Lightning Strike reduces Lightning resistance by 15% for 8s.",
+                    //Skill 25
+                    "\"TL;DR\n" +
+                            "Triple anything + Blue or Swap-in attack + Blue to do core.",
+                    //Build 1
+                    //Memo 1
+                    String.valueOf(R.drawable.heisen),
+                    "4 x Heisen",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2 x Einsteina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CLASS",
+                    //Remarks
+                    "Awakening Set Heisen Bottom and Einsteina Top",
+                    //Role
+                    "DPS",
+                    //Build 2
+                    //Memo 1
+                    String.valueOf(R.drawable.da_vinci),
+                    "4 x Da Vinci",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2 x Einsteina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CORE",
+                    //Remarks
+                    "QTE Support",
+                    //Role
+                    "QTE Support",
+                    //Build 3
+                    //Memo 1
+                    "-",
+                    "-",
+                    //Memo 2
+                    "-",
+                    "-",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "-",
+                    "-",
+                    //Remarks
+                    "-",
+                    //Role
+                    "-",
+                    //Build 4
+                    //Memo 1
+                    String.valueOf(R.drawable.memory_aife),
+                    "4 x Aife",
+                    //Memo 2
+                    String.valueOf(R.drawable.memory_erwin),
+                    "2 x Erwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "Anything",
+                    "-",
+                    //Remarks
+                    "5 Star Memory",
+                    //Role
+                    "5 Star Memory",
+                    String.valueOf(R.drawable.saint_elmo),
+                    "Saint Elmo",
+                    "Lightning damage +10%." +
+                            "During ultimate, number of Lightning strikes needed to activate\n" +
+                            "core passive is reduced to 3."
+            },
     };
     public static ArrayList<Model> getListData(){
         Model model = null;

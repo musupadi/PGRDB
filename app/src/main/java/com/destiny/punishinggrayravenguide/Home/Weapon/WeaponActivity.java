@@ -302,6 +302,9 @@ public class WeaponActivity extends AppCompatActivity {
                 }
             }
         }
+        recyclerView.setItemViewCacheSize(100);
+        recyclerView.setDrawingCacheEnabled(true);
+        recyclerView.setDrawingCacheQuality(View.DRAWING_CACHE_QUALITY_HIGH);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         AdapterWeapon adapterConstruct = new AdapterWeapon(this);
         adapterConstruct.setList(pList);

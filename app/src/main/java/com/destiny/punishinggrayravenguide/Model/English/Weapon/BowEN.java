@@ -64,7 +64,7 @@ public class BowEN {
                     "Bianca Zero",
             },
             {"5",
-                    "Lightning",
+                    "Tornitrus",
                     String.valueOf(R.drawable.lightning),
                     "Lightning damage +15%.\n" +
                             "Unleash a thunderbolt, dealing 150% Lightning damage when\n" +

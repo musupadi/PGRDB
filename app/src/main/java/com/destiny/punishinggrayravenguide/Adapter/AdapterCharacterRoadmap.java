@@ -3,6 +3,7 @@ package com.destiny.punishinggrayravenguide.Adapter;
 import android.content.Context;
 import android.content.res.Resources;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -90,6 +91,8 @@ public class AdapterCharacterRoadmap extends RecyclerView.Adapter<AdapterCharact
 //                .into(holder.iChara2);
         if (!p.getICharacter2().equals("-")){
             holder.iChara2.setImageResource(Integer.parseInt(p.getICharacter2()));
+        }else{
+
         }
         holder.Chara2.setText(p.getCharacter2());
 
@@ -100,11 +103,13 @@ public class AdapterCharacterRoadmap extends RecyclerView.Adapter<AdapterCharact
 //                .into(holder.iChara3);
         if (!p.getICharacter3().equals("-")){
             holder.iChara3.setImageResource(Integer.parseInt(p.getICharacter3()));
+        }else{
+
         }
         holder.Chara3.setText(p.getCharacter3());
 
         holder.CN.setText("CN "+resources.getString(R.string.relese)+" : "+p.getCNServer());
-        if (Integer.parseInt(p.getId()) < 3){
+        if (Integer.parseInt(p.getId()) < 5){
             holder.Global.setText("Global "+resources.getString(R.string.relese)+" : "+p.getGlobalServer());
         }else{
             if (Lang.equals("English")){

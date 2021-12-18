@@ -1056,11 +1056,172 @@ public class SClassConstructEN {
                     //Role
                     "5 Star Memory",
                     String.valueOf(R.drawable.lightning),
-                    "Lightning",
+                    "Tornitrus",
                     "Lightning damage +15%.\n" +
                             "Unleash a thunderbolt, dealing 150% Lightning damage when\n" +
                             "the same target has been struck 5 times with Lightning elemental skills.\n" +
                             "2s cooldown."
+            },
+            {"8",
+                    //Gambar 1
+                    String.valueOf(R.drawable.lucia_plume_real),
+                    //Name 2
+                    "Lucia",
+                    //Model 3
+                    "Plume",
+                    //Class Profession 4
+                    "Assault",
+                    //Element 5
+                    "20% Physical 80% Ice",
+                    //CV 6
+                    "Ishikawa Yui",
+                    //Serial 7
+                    "BPL-01",
+                    //Affilation 8
+                    "Gray Raven",
+                    //Class 9
+                    "S",
+                    //Red Orb 10
+                    String.valueOf(R.drawable.red_plume),
+                    //11
+                    "\"Swiftly slash in place 4/4/8 times, each\n" +
+                            "dealing 60%/120%/120% Physical damage.\n" +
+                            "\n" +
+                            "Glacial mode: Generate a forward-moving tornado,\n" +
+                            "dealing 9 hits total for 30%/60%/90% Ice damage per hit.\n" +
+                            "Deal 390% Ice damage as the \n" +
+                            "tornado reaches the furthest point.",
+                    //Yellow Orb 12
+                    String.valueOf(R.drawable.yellow_plume),
+                    //13
+                    "\"Quickly rush towards the target, striking twice for\n" +
+                            "115%/235%/355% Physical damage per hit.\n" +
+                            "\n" +
+                            "Glacial mode: Quickly leap towards the target,\n" +
+                            "striking twice for 150%/300%/450% Ice damage per hit.",
+                    //Blue Orb 14
+                    String.valueOf(R.drawable.blue_plume),
+                    //15
+                    "\"Perform a spinning attack followed by a downward slash.\n" +
+                            "Deal 30%/60%/90% Physical damage while spinning,\n" +
+                            "and 70%/160%/250% Physical damage for the slash.\n" +
+                            "\n" +
+                            "Glacial mode: Unleash a tornado ahead, striking 5 times\n" +
+                            "for 40%/80%/120% Ice damage per hit and quickly \n" +
+                            "pull the target back towards self, dealing\n" +
+                            "80%/160%/240% Ice damage.",
+                    //Basic Attack
+                    "\"Slash continuously for a total of 640% Physical damage.\n" +
+                            "Glacial mode: Utilize dual-wielding and continuously attack the target, dealing 310% Physical and 370% Ice damage.",
+                    //QTE 16
+                    "Rush towards the target, dealing 320% Physical and 320% Ice damage.",
+                    //PROFESSION 17
+                    "Damage +20%.",
+                    //Awakening 18
+                    "Gain 3 signal orbs at the start of battle.",
+                    //Leader 19
+                    "All team members' Ice damage +10%. Assault constructs' Attack +5%",
+                    //CORE 20
+                    "\"During Normal mode, 3-orb combos generate 50% energy and 1 ultimate charge, up to a maximum of 2 charges.\n" +
+                            "Glacial mode: Energy is drained over time. Ice damage is increased by 50% when the gauge is not empty.\n" +
+                            "3-orb combos generate 1 ultimate charge, up to a maximum of 4 charges.\n" +
+                            "Ultimate is boosted when the gauge is not empty.",
+                    //ULTIMATE 21
+                    "\"Swiftly switch modes to Glacial, gain Super Armor during the transition. \n" +
+                            " During a full energy mode change, signal orbs are rearranged, prioritizing triple orbs.\n" +
+                            "Glacial mode: Jump and toss the offhand weapon into the ground, slowing all enemies for a short duration\n" +
+                            "and dealing 900%/1200%/1600%/3040% Ice damage corresponding to the number of ultimate charges present, and then\n" +
+                            "reverting to normal mode. Mode Switch: Can be activated at any time during Normal mode; can be activated during Glacial mode when\n" +
+                            "there are 1 or more ultimate charges. 3s transition cooldown.",
+                    //SS 22
+                    "\"Targets struck by Blue orb take 10% more damage for 8s.\n" +
+                            "Damage bonus only applies to self.",
+                    //SSS 23
+                    "\"Option 1: Gain full energy and 2 ultimate stacks at the start of battle. Orb damage +5% when the gauge is not empty during Glacial mode.\n" +
+                            "Option 2: Gain full energy at the start of battle. Orb damage +10% when the gauge is not empty during Glacial mode.\n" +
+                            "(Toggle in the Character Skills page)",
+                    //SSS+ 24
+                    "Ice damage +20% during core passive mode.",
+                    //Skill 25
+                    "\"TL;DR\n" +
+                            "Do 3 orbs to have Ult mode ready\n" +
+                            "Don't enter Ult mode with little orbs, build up some before going in.\n" +
+                            "Ult mode will sort all existing orbs into triples.\n" +
+                            "Nuke with all the triples and finish off with Ult button again before the gauge runs out.",
+                    //Build 1
+                    //Memo 1
+                    String.valueOf(R.drawable.hanna),
+                    "4 x Hanna",
+                    //Memo 2
+                    String.valueOf(R.drawable.darwin),
+                    "2 x Darwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 RED",
+                    "6 CORE",
+                    //Remarks
+                    "Awakening set. Hanna Top and Darwin Bottom",
+                    //Role
+                    "DPS",
+                    //Build 2
+                    //Memo 1
+                    String.valueOf(R.drawable.hanna),
+                    "4 x Hanna",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2 x Einsteina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 RED",
+                    "6 CORE",
+                    //Remarks
+                    "For Pre-Changyu",
+                    //Role
+                    "DPS",
+                    //Build 3
+                    //Memo 1
+                    String.valueOf(R.drawable.frederick),
+                    "4x Frederick",
+                    //Memo 2
+                    String.valueOf(R.drawable.darwin),
+                    "2x Darwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 RED",
+                    "6 QTE",
+                    //Remarks
+                    "\"Specialized high burst build.\n" +
+                            "Less brainless than Hanna build.\n" +
+                            "Planning burst around Matrix window needed.",
+                    //Role
+                    "DPS",
+                    //Build 4
+                    //Memo 1
+                    String.valueOf(R.drawable.memory_aife),
+                    "4 x Aife",
+                    //Memo 2
+                    String.valueOf(R.drawable.memory_erwin),
+                    "2 x Erwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "Anything",
+                    "-",
+                    //Remarks
+                    "5 Star Memory",
+                    //Role
+                    "5 Star Memory",
+                    String.valueOf(R.drawable.crimson_birch),
+                    "Crimson Birch",
+                    "Ice damage +15%.\n" +
+                            "Damage +10% for 5s after 3-orb."
             },
     };
     public static ArrayList<Model> getListData(){

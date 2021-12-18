@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.destiny.punishinggrayravenguide.R;
 import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
+//import com.google.android.gms.ads.interstitial.InterstitialAd;
 
 import io.paperdb.Paper;
 

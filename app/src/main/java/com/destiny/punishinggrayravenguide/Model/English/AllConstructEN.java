@@ -2919,6 +2919,317 @@ public class AllConstructEN {
                             "Gain 1 random signal orb and 10 energy when 5 energy orbs\n" +
                             "have been collected, 10s cooldown."
             },
+            {"19",
+                    //Gambar 1
+                    String.valueOf(R.drawable.chrome_archlight_real),
+                    //Name 2
+                    "Chrome",
+                    //Model 3
+                    "Archlight",
+                    //Class Profession 4
+                    "Armored",
+                    //Element 5
+                    "30% Physical 70% Lightning",
+                    //CV 6
+                    "Hirakawa Daisuke",
+                    //Serial 7
+                    "BPE-07",
+                    //Affilation 8
+                    "Strike Hawk",
+                    //Class 9
+                    "A",
+                    //Red Orb 10
+                    String.valueOf(R.drawable.red_archlight),
+                    //11
+                    "\"Attack on the spot with the scythe,\n" +
+                            "each hit dealing 18%/36%/54% Physical damage.\n" +
+                            "Damage is converted to Lightning element \n" +
+                            "when it is a 3-orb.",
+                    //Yellow Orb 12
+                    String.valueOf(R.drawable.yellow_archlight),
+                    //13
+                    "\"Continuously move and spin multiple times,\n" +
+                            "pulling in nearby targets and then perform\n" +
+                            "a downward strike, each hit dealing\n" +
+                            "20%/40%/60% Physical damage.\n" +
+                            "Deal 60%/120%/180% Lightning damage in an area\n" +
+                            "as the scythe strikes the ground.\n" +
+                            "Damage is converted to Lightning element \n" +
+                            "when it is a 3-orb.",
+                    //Blue Orb 14
+                    String.valueOf(R.drawable.blue_archlight),
+                    //15
+                    "\"Spin in an electric burst,\n" +
+                            "dealing 150%/300%/450% Lightning damage and\n" +
+                            "Marks the target for 6s.\n" +
+                            "Deal additional 6%/8%/10% damage \n" +
+                            "towards Marked targets.\n" +
+                            "Receive 10%/15%/20% reduced damage\n" +
+                            "from Marked targets' attacks.",
+                    //Basic Attack
+                    "Continuously attack with the scythe, dealing a total of 610% Physical damage.",
+                    //QTE 16
+                    "targets around the area upon entering the battle, dealing 250% Lightning damage and reducing\n" +
+                            "Lightning resistance by 10% for 6s. Strike the ground after, dealing 250% Lightning damage in the area.",
+                    //PROFESSION 17
+                    "Targets hit take 20% more damage for 5s",
+                    //Awakening 18
+                    "Gain 3 signal orbs at the start of battle.",
+                    //Leader 19
+                    "All team members' Defense +10%, HP +5% when there are 3 different professions",
+                    //CORE 20
+                    "Consuming Blue orbs after any 3-orb combo grants 10% HP worth of shield for 4s.\n" +
+                            "When the shield renews or expires, deal 200% Lightning damage around the character.",
+                    //ULTIMATE 21
+                    "Expend 100 energy. Charge self with lightning for 8s and pull nearby targets in.\n" +
+                            "Basic attack is converted to Lightning Strike.\n" +
+                            "Within the duration, core passive is triggered after every 5th Lightning Strike.\n" +
+                            "When triggering Lightning Strike, deal 35% Lightning damage during the sprint \n" +
+                            "and then slash for 120% Lightning damage.",
+                    //SS 22
+                    "Lightning damage +10% when Arc Shield is active.",
+                    //SSS 23
+                    "When Chrome is swapped into battle, gain ultimate state for 4s.",
+                    //SSS+ 24
+                    "Lightning Strike reduces Lightning resistance by 15% for 8s.",
+                    //Skill 25
+                    "\"TL;DR\n" +
+                            "Triple anything + Blue or Swap-in attack + Blue to do core.",
+                    //Build 1
+                    //Memo 1
+                    String.valueOf(R.drawable.heisen),
+                    "4 x Heisen",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2 x Einsteina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CLASS",
+                    //Remarks
+                    "Awakening Set Heisen Bottom and Einsteina Top",
+                    //Role
+                    "DPS",
+                    //Build 2
+                    //Memo 1
+                    String.valueOf(R.drawable.da_vinci),
+                    "4 x Da Vinci",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2 x Einsteina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CORE",
+                    //Remarks
+                    "QTE Support",
+                    //Role
+                    "QTE Support",
+                    //Build 3
+                    //Memo 1
+                    "-",
+                    "-",
+                    //Memo 2
+                    "-",
+                    "-",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "-",
+                    "-",
+                    //Remarks
+                    "-",
+                    //Role
+                    "-",
+                    //Build 4
+                    //Memo 1
+                    String.valueOf(R.drawable.memory_aife),
+                    "4 x Aife",
+                    //Memo 2
+                    String.valueOf(R.drawable.memory_erwin),
+                    "2 x Erwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "Anything",
+                    "-",
+                    //Remarks
+                    "5 Star Memory",
+                    //Role
+                    "5 Star Memory",
+                    String.valueOf(R.drawable.saint_elmo),
+                    "Saint Elmo",
+                    "Lightning damage +10%." +
+                            "During ultimate, number of Lightning strikes needed to activate\n" +
+                            "core passive is reduced to 3."
+            },
+            {"20",
+                    //Gambar 1
+                    String.valueOf(R.drawable.lucia_plume_real),
+                    //Name 2
+                    "Lucia",
+                    //Model 3
+                    "Plume",
+                    //Class Profession 4
+                    "Assault",
+                    //Element 5
+                    "20% Physical 80% Ice",
+                    //CV 6
+                    "Ishikawa Yui",
+                    //Serial 7
+                    "BPL-01",
+                    //Affilation 8
+                    "Gray Raven",
+                    //Class 9
+                    "S",
+                    //Red Orb 10
+                    String.valueOf(R.drawable.red_plume),
+                    //11
+                    "\"Swiftly slash in place 4/4/8 times, each\n" +
+                            "dealing 60%/120%/120% Physical damage.\n" +
+                            "\n" +
+                            "Glacial mode: Generate a forward-moving tornado,\n" +
+                            "dealing 9 hits total for 30%/60%/90% Ice damage per hit.\n" +
+                            "Deal 390% Ice damage as the \n" +
+                            "tornado reaches the furthest point.",
+                    //Yellow Orb 12
+                    String.valueOf(R.drawable.yellow_plume),
+                    //13
+                    "\"Quickly rush towards the target, striking twice for\n" +
+                            "115%/235%/355% Physical damage per hit.\n" +
+                            "\n" +
+                            "Glacial mode: Quickly leap towards the target,\n" +
+                            "striking twice for 150%/300%/450% Ice damage per hit.",
+                    //Blue Orb 14
+                    String.valueOf(R.drawable.blue_plume),
+                    //15
+                    "\"Perform a spinning attack followed by a downward slash.\n" +
+                            "Deal 30%/60%/90% Physical damage while spinning,\n" +
+                            "and 70%/160%/250% Physical damage for the slash.\n" +
+                            "\n" +
+                            "Glacial mode: Unleash a tornado ahead, striking 5 times\n" +
+                            "for 40%/80%/120% Ice damage per hit and quickly \n" +
+                            "pull the target back towards self, dealing\n" +
+                            "80%/160%/240% Ice damage.",
+                    //Basic Attack
+                    "\"Slash continuously for a total of 640% Physical damage.\n" +
+                            "Glacial mode: Utilize dual-wielding and continuously attack the target, dealing 310% Physical and 370% Ice damage.",
+                    //QTE 16
+                    "Rush towards the target, dealing 320% Physical and 320% Ice damage.",
+                    //PROFESSION 17
+                    "Damage +20%.",
+                    //Awakening 18
+                    "Gain 3 signal orbs at the start of battle.",
+                    //Leader 19
+                    "All team members' Ice damage +10%. Assault constructs' Attack +5%",
+                    //CORE 20
+                    "\"During Normal mode, 3-orb combos generate 50% energy and 1 ultimate charge, up to a maximum of 2 charges.\n" +
+                            "Glacial mode: Energy is drained over time. Ice damage is increased by 50% when the gauge is not empty.\n" +
+                            "3-orb combos generate 1 ultimate charge, up to a maximum of 4 charges.\n" +
+                            "Ultimate is boosted when the gauge is not empty.",
+                    //ULTIMATE 21
+                    "\"Swiftly switch modes to Glacial, gain Super Armor during the transition. \n" +
+                            " During a full energy mode change, signal orbs are rearranged, prioritizing triple orbs.\n" +
+                            "Glacial mode: Jump and toss the offhand weapon into the ground, slowing all enemies for a short duration\n" +
+                            "and dealing 900%/1200%/1600%/3040% Ice damage corresponding to the number of ultimate charges present, and then\n" +
+                            "reverting to normal mode. Mode Switch: Can be activated at any time during Normal mode; can be activated during Glacial mode when\n" +
+                            "there are 1 or more ultimate charges. 3s transition cooldown.",
+                    //SS 22
+                    "\"Targets struck by Blue orb take 10% more damage for 8s.\n" +
+                            "Damage bonus only applies to self.",
+                    //SSS 23
+                    "\"Option 1: Gain full energy and 2 ultimate stacks at the start of battle. Orb damage +5% when the gauge is not empty during Glacial mode.\n" +
+                            "Option 2: Gain full energy at the start of battle. Orb damage +10% when the gauge is not empty during Glacial mode.\n" +
+                            "(Toggle in the Character Skills page)",
+                    //SSS+ 24
+                    "Ice damage +20% during core passive mode.",
+                    //Skill 25
+                    "\"TL;DR\n" +
+                            "Do 3 orbs to have Ult mode ready\n" +
+                            "Don't enter Ult mode with little orbs, build up some before going in.\n" +
+                            "Ult mode will sort all existing orbs into triples.\n" +
+                            "Nuke with all the triples and finish off with Ult button again before the gauge runs out.",
+                    //Build 1
+                    //Memo 1
+                    String.valueOf(R.drawable.hanna),
+                    "4 x Hanna",
+                    //Memo 2
+                    String.valueOf(R.drawable.darwin),
+                    "2 x Darwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 RED",
+                    "6 CORE",
+                    //Remarks
+                    "Awakening set. Hanna Top and Darwin Bottom",
+                    //Role
+                    "DPS",
+                    //Build 2
+                    //Memo 1
+                    String.valueOf(R.drawable.hanna),
+                    "4 x Hanna",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2 x Einsteina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 RED",
+                    "6 CORE",
+                    //Remarks
+                    "For Pre-Changyu",
+                    //Role
+                    "DPS",
+                    //Build 3
+                    //Memo 1
+                    String.valueOf(R.drawable.frederick),
+                    "4x Frederick",
+                    //Memo 2
+                    String.valueOf(R.drawable.darwin),
+                    "2x Darwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 RED",
+                    "6 QTE",
+                    //Remarks
+                    "\"Specialized high burst build.\n" +
+                            "Less brainless than Hanna build.\n" +
+                            "Planning burst around Matrix window needed.",
+                    //Role
+                    "DPS",
+                    //Build 4
+                    //Memo 1
+                    String.valueOf(R.drawable.memory_aife),
+                    "4 x Aife",
+                    //Memo 2
+                    String.valueOf(R.drawable.memory_erwin),
+                    "2 x Erwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "Anything",
+                    "-",
+                    //Remarks
+                    "5 Star Memory",
+                    //Role
+                    "5 Star Memory",
+                    String.valueOf(R.drawable.crimson_birch),
+                    "Crimson Birch",
+                    "Ice damage +15%.\n" +
+                            "Damage +10% for 5s after 3-orb."
+            },
     };
 
     public static ArrayList<Model> getListData(){

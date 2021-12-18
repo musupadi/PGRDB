@@ -64,7 +64,7 @@ public class BowID {
                     "Bianca Zero",
             },
             {"5",
-                    "Lightning",
+                    "Tornitrus",
                     String.valueOf(R.drawable.lightning),
                     "Kerusakan petir +15%.\n" +
                             "Lepaskan petir, menimbulkan 150% Kerusakan petir saat\n" +

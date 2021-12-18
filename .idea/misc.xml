@@ -3,21 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/drawable/about.xml" value="0.2203125" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/drawable/back.xml" value="0.2203125" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/drawable/background.xml" value="0.2203125" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/drawable/button_white_rounded.xml" value="0.2203125" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/drawable/home.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/drawable/home_active.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/drawable/rounded_corner.xml" value="0.2037037037037037" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/activity_boss_patern.xml" value="0.12182971014492754" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/activity_class_construct.xml" value="0.1621376811594203" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/activity_detail_pain_cage.xml" value="0.12182971014492754" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/activity_home.xml" value="0.13451086956521738" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/activity_list_construct.xml" value="0.1094224924012158" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/activity_list_future_content.xml" value="0.12182971014492754" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/activity_pain_cage.xml" value="0.22" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/activity_tips_and_trick.xml" value="0.12182971014492754" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/activity_warzone.xml" value="0.1" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/dialog_exit.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/dialog_setting.xml" value="0.1" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/fragment_about.xml" value="0.19021739130434784" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/list_about.xml" value="0.20244565217391305" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/list_berita.xml" value="0.12182971014492754" />
-        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/list_category_weapon.xml" value="0.12182971014492754" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/list_boss_patern.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/list_category_weapon.xml" value="0.33" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/list_character_roadmap.xml" value="0.12182971014492754" />
         <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/list_construct.xml" value="0.1" />
-        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/list_warzone.xml" value="0.5" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/list_warzone.xml" value="0.33" />
+        <entry key="..\:/Users/Zyarga/AndroidStudioProjects/PGRDB/app/src/main/res/layout/list_weapon.xml" value="0.5" />
       </map>
     </option>
   </component>

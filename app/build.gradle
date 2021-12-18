@@ -10,7 +10,7 @@ android {
         applicationId "com.destiny.punishinggrayravenguide"
         minSdkVersion 17
         targetSdkVersion 30
-        versionCode 4
+        versionCode 6
         versionName "1.0"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -44,7 +44,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging'
     //new Gradle
     implementation 'io.paperdb:paperdb:2.5'
-    implementation 'com.google.android.gms:play-services-ads:20.3.0'
+//    implementation 'com.google.android.gms:play-services-ads:20.3.0'
     implementation 'com.karumi:dexter:5.0.0'
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'

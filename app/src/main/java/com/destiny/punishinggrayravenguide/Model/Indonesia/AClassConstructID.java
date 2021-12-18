@@ -1440,6 +1440,155 @@ public class AClassConstructID {
                             "Dapatkan 1 bola sinyal acak dan 10 energi saat 5 bola energi\n" +
                             "telah dikumpulkan, cooldown 10 detik."
             },
+            {"11",
+                    //Gambar 1
+                    String.valueOf(R.drawable.chrome_archlight_real),
+                    //Name 2
+                    "Chrome",
+                    //Model 3
+                    "Archlight",
+                    //Class Profession 4
+                    "Armored",
+                    //Element 5
+                    "30% Fisik 70% Listrik",
+                    //CV 6
+                    "Hirakawa Daisuke",
+                    //Serial 7
+                    "BPE-07",
+                    //Affilation 8
+                    "Strike Hawk",
+                    //Class 9
+                    "A",
+                    //Red Orb 10
+                    String.valueOf(R.drawable.red_archlight),
+                    //11
+                    "Serangan di tempat dengan sabit, \n"+
+                    "setiap hit berurusan dengan 18% / 36% / 54% Kerusakan fisik."+
+                    "Kerusakan diubah menjadi elemen Petir \n" +
+                            "Ketika itu adalah 3-orb.",
+                    //Yellow Orb 12
+                    String.valueOf(R.drawable.yellow_archlight),
+                    //13
+                    "Terus bergerak dan berputar beberapa kali,\n" +
+                            "menarik target terdekat dan kemudian melakukan \n" +
+                    "serangan ke bawah, masing-masing hit dealingn" +
+                            "20%/40%/60% Kerusakan fisik\n"+
+                    "Menangani 60% / 120% / 180% Kerusakan petir di suatu daerah  \n"+
+                    "saat sabit menyerang tanah.\n" +
+                            "Kerusakan diubah menjadi elemen Petir n" +
+                            "Ketika itu adalah 3-orb.",
+                    //Blue Orb 14
+                    String.valueOf(R.drawable.blue_archlight),
+                    //15
+                    "Berputar dalam ledakan listrik,\n"+
+                    "menangani 150% / 300% / 450% Kerusakan petir dan  \n"+
+                    "Menandai target untuk 6s.\n"+
+                    "Tangani tambahan 6%/8%/10% kerusakan \n" +
+                            "menuju target yang ditandai.\n" +
+                            "Terima 10%/15%/20% mengurangi kerusakan\n" +
+                            "dari serangan target yang ditandai.",
+                    //Basic Attack
+                    "Terus menyerang dengan sabit, menangani total 610% kerusakan fisik.",
+                    //QTE 16
+                    "target di sekitar daerah setelah memasuki pertempuran, menangani 250% kerusakan petir dan mengurangi \n"+
+                            "Resistensi petir sebesar 10% untuk 6s. Menyerang tanah setelahnya, menangani 250% kerusakan petir di daerah tersebut. ",
+                    //PROFESSION 17
+                    "Target hit mengambil 20% lebih banyak kerusakan untuk 5s",
+                    //Awakening 18
+                    "Dapatkan 3 bola sinyal pada awal pertempuran.",
+                    //Leader 19
+                    "Pertahanan semua anggota tim +10%, HP +5% ketika ada 3 profesi yang berbeda",
+                    //CORE 20
+                    "Mengkonsumsi bola Biru setelah kombo 3-orb memberikan perisai senilai 10% HP untuk 4s.\n" +
+                            "                            \"Ketika perisai memperbaharui atau berakhir, menangani 200% kerusakan Petir di sekitar karakter.",
+                    //ULTIMATE 21
+                    "Keluarkan 100 energi. Isi diri dengan petir selama 8s dan tarik target terdekat di.n \n" +
+                            "Serangan dasar diubah menjadi Lightning Strike.\n" +
+                            "Dalam durasi, inti pasif dipicu setelah setiap Sambaran Petir ke-5.\n" +
+                            "Saat memicu Lightning Strike, tangani 35% kerusakan petir selama sprint\n" +
+                            "Dan kemudian memangkas 120% kerusakan petir.",
+                    //SS 22
+                    "Kerusakan petir +10% saat Arc Shield aktif.",
+                    //SSS 23
+                    "Ketika Chrome ditukar ke dalam pertempuran, dapatkan keadaan akhir untuk 4s.",
+                    //SSS+ 24
+                    "Lightning Strike reduces Lightning resistance by 15% for 8s.",
+                    //Skill 25
+                    "Tiga apa pun + Serangan Biru atau Swap-in + Biru untuk melakukan inti.",
+                    //Build 1
+                    //Memo 1
+                    String.valueOf(R.drawable.heisen),
+                    "4 x Heisen",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2 x Einsteina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CLASS",
+                    //Remarks
+                    "Awakening Set Heisen Bawah dan Einsteina Atas",
+                    //Role
+                    "DPS",
+                    //Build 2
+                    //Memo 1
+                    String.valueOf(R.drawable.da_vinci),
+                    "4 x Da Vinci",
+                    //Memo 2
+                    String.valueOf(R.drawable.einsteina),
+                    "2 x Einsteina",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "6 ATK",
+                    "6 CORE",
+                    //Remarks
+                    "QTE Support",
+                    //Role
+                    "QTE Support",
+                    //Build 3
+                    //Memo 1
+                    "-",
+                    "-",
+                    //Memo 2
+                    "-",
+                    "-",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "-",
+                    "-",
+                    //Remarks
+                    "-",
+                    //Role
+                    "-",
+                    //Build 4
+                    //Memo 1
+                    String.valueOf(R.drawable.memory_aife),
+                    "4 x Aife",
+                    //Memo 2
+                    String.valueOf(R.drawable.memory_erwin),
+                    "2 x Erwin",
+                    //Memo 3,
+                    "-",
+                    "-",
+                    //Resonance
+                    "Apapun",
+                    "-",
+                    //Remarks
+                    "5 Star Memory",
+                    //Role
+                    "5 Star Memory",
+                    String.valueOf(R.drawable.saint_elmo),
+                    "Saint Elmo",
+                    "Kerusakan petir +10%.\n" +
+                            "Selama akhir, jumlah sambaran petir yang diperlukan untuk mengaktifkan\n" +
+                            "nti pasif dikurangi menjadi 3."
+            },
     };
     public static ArrayList<Model> getListData(){
         Model model = null;

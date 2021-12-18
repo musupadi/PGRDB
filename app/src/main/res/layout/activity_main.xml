@@ -16,10 +16,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/nanami_pulse"/>
+
         <ImageView
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
     </LinearLayout>
     <TextView
         android:fontFamily="@font/gotham"
@@ -27,7 +28,7 @@
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="FROM FANS TO FANS"
+        android:text="FROM ꉣ`PETA: Pembela Tanah Air"
         android:textSize="10sp"
         android:textColor="@color/colorWhite"/>
     <TextView
@@ -37,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="Powered by Destiny Consultant"
+        android:text="Powered by Ascendant Network"
         android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="@color/colorWhite"

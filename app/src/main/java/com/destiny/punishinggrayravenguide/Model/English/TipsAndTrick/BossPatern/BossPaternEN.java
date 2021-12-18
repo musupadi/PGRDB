@@ -94,21 +94,6 @@ public class BossPaternEN {
                             "-\tTARZAAANNN!!!: Evade kesamping saat ia hampir berada ditempatmu. \n" +
                             "-\tMelempar bom dan meledakkannya di langit: Evade saat “pedang” dia sudah tersangkut di langit-langit (Sekilas pattern yang satu ini mirip saat ia akan bergelantungan. Aku masih mencari tahu perbedaannya).\n"
             },
-            {"9",
-                    String.valueOf(R.drawable.roseblade),
-                    "Riot",
-                    "Mode 1\n" +
-                            "-\tEvade tiap 1 detik sejak dia berbalik ke arahmu. Evade kesamping, jangan kebelakang\n" +
-                            "-\tHindari terlalu sering evade kesamping dirinya saat ia tak menyerang. Itu akan memakan waktu lebih banyak untuk mengalahkannya karena ia akan lebih sering menghilang daripada menyerangnya secara berhadapan langsung\n" +
-                            "-\tBocorkan defense miliknya saat berada di mode ini sebelum masuk ke mode 2\n" +
-                            "-\tRudal: Berlarilah dan hindari tanda lingkaran (itu adalah tempat rudal yang akan jatuh). Kau boleh evade saat lingkarannya sudah berada dibawahmu walau berlari. Saat kau masuk matrix ketika dia melakukan ini, seranglah dia tanpa berlari (tak ada yang namanya berjalan disini, ingat itu). Segera evade saat matrix sudah berakhir.\n" +
-                            "-\tMenembakkan Bug: Untuk melakukan hal ini, HP/Device kalian harus support untuk tampilan yang sangat ramai secara mendadak. Jika tidak, cara ini tak akan berjalan dengan sempurna. Dekati bug, sentuh bug, dan evade secara bersamaan. Jangan harap kalian akan diberi lingkaran sebagai waktu istirahat, karena ini tak berlaku untuk bug milik Riot. Sekali sentuh, mereka akan meledak\n" +
-                            "-\tMenghilang: Hindari laser yang dia tinggalkan, hindari garis merah yang ada. Itu adalah penanda laser yang akan datang. Beberapa laser tak ditandai dengan garis, jadi semoga terbiasa dengan serangannya. Baca arah lasernya. Walau terkesan random, kalian akan menemukan cara untuk menghindarinya. Ya, ada saatnya kau harus memutari area sesekali untuk menghindari lasernya. Satu-satunya cara untuk terbiasa dalam pattern ini hanyalah pengalaman (bagiku). Saat garis merah banyak secara mendadak, evade. \n" +
-                            "-\tSangat disarankan menggunakan 3 karakter sekaligus jika skill evade mu masih belum bagus. Ganti character tiap evade habis. Timing QTE, Ulti, dan lainnya juga berpengaruh. Jika kalian terlalu cepat melakukan Ulti, dia akan menghilang (Khusus structure yang saat melakukan ulti waktu disekitarnya masih berjalan)\n" +
-                            "Mode 2\n" +
-                            "-\tHindari lingkaran merah yang ada. Delay serangan 1 detik sejak dia berbalik kearahmu. Api yang ia tinggalkan tak terlalu berasa, jadi kalian masih bisa masuk area itu. Evade kesamping saat ia mulai memutar tubuhnya ke arahmu. Damage api yang ia berikan disitu sudah lumayan sakit. Selalu dekat dengannya, jangan jauh darinya. Di mode ini, dia tak akan menghilang lagi, jadi gunakan seluruh kekuatan kalian untuk membunuhnya.\n" +
-                            "\n"
-            },
     };
     public static ArrayList<Model> getListData(){
         Model model = null;

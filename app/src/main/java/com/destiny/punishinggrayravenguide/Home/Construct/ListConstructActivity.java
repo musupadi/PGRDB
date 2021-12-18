@@ -28,9 +28,9 @@ import com.destiny.punishinggrayravenguide.Model.English.SClassConstructEN;
 import com.destiny.punishinggrayravenguide.R;
 import com.destiny.punishinggrayravenguide.SharedPreference.DB_Helper;
 import com.destiny.punishinggrayravenguide.SharedPreference.LocaleHelper;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+//import com.google.android.gms.ads.MobileAds;
+//import com.google.android.gms.ads.initialization.InitializationStatus;
+//import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 import java.util.ArrayList;
 

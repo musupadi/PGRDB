@@ -57,8 +57,8 @@ public class Destiny {
     }
     public String SmallDescription(String description){
         String Des = description;
-        if (description.length() >= 100){
-            Des = description.substring(0,100)+"...";
+        if (description.length() >= 75){
+            Des = description.substring(0,75)+"...";
         }
         return Des;
     }

@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -68,7 +69,7 @@ public class AdapterCategoryWeapon extends RecyclerView.Adapter<AdapterCategoryW
     class CardViewViewHolder extends RecyclerView.ViewHolder{
         ImageView imgPhoto;
         TextView tvName;
-        CardView card;
+        LinearLayout  card;
         CardViewViewHolder(View itemView) {
             super(itemView);
             imgPhoto = itemView.findViewById(R.id.ivGambar);

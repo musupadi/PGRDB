@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -164,7 +165,7 @@ public class AdapterConstruct extends RecyclerView.Adapter<AdapterConstruct.Card
     class CardViewViewHolder extends RecyclerView.ViewHolder{
         ImageView imgPhoto,iClassification,iClass;
         TextView tvName,Classification,Class,Elemental;
-        CardView card;
+        LinearLayout card;
         CardViewViewHolder(View itemView) {
             super(itemView);
             imgPhoto = itemView.findViewById(R.id.ivImage);
